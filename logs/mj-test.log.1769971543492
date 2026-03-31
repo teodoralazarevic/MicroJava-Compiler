@@ -1,0 +1,102 @@
+INFO  19:45:39,650 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  19:45:39,698 - #2 program
+INFO  19:45:39,698 - #45 Test
+INFO  19:45:39,698 - #3 {
+INFO  19:45:39,698 - #45 bool
+INFO  19:45:39,699 - #45 verify
+INFO  19:45:39,699 - #12 (
+INFO  19:45:39,700 - #45 int
+INFO  19:45:39,700 - #45 x
+INFO  19:45:39,700 - #8 ,
+INFO  19:45:39,700 - #45 bool
+INFO  19:45:39,701 - #45 y
+INFO  19:45:39,701 - #13 )
+INFO  19:45:39,702 - #3 {
+INFO  19:45:39,703 - #15 if
+INFO  19:45:39,704 - #12 (
+INFO  19:45:39,704 - #45 abc
+INFO  19:45:39,705 - #13 )
+INFO  19:45:39,710 - #3 {
+INFO  19:45:39,711 - #4 }
+INFO  19:45:39,711 - #4 }
+INFO  19:45:39,712 - #4 }
+INFO  19:45:39,716 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         bool
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       verify
+      ) [MethodName]
+      FormParsList1(
+        FormPar1(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [FormPar1]
+        FormParMore1(
+          FormPar1(
+            Type(
+             bool
+            ) [Type]
+           y
+          ) [FormPar1]
+          FormParMore2(
+          ) [FormParMore2]
+        ) [FormParMore1]
+      ) [FormParsList1]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_if(
+          Condition(
+            CondOrExpr2(
+              CondAndExpr2(
+                CondRelExpr2(
+                  AddopTermList2(
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub1(
+                          Designator(
+                           abc
+                            DesigatorMore2(
+                            ) [DesigatorMore2]
+                          ) [Designator]
+                        ) [FactorSub1]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [CondRelExpr2]
+              ) [CondAndExpr2]
+            ) [CondOrExpr2]
+          ) [Condition]
+          Statement_stm(
+            StatementList2(
+            ) [StatementList2]
+          ) [Statement_stm]
+          ElseStmt2(
+          ) [ElseStmt2]
+        ) [Statement_if]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:45:39,719 - ===================================
+INFO  19:45:39,719 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,214 @@
+INFO  15:36:16,859 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  15:36:16,909 - #2 program
+INFO  15:36:16,909 - #45 Teodora
+INFO  15:36:16,909 - #3 {
+INFO  15:36:16,910 - #45 int
+INFO  15:36:16,911 - #45 funkcija
+INFO  15:36:16,911 - #12 (
+INFO  15:36:16,912 - #13 )
+INFO  15:36:16,912 - #45 int
+INFO  15:36:16,913 - #45 a
+INFO  15:36:16,913 - #7 ;
+INFO  15:36:16,914 - #3 {
+INFO  15:36:16,915 - #45 a
+INFO  15:36:16,915 - #6 =
+INFO  15:36:16,915 - #46 5
+INFO  15:36:16,917 - #7 ;
+INFO  15:36:16,918 - #15 if
+INFO  15:36:16,918 - #12 (
+INFO  15:36:16,919 - #45 a
+INFO  15:36:16,919 - #30 ==
+INFO  15:36:16,919 - #46 4
+INFO  15:36:16,920 - #13 )
+INFO  15:36:16,920 - #19 return
+INFO  15:36:16,922 - #46 5
+INFO  15:36:16,922 - #7 ;
+INFO  15:36:16,922 - #4 }
+INFO  15:36:16,923 - #14 void
+INFO  15:36:16,923 - #45 main
+INFO  15:36:16,923 - #12 (
+INFO  15:36:16,923 - #13 )
+INFO  15:36:16,923 - #3 {
+INFO  15:36:16,923 - #21 print
+INFO  15:36:16,924 - #12 (
+INFO  15:36:16,924 - #45 funkcija
+INFO  15:36:16,924 - #12 (
+INFO  15:36:16,924 - #13 )
+INFO  15:36:16,925 - #13 )
+INFO  15:36:16,926 - #7 ;
+INFO  15:36:16,926 - #4 }
+INFO  15:36:16,926 - #4 }
+INFO  15:36:16,927 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl(
+        MethodOpt1(
+          Type(
+           int
+          ) [Type]
+         funkcija
+        ) [MethodOpt1]
+        FormParsList2(
+        ) [FormParsList2]
+        VarDeclListMeth1(
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          VarDeclList1(
+            Type(
+             int
+            ) [Type]
+            VarDecl1(
+             a
+            ) [VarDecl1]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclList1]
+        ) [VarDeclListMeth1]
+        StatementList1(
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator1(
+                 a
+                ) [Designator1]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           5
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_if(
+            If(
+            ) [If]
+            Condition1(
+              CondOrExpr2(
+                CondAndExpr2(
+                  CondRelExpr1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub1(
+                              Designator1(
+                               a
+                              ) [Designator1]
+                            ) [FactorSub1]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                    Relop_eq(
+                    ) [Relop_eq]
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub3(
+                             4
+                            ) [FactorSub3]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [CondRelExpr1]
+                ) [CondAndExpr2]
+              ) [CondOrExpr2]
+            ) [Condition1]
+            Statement_ret2(
+              Return(
+              ) [Return]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         5
+                        ) [FactorSub3]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [Statement_ret2]
+            ElseStmt2(
+            ) [ElseStmt2]
+          ) [Statement_if]
+        ) [StatementList1]
+      ) [MethodDecl]
+    ) [MethodDeclList1]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_print1(
+          Print(
+          ) [Print]
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub2(
+                      Designator1(
+                       funkcija
+                      ) [Designator1]
+                      ActParList2(
+                        ActParStart(
+                        ) [ActParStart]
+                      ) [ActParList2]
+                    ) [FactorSub2]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:36:16,928 - ===================================
+INFO  15:36:16,939 - Pretraga na 6 (a), nadjeno Var a: Int, 0, 1
+INFO  15:36:16,941 - Pretraga na 7 (a), nadjeno Var a: Int, 0, 1
+INFO  15:36:16,942 - Pretraga na 13 (funkcija), nadjeno Meth funkcija: Int, 0, 0
+INFO  15:36:16,942 - ===================================
+INFO  15:36:16,943 - Parsiranje uspesno zavrseno!

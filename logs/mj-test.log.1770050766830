@@ -1,0 +1,109 @@
+INFO  17:45:59,144 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  17:45:59,177 - #2 program
+INFO  17:45:59,177 - #45 Teodora
+INFO  17:45:59,177 - #5 const
+INFO  17:45:59,178 - #45 int
+INFO  17:45:59,178 - #45 pi
+INFO  17:45:59,179 - #6 =
+INFO  17:45:59,179 - #46 3
+INFO  17:45:59,179 - #7 ;
+INFO  17:45:59,180 - #45 char
+INFO  17:45:59,181 - #45 charr
+INFO  17:45:59,181 - #9 [
+INFO  17:45:59,181 - #10 ]
+INFO  17:45:59,181 - #7 ;
+INFO  17:45:59,182 - #3 {
+INFO  17:45:59,182 - #14 void
+INFO  17:45:59,183 - #45 main
+INFO  17:45:59,183 - #12 (
+INFO  17:45:59,183 - #13 )
+INFO  17:45:59,184 - #3 {
+INFO  17:45:59,184 - #45 x
+INFO  17:45:59,184 - #6 =
+INFO  17:45:59,185 - #46 5
+INFO  17:45:59,189 - #7 ;
+INFO  17:45:59,190 - #4 }
+INFO  17:45:59,190 - #4 }
+INFO  17:45:59,191 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList1(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Constant1(
+           3
+          ) [Constant1]
+        ) [ConstDecl]
+        ConstDeclMore2(
+        ) [ConstDeclMore2]
+      ) [ConstDeclList]
+    ) [ConVarEnumDeclList1]
+    VarDeclList1(
+      Type(
+       char
+      ) [Type]
+      VarDecl1(
+       charr
+        VarDeclOpt1(
+        ) [VarDeclOpt1]
+      ) [VarDecl1]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_ds(
+          DesignatorStatement1(
+            Designator(
+             x
+              DesigatorMore2(
+              ) [DesigatorMore2]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr1(
+              AddopTermList2(
+                Term(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub3(
+                     5
+                    ) [FactorSub3]
+                  ) [Factor]
+                  MoreTerm2(
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [DesignatorStatement1]
+        ) [Statement_ds]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  17:45:59,191 - ===================================
+INFO  17:45:59,217 - ===================================

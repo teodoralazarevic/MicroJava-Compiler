@@ -1,0 +1,13 @@
+program Test2 {
+
+    void main() int arr[]; int i; {
+    
+        arr = new int[5];
+
+        for(i = 0; i < 5; i = i + 1)
+            arr[i] = i * 2;
+
+        for(i = 0; i < 5; i = i + 1)
+            print(arr[i]);
+    }
+}

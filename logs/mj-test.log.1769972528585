@@ -1,0 +1,161 @@
+INFO  20:02:02,252 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  20:02:02,299 - #2 program
+INFO  20:02:02,299 - #45 test302
+INFO  20:02:02,299 - #5 const
+INFO  20:02:02,300 - #45 int
+INFO  20:02:02,301 - #45 jedan
+INFO  20:02:02,301 - #6 =
+INFO  20:02:02,301 - #46 1
+INFO  20:02:02,301 - #7 ;
+INFO  20:02:02,303 - #45 int
+INFO  20:02:02,305 - #45 i
+INFO  20:02:02,305 - #7 ;
+INFO  20:02:02,307 - #45 bool
+INFO  20:02:02,307 - #45 ibool
+INFO  20:02:02,308 - #7 ;
+INFO  20:02:02,308 - #45 int
+INFO  20:02:02,308 - #45 niz
+INFO  20:02:02,308 - #9 [
+INFO  20:02:02,308 - #10 ]
+INFO  20:02:02,308 - #7 ;
+INFO  20:02:02,309 - #3 {
+INFO  20:02:02,309 - #14 void
+INFO  20:02:02,309 - #45 method
+INFO  20:02:02,311 - #12 (
+INFO  20:02:02,312 - #13 )
+INFO  20:02:02,312 - #3 {
+INFO  20:02:02,313 - #15 if
+INFO  20:02:02,314 - #12 (
+INFO  20:02:02,314 - #45 a
+INFO  20:02:02,315 - #36 &&
+INFO  20:02:02,317 - #45 b
+INFO  20:02:02,317 - #38 +
+INFO  20:02:02,317 - #13 )
+ERROR 20:02:02,317 - 
+Sintaksna greska na liniji 13
+INFO  20:02:02,317 - #3 {
+INFO  20:02:02,317 - #21 print
+INFO  20:02:02,318 - #12 (
+ERROR 20:02:02,319 - Greska unutar if uslova. Oporavak od greske u liniji 3
+INFO  20:02:02,319 - #45 a
+INFO  20:02:02,319 - #13 )
+INFO  20:02:02,320 - #7 ;
+INFO  20:02:02,320 - #4 }
+INFO  20:02:02,320 - #4 }
+INFO  20:02:02,320 - #4 }
+INFO  20:02:02,322 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList2(
+        ConVarEnumDeclList1(
+          ConVarEnumDeclList4(
+          ) [ConVarEnumDeclList4]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             jedan
+              Constant1(
+               1
+              ) [Constant1]
+            ) [ConstDecl]
+            ConstDeclMore2(
+            ) [ConstDeclMore2]
+          ) [ConstDeclList]
+        ) [ConVarEnumDeclList1]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           i
+            VarDeclOpt2(
+            ) [VarDeclOpt2]
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [ConVarEnumDeclList2]
+      VarDeclList1(
+        Type(
+         bool
+        ) [Type]
+        VarDecl1(
+         ibool
+          VarDeclOpt2(
+          ) [VarDeclOpt2]
+        ) [VarDecl1]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList1]
+    ) [ConVarEnumDeclList2]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl1(
+       niz
+        VarDeclOpt1(
+        ) [VarDeclOpt1]
+      ) [VarDecl1]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+      MethodName(
+       method
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_error(
+          ) [Statement_error]
+        ) [StatementList1]
+        Statement_stm(
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_print1(
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub1(
+                        Designator(
+                         a
+                          DesigatorMore2(
+                          ) [DesigatorMore2]
+                        ) [Designator]
+                      ) [FactorSub1]
+                    ) [Factor]
+                    MoreTerm2(
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [Statement_print1]
+          ) [StatementList1]
+        ) [Statement_stm]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  20:02:02,322 - ===================================
+INFO  20:02:02,322 - Parsiranje NIJE uspesno zavrseno!

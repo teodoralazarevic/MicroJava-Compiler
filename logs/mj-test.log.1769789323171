@@ -1,0 +1,78 @@
+INFO  17:06:44,925 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  17:06:44,997 - #2 program
+INFO  17:06:44,997 - #45 Test
+INFO  17:06:44,997 - #45 int
+INFO  17:06:44,998 - #45 x
+INFO  17:06:44,999 - #8 ,
+INFO  17:06:45,001 - #45 y
+INFO  17:06:45,001 - #7 ;
+INFO  17:06:45,001 - #45 int
+INFO  17:06:45,004 - #45 niz
+INFO  17:06:45,004 - #9 [
+INFO  17:06:45,004 - #10 ]
+INFO  17:06:45,004 - #7 ;
+INFO  17:06:45,022 - #3 {
+INFO  17:06:45,022 - #14 void
+INFO  17:06:45,023 - #45 main
+INFO  17:06:45,023 - #12 (
+INFO  17:06:45,023 - #13 )
+INFO  17:06:45,023 - #3 {
+INFO  17:06:45,025 - #4 }
+INFO  17:06:45,026 - #4 }
+INFO  17:06:45,031 - Program(
+ Test
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          VarDeclOpt2(
+          ) [VarDeclOpt2]
+        ) [VarDecl]
+        VarDeclMore1(
+          VarDecl(
+           y
+            VarDeclOpt2(
+            ) [VarDeclOpt2]
+          ) [VarDecl]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclMore1]
+      ) [VarDeclList]
+    ) [ConVarEnumDeclList2]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       niz
+        VarDeclOpt1(
+        ) [VarDeclOpt1]
+      ) [VarDecl]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+     main
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  17:06:45,032 - ===================================
+INFO  17:06:45,032 - Parsiranje uspesno zavrseno!

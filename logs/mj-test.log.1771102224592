@@ -1,0 +1,400 @@
+INFO  21:49:59,246 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  21:49:59,294 - #2 program
+INFO  21:49:59,294 - #45 Test
+INFO  21:49:59,294 - #3 {
+INFO  21:49:59,295 - #14 void
+INFO  21:49:59,296 - #45 main
+INFO  21:49:59,297 - #12 (
+INFO  21:49:59,297 - #13 )
+INFO  21:49:59,297 - #45 int
+INFO  21:49:59,298 - #45 i
+INFO  21:49:59,299 - #7 ;
+INFO  21:49:59,299 - #3 {
+INFO  21:49:59,300 - #45 i
+INFO  21:49:59,300 - #6 =
+INFO  21:49:59,301 - #46 7
+INFO  21:49:59,302 - #7 ;
+INFO  21:49:59,305 - #23 for
+INFO  21:49:59,305 - #12 (
+INFO  21:49:59,306 - #45 i
+INFO  21:49:59,306 - #6 =
+INFO  21:49:59,306 - #46 0
+INFO  21:49:59,306 - #7 ;
+INFO  21:49:59,306 - #45 i
+INFO  21:49:59,309 - #34 <
+INFO  21:49:59,309 - #46 5
+INFO  21:49:59,310 - #7 ;
+INFO  21:49:59,310 - #45 i
+INFO  21:49:59,310 - #26 ++
+INFO  21:49:59,310 - #13 )
+INFO  21:49:59,311 - #3 {
+INFO  21:49:59,311 - #21 print
+INFO  21:49:59,311 - #12 (
+INFO  21:49:59,313 - #45 i
+INFO  21:49:59,313 - #35 <=
+INFO  21:49:59,314 - #46 3
+INFO  21:49:59,314 - #43 ?
+INFO  21:49:59,314 - #46 5
+INFO  21:49:59,317 - #24 :
+INFO  21:49:59,317 - #46 8
+INFO  21:49:59,318 - #13 )
+INFO  21:49:59,318 - #7 ;
+INFO  21:49:59,319 - #15 if
+INFO  21:49:59,319 - #12 (
+INFO  21:49:59,320 - #45 i
+INFO  21:49:59,320 - #42 %
+INFO  21:49:59,320 - #46 2
+INFO  21:49:59,321 - #30 ==
+INFO  21:49:59,322 - #46 0
+INFO  21:49:59,322 - #13 )
+INFO  21:49:59,322 - #21 print
+INFO  21:49:59,323 - #12 (
+INFO  21:49:59,323 - #48 a
+INFO  21:49:59,323 - #13 )
+INFO  21:49:59,323 - #7 ;
+INFO  21:49:59,323 - #16 else
+INFO  21:49:59,323 - #21 print
+INFO  21:49:59,324 - #12 (
+INFO  21:49:59,324 - #48 b
+INFO  21:49:59,324 - #13 )
+INFO  21:49:59,324 - #7 ;
+INFO  21:49:59,324 - #4 }
+INFO  21:49:59,325 - #4 }
+INFO  21:49:59,326 - #4 }
+INFO  21:49:59,329 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           i
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator1(
+               i
+              ) [Designator1]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         7
+                        ) [FactorSub3]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_for(
+          For(
+          ) [For]
+          DesignatorStatementOpt1(
+            DesignatorStatement1(
+              Designator1(
+               i
+              ) [Designator1]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         0
+                        ) [FactorSub3]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [DesignatorStatementOpt1]
+          ForConditionStart(
+          ) [ForConditionStart]
+          ConditionOpt1(
+            Condition1(
+              CondOrExpr2(
+                CondAndExpr2(
+                  CondRelExpr1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub1(
+                              Designator1(
+                               i
+                              ) [Designator1]
+                            ) [FactorSub1]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                    Relop_lt(
+                    ) [Relop_lt]
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub3(
+                             5
+                            ) [FactorSub3]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [CondRelExpr1]
+                ) [CondAndExpr2]
+              ) [CondOrExpr2]
+            ) [Condition1]
+          ) [ConditionOpt1]
+          ForPostExprStart(
+          ) [ForPostExprStart]
+          PostfixExpr(
+            DesignatorStatementOpt1(
+              DesignatorStatement3(
+                Designator1(
+                 i
+                ) [Designator1]
+              ) [DesignatorStatement3]
+            ) [DesignatorStatementOpt1]
+          ) [PostfixExpr]
+          ForBodyStart(
+          ) [ForBodyStart]
+          Statement_stm(
+            StatementList1(
+              StatementList1(
+                StatementList2(
+                ) [StatementList2]
+                Statement_print1(
+                  Print(
+                  ) [Print]
+                  Expr2(
+                    Condition1(
+                      CondOrExpr2(
+                        CondAndExpr2(
+                          CondRelExpr1(
+                            AddopTermList2(
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub1(
+                                      Designator1(
+                                       i
+                                      ) [Designator1]
+                                    ) [FactorSub1]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList2]
+                            Relop_leq(
+                            ) [Relop_leq]
+                            AddopTermList2(
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub3(
+                                     3
+                                    ) [FactorSub3]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList2]
+                          ) [CondRelExpr1]
+                        ) [CondAndExpr2]
+                      ) [CondOrExpr2]
+                    ) [Condition1]
+                    Quest(
+                    ) [Quest]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub3(
+                               5
+                              ) [FactorSub3]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                    TernaryMid(
+                    ) [TernaryMid]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub3(
+                               8
+                              ) [FactorSub3]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [Expr2]
+                ) [Statement_print1]
+              ) [StatementList1]
+              Statement_if(
+                If(
+                ) [If]
+                Condition1(
+                  CondOrExpr2(
+                    CondAndExpr2(
+                      CondRelExpr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm1(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub1(
+                                    Designator1(
+                                     i
+                                    ) [Designator1]
+                                  ) [FactorSub1]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                              Mulop_mod(
+                              ) [Mulop_mod]
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 2
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm1]
+                          ) [Term]
+                        ) [AddopTermList2]
+                        Relop_eq(
+                        ) [Relop_eq]
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 0
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [CondRelExpr1]
+                    ) [CondAndExpr2]
+                  ) [CondOrExpr2]
+                ) [Condition1]
+                Statement_print1(
+                  Print(
+                  ) [Print]
+                  Expr1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub4(
+                             a
+                            ) [FactorSub4]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [Expr1]
+                ) [Statement_print1]
+                ElseStmt1(
+                  Else(
+                  ) [Else]
+                  Statement_print1(
+                    Print(
+                    ) [Print]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub4(
+                               b
+                              ) [FactorSub4]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [Statement_print1]
+                ) [ElseStmt1]
+              ) [Statement_if]
+            ) [StatementList1]
+          ) [Statement_stm]
+          PostFor(
+          ) [PostFor]
+        ) [Statement_for]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  21:49:59,330 - ===================================
+INFO  21:49:59,343 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 7
+INFO  21:49:59,344 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 8
+INFO  21:49:59,344 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 8
+INFO  21:49:59,345 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 8
+INFO  21:49:59,345 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 9
+INFO  21:49:59,345 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 11
+INFO  21:49:59,345 - ===================================
+INFO  21:49:59,346 - Parsiranje uspesno zavrseno!

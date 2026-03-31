@@ -1,0 +1,54 @@
+INFO  16:45:28,532 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  16:45:29,563 - #2 program
+INFO  16:45:29,563 - #45 Test
+INFO  16:45:29,564 - #5 const
+INFO  16:45:29,574 - #45 int
+INFO  16:45:29,574 - #45 pi
+INFO  16:45:29,591 - #6 =
+INFO  16:45:29,591 - #46 3
+INFO  16:45:29,591 - #7 ;
+INFO  16:45:29,618 - #3 {
+INFO  16:45:29,637 - #14 void
+INFO  16:45:29,649 - #45 main
+INFO  16:45:29,659 - #12 (
+INFO  16:45:29,659 - #13 )
+INFO  16:45:29,670 - #3 {
+INFO  16:45:29,679 - #4 }
+INFO  16:45:29,689 - #4 }
+INFO  16:45:29,716 - Program(
+ Test
+  ConVarEnumDeclList1(
+    ConVarEnumDeclList4(
+    ) [ConVarEnumDeclList4]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        Constant1(
+         3
+        ) [Constant1]
+      ) [ConstDecl]
+      ConstDeclMore2(
+      ) [ConstDeclMore2]
+    ) [ConstDeclList]
+  ) [ConVarEnumDeclList1]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+     main
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  16:45:29,716 - ===================================
+INFO  16:45:29,716 - Parsiranje uspesno zavrseno!

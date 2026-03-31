@@ -1,0 +1,261 @@
+INFO  14:12:55,361 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  14:12:55,425 - #2 program
+INFO  14:12:55,425 - #45 Teodora
+INFO  14:12:55,425 - #5 const
+INFO  14:12:55,426 - #45 int
+INFO  14:12:55,426 - #45 pi
+INFO  14:12:55,427 - #6 =
+INFO  14:12:55,427 - #46 3
+INFO  14:12:55,427 - #7 ;
+INFO  14:12:55,429 - #45 int
+INFO  14:12:55,429 - #45 x
+INFO  14:12:55,429 - #8 ,
+INFO  14:12:55,429 - #45 t
+INFO  14:12:55,430 - #9 [
+INFO  14:12:55,430 - #10 ]
+INFO  14:12:55,430 - #7 ;
+INFO  14:12:55,430 - #3 {
+INFO  14:12:55,430 - #14 void
+INFO  14:12:55,431 - #45 main
+INFO  14:12:55,432 - #12 (
+INFO  14:12:55,432 - #13 )
+INFO  14:12:55,432 - #45 int
+INFO  14:12:55,433 - #45 a
+INFO  14:12:55,435 - #7 ;
+INFO  14:12:55,435 - #45 char
+INFO  14:12:55,435 - #45 b
+INFO  14:12:55,435 - #7 ;
+INFO  14:12:55,435 - #45 int
+INFO  14:12:55,435 - #45 niz
+INFO  14:12:55,435 - #9 [
+INFO  14:12:55,435 - #10 ]
+INFO  14:12:55,435 - #7 ;
+INFO  14:12:55,435 - #3 {
+INFO  14:12:55,436 - #45 a
+INFO  14:12:55,436 - #6 =
+INFO  14:12:55,436 - #39 -
+INFO  14:12:55,437 - #46 5
+INFO  14:12:55,439 - #7 ;
+INFO  14:12:55,440 - #45 niz
+INFO  14:12:55,442 - #6 =
+INFO  14:12:55,442 - #44 new
+INFO  14:12:55,442 - #45 int
+INFO  14:12:55,442 - #9 [
+INFO  14:12:55,442 - #46 5
+INFO  14:12:55,442 - #10 ]
+INFO  14:12:55,443 - #7 ;
+INFO  14:12:55,443 - #21 print
+INFO  14:12:55,443 - #12 (
+INFO  14:12:55,443 - #45 niz
+INFO  14:12:55,443 - #9 [
+INFO  14:12:55,443 - #46 0
+INFO  14:12:55,444 - #10 ]
+INFO  14:12:55,444 - #13 )
+INFO  14:12:55,444 - #7 ;
+INFO  14:12:55,444 - #4 }
+INFO  14:12:55,444 - #4 }
+INFO  14:12:55,447 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList1(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Constant1(
+           3
+          ) [Constant1]
+        ) [ConstDecl]
+        ConstDeclMore2(
+        ) [ConstDeclMore2]
+      ) [ConstDeclList]
+    ) [ConVarEnumDeclList1]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl1(
+       x
+      ) [VarDecl1]
+      VarDeclMore1(
+        VarDecl2(
+         t
+        ) [VarDecl2]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclMore1]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth1(
+          VarDeclListMeth1(
+            VarDeclListMeth2(
+            ) [VarDeclListMeth2]
+            VarDeclList1(
+              Type(
+               int
+              ) [Type]
+              VarDecl1(
+               a
+              ) [VarDecl1]
+              VarDeclMore2(
+              ) [VarDeclMore2]
+            ) [VarDeclList1]
+          ) [VarDeclListMeth1]
+          VarDeclList1(
+            Type(
+             char
+            ) [Type]
+            VarDecl1(
+             b
+            ) [VarDecl1]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclList1]
+        ) [VarDeclListMeth1]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl2(
+           niz
+          ) [VarDecl2]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator1(
+                 a
+                ) [Designator1]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary1(
+                          ) [Unary1]
+                          FactorSub3(
+                           5
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator1(
+               niz
+              ) [Designator1]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub6(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr1(
+                            AddopTermList2(
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub3(
+                                     5
+                                    ) [FactorSub3]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList2]
+                          ) [Expr1]
+                        ) [FactorSub6]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator4(
+                        ArrayNameBracket(
+                         niz
+                        ) [ArrayNameBracket]
+                        Expr1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub3(
+                                   0
+                                  ) [FactorSub3]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                        ) [Expr1]
+                      ) [Designator4]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:12:55,447 - ===================================
+INFO  14:12:55,458 - Pristup lokalnoj promenljivoj a. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 7
+INFO  14:12:55,459 - Pristup lokalnoj promenljivoj niz. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 8
+INFO  14:12:55,459 - Pristup elementu niza niz. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols:[]] na liniji 9
+INFO  14:12:55,459 - ===================================
+INFO  14:12:55,460 - Parsiranje uspesno zavrseno!

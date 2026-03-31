@@ -1,0 +1,100 @@
+program Test5
+
+const int SIZE = 4;
+const char LETTER = 'A';
+const bool FLAG = true;
+
+enum Mode { LOW = 1, MID, HIGH = 10 }
+
+int global;
+int arr[];
+
+{
+	int add(int a, int b) {
+	    return a + b;
+	}
+	
+	int mul(int a, int b) {
+	    return a * b;
+	}
+	
+	int complicated(int base, int nums[]) int i, j, sum;{
+	
+	    sum = 0;
+	
+	    for(i = 0; i < nums.length; i = i + 1) {
+	
+	        for(j = 0; j < SIZE; j = j + 1) {
+	
+	            if(j % 2 == 0)
+	                continue;
+	
+	            sum = sum + mul(nums[i], j);
+	
+	            if(sum > 50)
+	                break;
+	        }
+	
+	        if(sum > 50)
+	            break;
+	    }
+	
+	    if(sum > 0 && base > 0)
+	        return sum + base;
+	    return 0;
+	}
+	
+	void main() int i, j, result; {
+	
+	    arr = new int[SIZE];
+	
+	    for(i = 0; i < SIZE; i = i + 1)
+	        arr[i] = i + 1;   // arr = [1,2,3,4]
+	
+	    global = 0;
+	
+	    for(i = 0; i < SIZE; i = i + 1) {
+	
+	        for(j = 0; j < SIZE; j = j + 1) {
+	       	
+	       		if(i+j==3){
+	       			global++;
+	       			continue;
+	       		}
+	
+	            if(i > j || FLAG)
+	                arr[i] = arr[i] + j;
+	            else
+	                arr[i] = arr[i] - j;
+	
+	            switch(arr[i]) {
+	                case 1:
+	                    print(1);
+	                case 2:
+	                    print(2);
+	                    break;
+	                case 3:
+	                    print(3);
+	            }
+	
+	            if(global > 5)
+	                break;
+	        }
+	
+	        if(global > 5)
+	            break;
+	    }
+	
+	    result = complicated(5, arr);
+	
+	    result = result > 100
+	                ? result > 200 ? 200 : 150
+	                : result != 0 ? result : 999;
+	
+	    print(result, 5);
+	
+	    global--;
+	    print(global);
+	}
+
+}

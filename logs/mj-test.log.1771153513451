@@ -1,0 +1,131 @@
+INFO  11:58:41,458 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  11:58:41,503 - #2 program
+INFO  11:58:41,503 - #45 Teodora
+INFO  11:58:41,503 - #3 {
+INFO  11:58:41,504 - #45 int
+INFO  11:58:41,505 - #45 fun
+INFO  11:58:41,506 - #12 (
+INFO  11:58:41,507 - #13 )
+INFO  11:58:41,507 - #3 {
+INFO  11:58:41,507 - #19 return
+INFO  11:58:41,509 - #46 5
+INFO  11:58:41,510 - #7 ;
+INFO  11:58:41,512 - #4 }
+INFO  11:58:41,512 - #14 void
+INFO  11:58:41,512 - #45 main
+INFO  11:58:41,512 - #12 (
+INFO  11:58:41,513 - #13 )
+INFO  11:58:41,513 - #45 int
+INFO  11:58:41,513 - #45 a
+INFO  11:58:41,513 - #7 ;
+INFO  11:58:41,514 - #3 {
+INFO  11:58:41,514 - #19 return
+INFO  11:58:41,514 - #45 fun
+INFO  11:58:41,516 - #12 (
+INFO  11:58:41,516 - #13 )
+INFO  11:58:41,517 - #7 ;
+INFO  11:58:41,517 - #4 }
+INFO  11:58:41,517 - #4 }
+INFO  11:58:41,519 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl(
+        MethodOpt1(
+          Type(
+           int
+          ) [Type]
+         fun
+        ) [MethodOpt1]
+        FormParsList2(
+        ) [FormParsList2]
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_ret2(
+            Return(
+            ) [Return]
+            Expr1(
+              AddopTermList2(
+                Term(
+                  MoreTerm2(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       5
+                      ) [FactorSub3]
+                    ) [Factor]
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [Statement_ret2]
+        ) [StatementList1]
+      ) [MethodDecl]
+    ) [MethodDeclList1]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           a
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_ret2(
+          Return(
+          ) [Return]
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub2(
+                      Designator1(
+                       fun
+                      ) [Designator1]
+                      ActParList2(
+                        ActParStart(
+                        ) [ActParStart]
+                      ) [ActParList2]
+                    ) [FactorSub2]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_ret2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  11:58:41,519 - ===================================
+INFO  11:58:41,568 - Pretraga na 9 (fun), nadjeno Meth fun: Int, 0, 0
+ERROR 11:58:41,569 - Neodgovorajuci tip povratne vrednosti u metodi main na liniji 9
+INFO  11:58:41,569 - ===================================
+INFO  11:58:41,569 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,94 @@
+INFO  23:24:49,063 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  23:24:49,122 - #2 program
+INFO  23:24:49,122 - #45 Test
+INFO  23:24:49,122 - #45 int
+INFO  23:24:49,122 - #45 x
+INFO  23:24:49,123 - #7 ;
+INFO  23:24:49,125 - #45 int
+INFO  23:24:49,126 - #45 y
+INFO  23:24:49,126 - #7 ;
+INFO  23:24:49,126 - #3 {
+INFO  23:24:49,126 - #45 int
+INFO  23:24:49,127 - #45 main
+INFO  23:24:49,127 - #12 (
+INFO  23:24:49,127 - #13 )
+INFO  23:24:49,128 - #3 {
+INFO  23:24:49,128 - #21 print
+INFO  23:24:49,130 - #12 (
+INFO  23:24:49,130 - #46 1
+INFO  23:24:49,131 - #13 )
+INFO  23:24:49,133 - #7 ;
+INFO  23:24:49,134 - #4 }
+INFO  23:24:49,134 - #4 }
+INFO  23:24:49,138 - Program(
+ Test
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          VarDeclOpt2(
+          ) [VarDeclOpt2]
+        ) [VarDecl]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList]
+    ) [ConVarEnumDeclList2]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       y
+        VarDeclOpt2(
+        ) [VarDeclOpt2]
+      ) [VarDecl]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         int
+        ) [Type]
+      ) [MethodOpt1]
+     main
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                Factor(
+                  Unary2(
+                  ) [Unary2]
+                  FactorSub3(
+                   1
+                  ) [FactorSub3]
+                ) [Factor]
+                MoreTerm2(
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  23:24:49,140 - ===================================
+INFO  23:24:49,140 - Parsiranje uspesno zavrseno!

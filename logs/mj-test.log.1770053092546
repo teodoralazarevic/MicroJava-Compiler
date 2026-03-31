@@ -1,0 +1,123 @@
+INFO  18:24:40,514 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  18:24:40,537 - #2 program
+INFO  18:24:40,537 - #45 Teodora
+INFO  18:24:40,537 - #5 const
+INFO  18:24:40,538 - #45 int
+INFO  18:24:40,538 - #45 pi
+INFO  18:24:40,538 - #6 =
+INFO  18:24:40,538 - #47 0
+INFO  18:24:40,538 - #8 ,
+INFO  18:24:40,539 - #45 g
+INFO  18:24:40,539 - #6 =
+INFO  18:24:40,539 - #46 11
+INFO  18:24:40,539 - #7 ;
+INFO  18:24:40,539 - #45 char
+INFO  18:24:40,540 - #45 charr
+INFO  18:24:40,540 - #9 [
+INFO  18:24:40,540 - #10 ]
+INFO  18:24:40,540 - #7 ;
+INFO  18:24:40,541 - #3 {
+INFO  18:24:40,541 - #14 void
+INFO  18:24:40,541 - #45 main
+INFO  18:24:40,541 - #12 (
+INFO  18:24:40,542 - #13 )
+INFO  18:24:40,544 - #3 {
+INFO  18:24:40,544 - #45 x
+INFO  18:24:40,544 - #6 =
+INFO  18:24:40,545 - #46 5
+INFO  18:24:40,545 - #7 ;
+INFO  18:24:40,546 - #4 }
+INFO  18:24:40,547 - #4 }
+INFO  18:24:40,548 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList1(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Constant3(
+           0
+          ) [Constant3]
+        ) [ConstDecl]
+        ConstDeclMore1(
+          ConstDecl(
+           g
+            Constant1(
+             11
+            ) [Constant1]
+          ) [ConstDecl]
+          ConstDeclMore2(
+          ) [ConstDeclMore2]
+        ) [ConstDeclMore1]
+      ) [ConstDeclList]
+    ) [ConVarEnumDeclList1]
+    VarDeclList1(
+      Type(
+       char
+      ) [Type]
+      VarDecl1(
+       charr
+        VarDeclOpt1(
+        ) [VarDeclOpt1]
+      ) [VarDecl1]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_ds(
+          DesignatorStatement1(
+            Designator(
+             x
+              DesigatorMore2(
+              ) [DesigatorMore2]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr1(
+              AddopTermList2(
+                Term(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub3(
+                     5
+                    ) [FactorSub3]
+                  ) [Factor]
+                  MoreTerm2(
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [DesignatorStatement1]
+        ) [Statement_ds]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  18:24:40,548 - ===================================
+ERROR 18:24:40,566 - Neadekvatna dodela konstanti: pi na liniji 2
+INFO  18:24:40,567 - ===================================
+INFO  18:24:40,567 - Parsiranje NIJE uspesno zavrseno!

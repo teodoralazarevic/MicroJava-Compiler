@@ -1,0 +1,126 @@
+INFO  10:56:26,595 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  10:56:26,637 - #2 program
+INFO  10:56:26,637 - #45 Teodora
+INFO  10:56:26,637 - #45 int
+INFO  10:56:26,638 - #46 5
+ERROR 10:56:26,638 - 
+Sintaksna greska na liniji 2
+INFO  10:56:26,638 - #7 ;
+INFO  10:56:26,638 - #3 {
+INFO  10:56:26,638 - #14 void
+INFO  10:56:26,639 - #45 main
+ERROR 10:56:26,639 - Greska u definiciji globalne promenljive, oporavak od greske u liniji 2
+INFO  10:56:26,652 - #12 (
+INFO  10:56:26,652 - #13 )
+INFO  10:56:26,652 - #45 char
+INFO  10:56:26,652 - #45 a
+INFO  10:56:26,653 - #7 ;
+INFO  10:56:26,654 - #3 {
+INFO  10:56:26,654 - #15 if
+INFO  10:56:26,654 - #12 (
+INFO  10:56:26,655 - #47 1
+INFO  10:56:26,657 - #13 )
+INFO  10:56:26,658 - #3 {
+INFO  10:56:26,658 - #21 print
+INFO  10:56:26,658 - #12 (
+INFO  10:56:26,658 - #48 a
+INFO  10:56:26,658 - #13 )
+INFO  10:56:26,658 - #7 ;
+INFO  10:56:26,658 - #4 }
+INFO  10:56:26,659 - #4 }
+INFO  10:56:26,659 - #4 }
+INFO  10:56:26,660 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList4(
+    ) [ConVarEnumDeclList4]
+    VarDeclList_error(
+    ) [VarDeclList_error]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           char
+          ) [Type]
+          VarDecl1(
+           a
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_if(
+          If(
+          ) [If]
+          Condition1(
+            CondOrExpr2(
+              CondAndExpr2(
+                CondRelExpr2(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub5(
+                           1
+                          ) [FactorSub5]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [CondRelExpr2]
+              ) [CondAndExpr2]
+            ) [CondOrExpr2]
+          ) [Condition1]
+          Statement_stm(
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_print1(
+                Print(
+                ) [Print]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub4(
+                           a
+                          ) [FactorSub4]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Statement_print1]
+            ) [StatementList1]
+          ) [Statement_stm]
+          ElseStmt2(
+          ) [ElseStmt2]
+        ) [Statement_if]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  10:56:26,660 - ===================================
+INFO  10:56:26,666 - ===================================
+INFO  10:56:26,666 - Parsiranje NIJE uspesno zavrseno!

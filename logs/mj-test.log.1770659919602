@@ -1,0 +1,347 @@
+INFO  18:56:26,674 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  18:56:26,721 - #2 program
+INFO  18:56:26,722 - #45 Teodora
+INFO  18:56:26,722 - #5 const
+INFO  18:56:26,723 - #45 int
+INFO  18:56:26,723 - #45 pi
+INFO  18:56:26,724 - #6 =
+INFO  18:56:26,724 - #46 3
+INFO  18:56:26,725 - #7 ;
+INFO  18:56:26,726 - #45 int
+INFO  18:56:26,726 - #45 c
+INFO  18:56:26,726 - #7 ;
+INFO  18:56:26,728 - #3 {
+INFO  18:56:26,728 - #45 int
+INFO  18:56:26,729 - #45 funkcijica
+INFO  18:56:26,729 - #12 (
+INFO  18:56:26,729 - #13 )
+INFO  18:56:26,730 - #3 {
+INFO  18:56:26,731 - #19 return
+INFO  18:56:26,732 - #46 5
+INFO  18:56:26,732 - #7 ;
+INFO  18:56:26,734 - #4 }
+INFO  18:56:26,734 - #45 int
+INFO  18:56:26,737 - #45 funkcija
+INFO  18:56:26,737 - #12 (
+INFO  18:56:26,738 - #45 int
+INFO  18:56:26,738 - #45 a
+INFO  18:56:26,738 - #13 )
+INFO  18:56:26,739 - #3 {
+INFO  18:56:26,739 - #19 return
+INFO  18:56:26,739 - #45 funkcijica
+INFO  18:56:26,739 - #12 (
+INFO  18:56:26,739 - #13 )
+INFO  18:56:26,740 - #7 ;
+INFO  18:56:26,740 - #4 }
+INFO  18:56:26,740 - #14 void
+INFO  18:56:26,740 - #45 ispis
+INFO  18:56:26,740 - #12 (
+INFO  18:56:26,740 - #13 )
+INFO  18:56:26,740 - #3 {
+INFO  18:56:26,740 - #21 print
+INFO  18:56:26,740 - #12 (
+INFO  18:56:26,740 - #46 1
+INFO  18:56:26,741 - #13 )
+INFO  18:56:26,741 - #7 ;
+INFO  18:56:26,741 - #4 }
+INFO  18:56:26,742 - #14 void
+INFO  18:56:26,742 - #45 main
+INFO  18:56:26,742 - #12 (
+INFO  18:56:26,742 - #13 )
+INFO  18:56:26,742 - #45 int
+INFO  18:56:26,742 - #45 b
+INFO  18:56:26,742 - #7 ;
+INFO  18:56:26,743 - #3 {
+INFO  18:56:26,743 - #45 b
+INFO  18:56:26,743 - #6 =
+INFO  18:56:26,743 - #46 5
+INFO  18:56:26,744 - #7 ;
+INFO  18:56:26,744 - #45 c
+INFO  18:56:26,744 - #6 =
+INFO  18:56:26,744 - #45 b
+INFO  18:56:26,744 - #7 ;
+INFO  18:56:26,745 - #21 print
+INFO  18:56:26,745 - #12 (
+INFO  18:56:26,745 - #45 c
+INFO  18:56:26,745 - #13 )
+INFO  18:56:26,745 - #7 ;
+INFO  18:56:26,745 - #45 ispis
+INFO  18:56:26,745 - #12 (
+INFO  18:56:26,745 - #13 )
+INFO  18:56:26,745 - #7 ;
+INFO  18:56:26,746 - #4 }
+INFO  18:56:26,746 - #4 }
+INFO  18:56:26,747 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList1(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Constant1(
+           3
+          ) [Constant1]
+        ) [ConstDecl]
+        ConstDeclMore2(
+        ) [ConstDeclMore2]
+      ) [ConstDeclList]
+    ) [ConVarEnumDeclList1]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl1(
+       c
+      ) [VarDecl1]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList1(
+        MethodDeclList1(
+          MethodDeclList2(
+          ) [MethodDeclList2]
+          MethodDecl(
+            MethodOpt1(
+              Type(
+               int
+              ) [Type]
+             funkcijica
+            ) [MethodOpt1]
+            FormParsList2(
+            ) [FormParsList2]
+            VarDeclListMeth2(
+            ) [VarDeclListMeth2]
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_ret2(
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           5
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Statement_ret2]
+            ) [StatementList1]
+          ) [MethodDecl]
+        ) [MethodDeclList1]
+        MethodDecl(
+          MethodOpt1(
+            Type(
+             int
+            ) [Type]
+           funkcija
+          ) [MethodOpt1]
+          FormParsList1(
+            FormPar1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormPar1]
+            FormParMore2(
+            ) [FormParMore2]
+          ) [FormParsList1]
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_ret2(
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub2(
+                          Designator1(
+                           funkcijica
+                          ) [Designator1]
+                          ActParList2(
+                            ActParStart(
+                            ) [ActParStart]
+                          ) [ActParList2]
+                        ) [FactorSub2]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [Statement_ret2]
+          ) [StatementList1]
+        ) [MethodDecl]
+      ) [MethodDeclList1]
+      MethodDecl(
+        MethodOpt2(
+         ispis
+        ) [MethodOpt2]
+        FormParsList2(
+        ) [FormParsList2]
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_print1(
+            Expr1(
+              AddopTermList2(
+                Term(
+                  MoreTerm2(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       1
+                      ) [FactorSub3]
+                    ) [Factor]
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [Statement_print1]
+        ) [StatementList1]
+      ) [MethodDecl]
+    ) [MethodDeclList1]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           b
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_ds(
+                DesignatorStatement1(
+                  Designator1(
+                   b
+                  ) [Designator1]
+                  Assignop(
+                  ) [Assignop]
+                  Expr1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub3(
+                             5
+                            ) [FactorSub3]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [Expr1]
+                ) [DesignatorStatement1]
+              ) [Statement_ds]
+            ) [StatementList1]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator1(
+                 c
+                ) [Designator1]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator1(
+                             b
+                            ) [Designator1]
+                          ) [FactorSub1]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_print1(
+            Expr1(
+              AddopTermList2(
+                Term(
+                  MoreTerm2(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub1(
+                        Designator1(
+                         c
+                        ) [Designator1]
+                      ) [FactorSub1]
+                    ) [Factor]
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [Statement_print1]
+        ) [StatementList1]
+        Statement_ds(
+          DesignatorStatement2(
+            Designator1(
+             ispis
+            ) [Designator1]
+            ActParList2(
+              ActParStart(
+              ) [ActParStart]
+            ) [ActParList2]
+          ) [DesignatorStatement2]
+        ) [Statement_ds]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  18:56:26,748 - ===================================
+INFO  18:56:26,758 - Poziv globalne metode funkcijica. [Kind: 3 | Level: 0 | FpPos: 0 | Local symbols:[]] na liniji 13
+INFO  18:56:26,758 - Pristup lokalnoj promenljivoj b. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 22
+INFO  18:56:26,758 - Pristup globalnoj promenljivoj c. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 23
+INFO  18:56:26,758 - Pristup lokalnoj promenljivoj b. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 23
+INFO  18:56:26,758 - Pristup globalnoj promenljivoj c. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 24
+INFO  18:56:26,758 - Poziv globalne funkcije ispis. [Kind: 3 | Level: 0 | FpPos: 0 | Local symbols:[]] na liniji 26
+INFO  18:56:26,759 - ===================================
+INFO  18:56:26,759 - Parsiranje uspesno zavrseno!

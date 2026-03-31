@@ -1,0 +1,59 @@
+INFO  17:04:36,684 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  17:04:36,739 - #2 program
+INFO  17:04:36,739 - #45 Test
+INFO  17:04:36,740 - #45 int
+INFO  17:04:36,740 - #45 x
+INFO  17:04:36,740 - #8 ,
+INFO  17:04:36,742 - #45 y
+INFO  17:04:36,742 - #7 ;
+INFO  17:04:36,742 - #3 {
+INFO  17:04:36,743 - #14 void
+INFO  17:04:36,744 - #45 main
+INFO  17:04:36,744 - #12 (
+INFO  17:04:36,744 - #13 )
+INFO  17:04:36,745 - #3 {
+INFO  17:04:36,745 - #4 }
+INFO  17:04:36,747 - #4 }
+INFO  17:04:36,751 - Program(
+ Test
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList4(
+    ) [ConVarEnumDeclList4]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        VarDeclOpt2(
+        ) [VarDeclOpt2]
+      ) [VarDecl]
+      VarDeclMore1(
+        VarDecl(
+         y
+          VarDeclOpt2(
+          ) [VarDeclOpt2]
+        ) [VarDecl]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclMore1]
+    ) [VarDeclList]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+     main
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  17:04:36,753 - ===================================
+INFO  17:04:36,753 - Parsiranje uspesno zavrseno!

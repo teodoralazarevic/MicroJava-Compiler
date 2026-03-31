@@ -1,0 +1,107 @@
+INFO  17:23:49,496 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  17:23:49,532 - #2 program
+INFO  17:23:49,532 - #45 test302
+INFO  17:23:49,532 - #3 {
+INFO  17:23:49,533 - #45 bool
+INFO  17:23:49,533 - #45 verify
+INFO  17:23:49,533 - #12 (
+INFO  17:23:49,534 - #45 int
+INFO  17:23:49,534 - #45 x
+INFO  17:23:49,534 - #8 ,
+INFO  17:23:49,534 - #45 bool
+INFO  17:23:49,534 - #45 y
+INFO  17:23:49,534 - #38 +
+ERROR 17:23:49,534 - 
+Sintaksna greska na liniji 7
+INFO  17:23:49,534 - #13 )
+INFO  17:23:49,534 - #3 {
+INFO  17:23:49,534 - #21 print
+INFO  17:23:49,535 - #12 (
+ERROR 17:23:49,535 - Ocekivano ime parametra nakon tipa
+INFO  17:23:49,536 - #48 v
+INFO  17:23:49,537 - #13 )
+INFO  17:23:49,539 - #7 ;
+INFO  17:23:49,539 - #19 return
+INFO  17:23:49,539 - #47 0
+INFO  17:23:49,539 - #7 ;
+INFO  17:23:49,539 - #4 }
+INFO  17:23:49,539 - #4 }
+INFO  17:23:49,540 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         bool
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       verify
+      ) [MethodName]
+      FormParsList1(
+        FormPar1(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [FormPar1]
+        FormParMore1(
+          FormPar_error(
+          ) [FormPar_error]
+          FormParMore2(
+          ) [FormParMore2]
+        ) [FormParMore1]
+      ) [FormParsList1]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_print1(
+            Expr1(
+              AddopTermList2(
+                Term(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub4(
+                     v
+                    ) [FactorSub4]
+                  ) [Factor]
+                  MoreTerm2(
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [Statement_print1]
+        ) [StatementList1]
+        Statement_ret2(
+          Expr1(
+            AddopTermList2(
+              Term(
+                Factor(
+                  Unary2(
+                  ) [Unary2]
+                  FactorSub5(
+                   0
+                  ) [FactorSub5]
+                ) [Factor]
+                MoreTerm2(
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_ret2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  17:23:49,540 - ===================================
+INFO  17:23:49,541 - Parsiranje NIJE uspesno zavrseno!

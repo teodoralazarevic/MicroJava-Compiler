@@ -1,0 +1,63 @@
+INFO  17:36:58,929 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  17:36:59,194 - #2 program
+INFO  17:36:59,194 - #45 Test
+INFO  17:36:59,194 - #45 int
+INFO  17:36:59,199 - #45 x
+INFO  17:36:59,201 - #8 ,
+INFO  17:36:59,204 - #45 t
+INFO  17:36:59,205 - #38 +
+ERROR 17:36:59,205 - 
+Sintaksna greska na liniji 3
+INFO  17:36:59,205 - #8 ,
+INFO  17:36:59,205 - #45 y
+INFO  17:36:59,205 - #38 +
+INFO  17:36:59,206 - #8 ,
+INFO  17:36:59,206 - #45 a
+INFO  17:36:59,207 - #6 =
+INFO  17:36:59,207 - #46 5
+INFO  17:36:59,207 - #7 ;
+INFO  17:36:59,207 - #3 {
+INFO  17:36:59,208 - #45 bool
+INFO  17:36:59,208 - #45 verify
+ERROR 17:36:59,208 - Greska u definiciji globalne promenljive, oporavak od greske u liniji 3
+INFO  17:36:59,225 - #12 (
+INFO  17:36:59,239 - #8 ,
+ERROR 17:36:59,239 - 
+Sintaksna greska na liniji 7
+INFO  17:36:59,239 - #45 int
+INFO  17:36:59,240 - #45 x
+INFO  17:36:59,240 - #8 ,
+ERROR 17:36:59,240 - Greska u definisanju parametra funkcije, oporavak od greske u koloni 7
+INFO  17:36:59,241 - #45 bool
+INFO  17:36:59,241 - #45 x
+INFO  17:36:59,241 - #38 +
+ERROR 17:36:59,241 - 
+Sintaksna greska na liniji 7
+INFO  17:36:59,242 - #46 5
+INFO  17:36:59,242 - #8 ,
+INFO  17:36:59,242 - #45 bool
+INFO  17:36:59,242 - #45 y
+INFO  17:36:59,242 - #13 )
+ERROR 17:36:59,242 - Greska u definisanju parametra funkcije, oporavak od greske u koloni 7
+INFO  17:36:59,244 - #3 {
+INFO  17:36:59,245 - #21 print
+INFO  17:36:59,248 - #12 (
+INFO  17:36:59,248 - #48 v
+INFO  17:36:59,250 - #13 )
+INFO  17:36:59,256 - #7 ;
+INFO  17:36:59,256 - #19 return
+INFO  17:36:59,256 - #47 0
+INFO  17:36:59,256 - #7 ;
+INFO  17:36:59,257 - #4 }
+INFO  17:36:59,257 - #15 if
+ERROR 17:36:59,257 - 
+Sintaksna greska na liniji 12
+INFO  17:36:59,257 - #12 (
+INFO  17:36:59,257 - #45 x
+INFO  17:36:59,257 - #36 &&
+INFO  17:36:59,257 - #45 y
+INFO  17:36:59,257 - #13 )
+INFO  17:36:59,257 - #3 {
+INFO  17:36:59,257 - #4 }
+INFO  17:36:59,257 - #4 }
+ERROR 17:36:59,257 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

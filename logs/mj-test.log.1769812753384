@@ -1,0 +1,171 @@
+INFO  23:39:09,125 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  23:39:09,180 - #2 program
+INFO  23:39:09,180 - #45 Test
+INFO  23:39:09,180 - #45 int
+INFO  23:39:09,180 - #45 x
+INFO  23:39:09,181 - #7 ;
+INFO  23:39:09,182 - #45 int
+INFO  23:39:09,184 - #45 y
+INFO  23:39:09,184 - #7 ;
+INFO  23:39:09,184 - #3 {
+INFO  23:39:09,184 - #45 int
+INFO  23:39:09,185 - #45 main
+INFO  23:39:09,185 - #12 (
+INFO  23:39:09,185 - #13 )
+INFO  23:39:09,186 - #3 {
+INFO  23:39:09,186 - #21 print
+INFO  23:39:09,188 - #12 (
+INFO  23:39:09,188 - #46 1
+INFO  23:39:09,189 - #13 )
+INFO  23:39:09,192 - #7 ;
+INFO  23:39:09,192 - #45 x
+INFO  23:39:09,192 - #6 =
+INFO  23:39:09,193 - #45 y
+INFO  23:39:09,195 - #38 +
+INFO  23:39:09,195 - #46 2
+INFO  23:39:09,196 - #7 ;
+INFO  23:39:09,197 - #21 print
+INFO  23:39:09,197 - #12 (
+INFO  23:39:09,197 - #46 2
+INFO  23:39:09,197 - #13 )
+INFO  23:39:09,197 - #7 ;
+INFO  23:39:09,197 - #4 }
+INFO  23:39:09,197 - #4 }
+INFO  23:39:09,202 - Program(
+ Test
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          VarDeclOpt2(
+          ) [VarDeclOpt2]
+        ) [VarDecl]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList]
+    ) [ConVarEnumDeclList2]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       y
+        VarDeclOpt2(
+        ) [VarDeclOpt2]
+      ) [VarDecl]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         int
+        ) [Type]
+      ) [MethodOpt1]
+     main
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_print1(
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       1
+                      ) [FactorSub3]
+                    ) [Factor]
+                    MoreTerm2(
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [Statement_print1]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator(
+               x
+                DesigatorMore2(
+                ) [DesigatorMore2]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList1(
+                  AddopTermList2(
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub1(
+                          Designator(
+                           y
+                            DesigatorMore2(
+                            ) [DesigatorMore2]
+                          ) [Designator]
+                        ) [FactorSub1]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                  Addop_plus(
+                  ) [Addop_plus]
+                  Term(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       2
+                      ) [FactorSub3]
+                    ) [Factor]
+                    MoreTerm2(
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList1]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                Factor(
+                  Unary2(
+                  ) [Unary2]
+                  FactorSub3(
+                   2
+                  ) [FactorSub3]
+                ) [Factor]
+                MoreTerm2(
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  23:39:09,202 - ===================================
+INFO  23:39:09,202 - Parsiranje uspesno zavrseno!

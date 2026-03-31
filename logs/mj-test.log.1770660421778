@@ -1,0 +1,443 @@
+INFO  19:00:49,714 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  19:00:49,776 - #2 program
+INFO  19:00:49,776 - #45 Teodora
+INFO  19:00:49,777 - #5 const
+INFO  19:00:49,778 - #45 int
+INFO  19:00:49,779 - #45 pi
+INFO  19:00:49,780 - #6 =
+INFO  19:00:49,781 - #46 3
+INFO  19:00:49,781 - #7 ;
+INFO  19:00:49,782 - #45 int
+INFO  19:00:49,783 - #45 c
+INFO  19:00:49,783 - #7 ;
+INFO  19:00:49,783 - #3 {
+INFO  19:00:49,784 - #45 int
+INFO  19:00:49,784 - #45 funkcijica
+INFO  19:00:49,785 - #12 (
+INFO  19:00:49,785 - #13 )
+INFO  19:00:49,785 - #3 {
+INFO  19:00:49,786 - #19 return
+INFO  19:00:49,787 - #46 5
+INFO  19:00:49,788 - #7 ;
+INFO  19:00:49,790 - #4 }
+INFO  19:00:49,790 - #45 int
+INFO  19:00:49,793 - #45 funkcija
+INFO  19:00:49,793 - #12 (
+INFO  19:00:49,793 - #45 int
+INFO  19:00:49,793 - #45 a
+INFO  19:00:49,793 - #13 )
+INFO  19:00:49,794 - #3 {
+INFO  19:00:49,794 - #19 return
+INFO  19:00:49,794 - #45 funkcijica
+INFO  19:00:49,795 - #12 (
+INFO  19:00:49,795 - #13 )
+INFO  19:00:49,795 - #7 ;
+INFO  19:00:49,796 - #4 }
+INFO  19:00:49,796 - #14 void
+INFO  19:00:49,796 - #45 ispis
+INFO  19:00:49,796 - #12 (
+INFO  19:00:49,796 - #13 )
+INFO  19:00:49,796 - #3 {
+INFO  19:00:49,796 - #21 print
+INFO  19:00:49,796 - #12 (
+INFO  19:00:49,796 - #46 1
+INFO  19:00:49,796 - #8 ,
+INFO  19:00:49,797 - #46 10
+INFO  19:00:49,797 - #13 )
+INFO  19:00:49,797 - #7 ;
+INFO  19:00:49,797 - #4 }
+INFO  19:00:49,797 - #14 void
+INFO  19:00:49,797 - #45 main
+INFO  19:00:49,797 - #12 (
+INFO  19:00:49,797 - #13 )
+INFO  19:00:49,797 - #45 int
+INFO  19:00:49,797 - #45 b
+INFO  19:00:49,797 - #7 ;
+INFO  19:00:49,797 - #3 {
+INFO  19:00:49,798 - #45 b
+INFO  19:00:49,798 - #6 =
+INFO  19:00:49,798 - #46 5
+INFO  19:00:49,799 - #7 ;
+INFO  19:00:49,799 - #45 c
+INFO  19:00:49,800 - #6 =
+INFO  19:00:49,800 - #45 b
+INFO  19:00:49,800 - #7 ;
+INFO  19:00:49,800 - #21 print
+INFO  19:00:49,800 - #12 (
+INFO  19:00:49,800 - #45 c
+INFO  19:00:49,801 - #13 )
+INFO  19:00:49,801 - #7 ;
+INFO  19:00:49,801 - #45 b
+INFO  19:00:49,801 - #6 =
+INFO  19:00:49,801 - #45 funkcija
+INFO  19:00:49,801 - #12 (
+INFO  19:00:49,801 - #45 c
+INFO  19:00:49,801 - #13 )
+INFO  19:00:49,802 - #7 ;
+INFO  19:00:49,802 - #45 ispis
+INFO  19:00:49,802 - #12 (
+INFO  19:00:49,803 - #13 )
+INFO  19:00:49,803 - #7 ;
+INFO  19:00:49,803 - #21 print
+INFO  19:00:49,803 - #12 (
+INFO  19:00:49,803 - #45 b
+INFO  19:00:49,803 - #8 ,
+INFO  19:00:49,803 - #46 10
+INFO  19:00:49,803 - #13 )
+INFO  19:00:49,803 - #7 ;
+INFO  19:00:49,803 - #4 }
+INFO  19:00:49,803 - #4 }
+INFO  19:00:49,805 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList1(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Constant1(
+           3
+          ) [Constant1]
+        ) [ConstDecl]
+        ConstDeclMore2(
+        ) [ConstDeclMore2]
+      ) [ConstDeclList]
+    ) [ConVarEnumDeclList1]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl1(
+       c
+      ) [VarDecl1]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList1(
+        MethodDeclList1(
+          MethodDeclList2(
+          ) [MethodDeclList2]
+          MethodDecl(
+            MethodOpt1(
+              Type(
+               int
+              ) [Type]
+             funkcijica
+            ) [MethodOpt1]
+            FormParsList2(
+            ) [FormParsList2]
+            VarDeclListMeth2(
+            ) [VarDeclListMeth2]
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_ret2(
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           5
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Statement_ret2]
+            ) [StatementList1]
+          ) [MethodDecl]
+        ) [MethodDeclList1]
+        MethodDecl(
+          MethodOpt1(
+            Type(
+             int
+            ) [Type]
+           funkcija
+          ) [MethodOpt1]
+          FormParsList1(
+            FormPar1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormPar1]
+            FormParMore2(
+            ) [FormParMore2]
+          ) [FormParsList1]
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_ret2(
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub2(
+                          Designator1(
+                           funkcijica
+                          ) [Designator1]
+                          ActParList2(
+                            ActParStart(
+                            ) [ActParStart]
+                          ) [ActParList2]
+                        ) [FactorSub2]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [Statement_ret2]
+          ) [StatementList1]
+        ) [MethodDecl]
+      ) [MethodDeclList1]
+      MethodDecl(
+        MethodOpt2(
+         ispis
+        ) [MethodOpt2]
+        FormParsList2(
+        ) [FormParsList2]
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_print2(
+            Expr1(
+              AddopTermList2(
+                Term(
+                  MoreTerm2(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       1
+                      ) [FactorSub3]
+                    ) [Factor]
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+           10
+          ) [Statement_print2]
+        ) [StatementList1]
+      ) [MethodDecl]
+    ) [MethodDeclList1]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           b
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                StatementList1(
+                  StatementList2(
+                  ) [StatementList2]
+                  Statement_ds(
+                    DesignatorStatement1(
+                      Designator1(
+                       b
+                      ) [Designator1]
+                      Assignop(
+                      ) [Assignop]
+                      Expr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 5
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [Expr1]
+                    ) [DesignatorStatement1]
+                  ) [Statement_ds]
+                ) [StatementList1]
+                Statement_ds(
+                  DesignatorStatement1(
+                    Designator1(
+                     c
+                    ) [Designator1]
+                    Assignop(
+                    ) [Assignop]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub1(
+                                Designator1(
+                                 b
+                                ) [Designator1]
+                              ) [FactorSub1]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [DesignatorStatement1]
+                ) [Statement_ds]
+              ) [StatementList1]
+              Statement_print1(
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator1(
+                             c
+                            ) [Designator1]
+                          ) [FactorSub1]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Statement_print1]
+            ) [StatementList1]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator1(
+                 b
+                ) [Designator1]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub2(
+                            Designator1(
+                             funkcija
+                            ) [Designator1]
+                            ActParList1(
+                              ActParStart(
+                              ) [ActParStart]
+                              ActPar(
+                                Expr1(
+                                  AddopTermList2(
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub1(
+                                            Designator1(
+                                             c
+                                            ) [Designator1]
+                                          ) [FactorSub1]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList2]
+                                ) [Expr1]
+                              ) [ActPar]
+                              ActParMore2(
+                              ) [ActParMore2]
+                            ) [ActParList1]
+                          ) [FactorSub2]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement2(
+              Designator1(
+               ispis
+              ) [Designator1]
+              ActParList2(
+                ActParStart(
+                ) [ActParStart]
+              ) [ActParList2]
+            ) [DesignatorStatement2]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print2(
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator1(
+                       b
+                      ) [Designator1]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+         10
+        ) [Statement_print2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:00:49,806 - ===================================
+INFO  19:00:49,816 - Poziv globalne metode funkcijica. [Kind: 3 | Level: 0 | FpPos: 0 | Local symbols:[]] na liniji 13
+INFO  19:00:49,816 - Pristup lokalnoj promenljivoj b. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 22
+INFO  19:00:49,816 - Pristup globalnoj promenljivoj c. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 23
+INFO  19:00:49,816 - Pristup lokalnoj promenljivoj b. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 23
+INFO  19:00:49,816 - Pristup globalnoj promenljivoj c. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 24
+INFO  19:00:49,816 - Pristup lokalnoj promenljivoj b. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 25
+INFO  19:00:49,816 - Pristup globalnoj promenljivoj c. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 25
+INFO  19:00:49,816 - Poziv globalne metode funkcija. [Kind: 3 | Level: 1 | FpPos: 0 | Local symbols:[rs.etf.pp1.symboltable.concepts.Obj@100fc185]] na liniji 25
+INFO  19:00:49,817 - Poziv globalne funkcije ispis. [Kind: 3 | Level: 0 | FpPos: 0 | Local symbols:[]] na liniji 26
+INFO  19:00:49,817 - Pristup lokalnoj promenljivoj b. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 27
+INFO  19:00:49,817 - ===================================
+INFO  19:00:49,817 - Parsiranje uspesno zavrseno!

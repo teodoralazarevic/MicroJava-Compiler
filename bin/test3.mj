@@ -1,0 +1,18 @@
+program Test3 {
+
+    int max(int a, int b) {
+        if(a > b)
+            return a;
+        else
+            return b;
+    }
+
+    int complex(int x, int y, int z) {
+        return max(x + y, z);
+    }
+
+    void main() int r;{
+        r = complex(3, 4, 5);
+        print(r);
+    }
+}

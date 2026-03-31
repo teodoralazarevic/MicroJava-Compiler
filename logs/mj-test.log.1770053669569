@@ -1,0 +1,165 @@
+INFO  18:34:06,836 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  18:34:06,868 - #2 program
+INFO  18:34:06,868 - #45 Teodora
+INFO  18:34:06,868 - #5 const
+INFO  18:34:06,869 - #45 int
+INFO  18:34:06,869 - #45 pi
+INFO  18:34:06,869 - #6 =
+INFO  18:34:06,869 - #46 20
+INFO  18:34:06,869 - #8 ,
+INFO  18:34:06,870 - #45 g
+INFO  18:34:06,870 - #6 =
+INFO  18:34:06,870 - #46 11
+INFO  18:34:06,870 - #7 ;
+INFO  18:34:06,870 - #45 int
+INFO  18:34:06,870 - #45 a
+INFO  18:34:06,871 - #7 ;
+INFO  18:34:06,871 - #45 char
+INFO  18:34:06,871 - #45 c
+INFO  18:34:06,871 - #7 ;
+INFO  18:34:06,871 - #45 bool
+INFO  18:34:06,871 - #45 b
+INFO  18:34:06,871 - #7 ;
+INFO  18:34:06,871 - #45 char
+INFO  18:34:06,872 - #45 charr
+INFO  18:34:06,872 - #9 [
+INFO  18:34:06,873 - #10 ]
+INFO  18:34:06,873 - #7 ;
+INFO  18:34:06,873 - #3 {
+INFO  18:34:06,873 - #14 void
+INFO  18:34:06,873 - #45 main
+INFO  18:34:06,873 - #12 (
+INFO  18:34:06,874 - #13 )
+INFO  18:34:06,874 - #3 {
+INFO  18:34:06,874 - #45 x
+INFO  18:34:06,874 - #6 =
+INFO  18:34:06,875 - #46 5
+INFO  18:34:06,876 - #7 ;
+INFO  18:34:06,877 - #4 }
+INFO  18:34:06,877 - #4 }
+INFO  18:34:06,878 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList2(
+        ConVarEnumDeclList2(
+          ConVarEnumDeclList1(
+            ConVarEnumDeclList4(
+            ) [ConVarEnumDeclList4]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               pi
+                Constant1(
+                 20
+                ) [Constant1]
+              ) [ConstDecl]
+              ConstDeclMore1(
+                ConstDecl(
+                 g
+                  Constant1(
+                   11
+                  ) [Constant1]
+                ) [ConstDecl]
+                ConstDeclMore2(
+                ) [ConstDeclMore2]
+              ) [ConstDeclMore1]
+            ) [ConstDeclList]
+          ) [ConVarEnumDeclList1]
+          VarDeclList1(
+            Type(
+             int
+            ) [Type]
+            VarDecl1(
+             a
+            ) [VarDecl1]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclList1]
+        ) [ConVarEnumDeclList2]
+        VarDeclList1(
+          Type(
+           char
+          ) [Type]
+          VarDecl1(
+           c
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [ConVarEnumDeclList2]
+      VarDeclList1(
+        Type(
+         bool
+        ) [Type]
+        VarDecl1(
+         b
+        ) [VarDecl1]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList1]
+    ) [ConVarEnumDeclList2]
+    VarDeclList1(
+      Type(
+       char
+      ) [Type]
+      VarDecl2(
+       charr
+      ) [VarDecl2]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_ds(
+          DesignatorStatement1(
+            Designator(
+             x
+              DesigatorMore2(
+              ) [DesigatorMore2]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            Expr1(
+              AddopTermList2(
+                Term(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub3(
+                     5
+                    ) [FactorSub3]
+                  ) [Factor]
+                  MoreTerm2(
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [DesignatorStatement1]
+        ) [Statement_ds]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  18:34:06,878 - ===================================
+INFO  18:34:06,881 - ===================================
+INFO  18:34:06,882 - Parsiranje uspesno zavrseno!

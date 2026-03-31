@@ -1,0 +1,51 @@
+INFO  20:02:08,588 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  20:02:08,641 - #2 program
+INFO  20:02:08,641 - #45 test302
+INFO  20:02:08,641 - #5 const
+INFO  20:02:08,642 - #45 int
+INFO  20:02:08,643 - #45 jedan
+INFO  20:02:08,643 - #6 =
+INFO  20:02:08,643 - #46 1
+INFO  20:02:08,643 - #7 ;
+INFO  20:02:08,645 - #45 int
+INFO  20:02:08,646 - #45 i
+INFO  20:02:08,646 - #7 ;
+INFO  20:02:08,648 - #45 bool
+INFO  20:02:08,648 - #45 ibool
+INFO  20:02:08,649 - #7 ;
+INFO  20:02:08,649 - #45 int
+INFO  20:02:08,649 - #45 niz
+INFO  20:02:08,649 - #9 [
+INFO  20:02:08,649 - #10 ]
+INFO  20:02:08,649 - #7 ;
+INFO  20:02:08,649 - #3 {
+INFO  20:02:08,649 - #14 void
+INFO  20:02:08,651 - #45 method
+INFO  20:02:08,652 - #12 (
+INFO  20:02:08,653 - #13 )
+INFO  20:02:08,653 - #3 {
+INFO  20:02:08,654 - #15 if
+INFO  20:02:08,655 - #12 (
+INFO  20:02:08,655 - #45 a
+INFO  20:02:08,656 - #36 &&
+INFO  20:02:08,659 - #45 b
+INFO  20:02:08,659 - #38 +
+INFO  20:02:08,659 - #13 )
+ERROR 20:02:08,659 - 
+Sintaksna greska na liniji 13
+INFO  20:02:08,659 - #3 {
+INFO  20:02:08,659 - #21 print
+INFO  20:02:08,659 - #12 (
+ERROR 20:02:08,660 - Greska unutar if uslova. Oporavak od greske u liniji 3
+INFO  20:02:08,661 - #45 a
+INFO  20:02:08,661 - #13 )
+INFO  20:02:08,661 - #7 ;
+INFO  20:02:08,661 - #4 }
+INFO  20:02:08,661 - #16 else
+ERROR 20:02:08,661 - 
+Sintaksna greska na liniji 16
+INFO  20:02:08,661 - #3 {
+INFO  20:02:08,661 - #4 }
+INFO  20:02:08,662 - #4 }
+INFO  20:02:08,662 - #4 }
+ERROR 20:02:08,662 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 20

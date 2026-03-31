@@ -1,0 +1,118 @@
+INFO  15:20:17,197 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  15:20:17,271 - #2 program
+INFO  15:20:17,271 - #45 Teodora
+INFO  15:20:17,271 - #3 {
+INFO  15:20:17,272 - #45 int
+INFO  15:20:17,273 - #45 funkcija
+INFO  15:20:17,273 - #12 (
+INFO  15:20:17,273 - #13 )
+INFO  15:20:17,274 - #3 {
+INFO  15:20:17,274 - #19 return
+INFO  15:20:17,275 - #48 c
+INFO  15:20:17,278 - #7 ;
+INFO  15:20:17,280 - #4 }
+INFO  15:20:17,280 - #14 void
+INFO  15:20:17,282 - #45 main
+INFO  15:20:17,282 - #12 (
+INFO  15:20:17,282 - #13 )
+INFO  15:20:17,282 - #3 {
+INFO  15:20:17,283 - #21 print
+INFO  15:20:17,283 - #12 (
+INFO  15:20:17,283 - #45 funkcija
+INFO  15:20:17,284 - #12 (
+INFO  15:20:17,285 - #13 )
+INFO  15:20:17,286 - #13 )
+INFO  15:20:17,286 - #7 ;
+INFO  15:20:17,286 - #4 }
+INFO  15:20:17,286 - #4 }
+INFO  15:20:17,287 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl(
+        MethodOpt1(
+          Type(
+           int
+          ) [Type]
+         funkcija
+        ) [MethodOpt1]
+        FormParsList2(
+        ) [FormParsList2]
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_ret2(
+            Return(
+            ) [Return]
+            Expr1(
+              AddopTermList2(
+                Term(
+                  MoreTerm2(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub4(
+                       c
+                      ) [FactorSub4]
+                    ) [Factor]
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [Statement_ret2]
+        ) [StatementList1]
+      ) [MethodDecl]
+    ) [MethodDeclList1]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_print1(
+          Print(
+          ) [Print]
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub2(
+                      Designator1(
+                       funkcija
+                      ) [Designator1]
+                      ActParList2(
+                        ActParStart(
+                        ) [ActParStart]
+                      ) [ActParList2]
+                    ) [FactorSub2]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:20:17,288 - ===================================
+ERROR 15:20:17,295 - Neodgovorajuci tip povratne vrednosti u metodi funkcija na liniji 6
+INFO  15:20:17,295 - Pretraga na 11 (funkcija), nadjeno Meth funkcija: Int, 0, 0
+INFO  15:20:17,296 - ===================================
+INFO  15:20:17,296 - Parsiranje NIJE uspesno zavrseno!

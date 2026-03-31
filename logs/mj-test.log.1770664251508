@@ -1,0 +1,433 @@
+INFO  20:07:08,971 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  20:07:09,003 - #2 program
+INFO  20:07:09,004 - #45 test301
+INFO  20:07:09,004 - #11 enum
+INFO  20:07:09,004 - #45 Broj
+INFO  20:07:09,004 - #3 {
+INFO  20:07:09,005 - #45 NULA
+INFO  20:07:09,005 - #8 ,
+INFO  20:07:09,005 - #45 JEDAN
+INFO  20:07:09,005 - #8 ,
+INFO  20:07:09,005 - #45 PET
+INFO  20:07:09,005 - #6 =
+INFO  20:07:09,006 - #46 5
+INFO  20:07:09,006 - #8 ,
+INFO  20:07:09,006 - #45 DESET
+INFO  20:07:09,006 - #6 =
+INFO  20:07:09,006 - #46 10
+INFO  20:07:09,006 - #4 }
+INFO  20:07:09,006 - #5 const
+INFO  20:07:09,007 - #45 int
+INFO  20:07:09,007 - #45 nula
+INFO  20:07:09,007 - #6 =
+INFO  20:07:09,009 - #46 0
+INFO  20:07:09,009 - #7 ;
+INFO  20:07:09,009 - #5 const
+INFO  20:07:09,009 - #45 int
+INFO  20:07:09,009 - #45 jedan
+INFO  20:07:09,009 - #6 =
+INFO  20:07:09,009 - #46 1
+INFO  20:07:09,009 - #7 ;
+INFO  20:07:09,010 - #5 const
+INFO  20:07:09,010 - #45 int
+INFO  20:07:09,010 - #45 pet
+INFO  20:07:09,010 - #6 =
+INFO  20:07:09,010 - #46 5
+INFO  20:07:09,010 - #7 ;
+INFO  20:07:09,010 - #45 int
+INFO  20:07:09,010 - #45 niz
+INFO  20:07:09,010 - #9 [
+INFO  20:07:09,010 - #10 ]
+INFO  20:07:09,010 - #7 ;
+INFO  20:07:09,010 - #45 char
+INFO  20:07:09,010 - #45 nizch
+INFO  20:07:09,010 - #9 [
+INFO  20:07:09,010 - #10 ]
+INFO  20:07:09,011 - #7 ;
+INFO  20:07:09,011 - #45 int
+INFO  20:07:09,011 - #45 a
+INFO  20:07:09,011 - #7 ;
+INFO  20:07:09,011 - #3 {
+INFO  20:07:09,011 - #14 void
+INFO  20:07:09,011 - #45 main
+INFO  20:07:09,011 - #12 (
+INFO  20:07:09,011 - #13 )
+INFO  20:07:09,011 - #45 int
+INFO  20:07:09,012 - #45 bodovi
+INFO  20:07:09,012 - #7 ;
+INFO  20:07:09,012 - #45 int
+INFO  20:07:09,012 - #45 temp
+INFO  20:07:09,012 - #7 ;
+INFO  20:07:09,012 - #45 Broj
+INFO  20:07:09,012 - #45 nula
+INFO  20:07:09,012 - #8 ,
+INFO  20:07:09,012 - #45 jedan
+INFO  20:07:09,012 - #7 ;
+INFO  20:07:09,012 - #45 bool
+INFO  20:07:09,012 - #45 bt
+INFO  20:07:09,012 - #7 ;
+INFO  20:07:09,012 - #3 {
+INFO  20:07:09,012 - #45 nula
+INFO  20:07:09,013 - #6 =
+INFO  20:07:09,013 - #45 Broj
+INFO  20:07:09,013 - #28 .
+INFO  20:07:09,014 - #45 NULA
+INFO  20:07:09,014 - #7 ;
+INFO  20:07:09,014 - #45 jedan
+INFO  20:07:09,014 - #6 =
+INFO  20:07:09,014 - #45 Broj
+INFO  20:07:09,015 - #28 .
+INFO  20:07:09,015 - #45 JEDAN
+INFO  20:07:09,015 - #7 ;
+INFO  20:07:09,015 - #45 bodovi
+INFO  20:07:09,015 - #6 =
+INFO  20:07:09,015 - #46 0
+INFO  20:07:09,015 - #7 ;
+INFO  20:07:09,015 - #45 bodovi
+INFO  20:07:09,015 - #26 ++
+INFO  20:07:09,015 - #7 ;
+INFO  20:07:09,015 - #45 bodovi
+INFO  20:07:09,015 - #6 =
+INFO  20:07:09,015 - #45 bodovi
+INFO  20:07:09,015 - #38 +
+INFO  20:07:09,015 - #45 jedan
+INFO  20:07:09,016 - #7 ;
+INFO  20:07:09,016 - #4 }
+INFO  20:07:09,016 - #4 }
+INFO  20:07:09,018 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList2(
+        ConVarEnumDeclList1(
+          ConVarEnumDeclList1(
+            ConVarEnumDeclList1(
+              ConVarEnumDeclList3(
+                ConVarEnumDeclList4(
+                ) [ConVarEnumDeclList4]
+                EnumDeclList(
+                  EnumName(
+                   Broj
+                  ) [EnumName]
+                  EnumDecl1(
+                   NULA
+                  ) [EnumDecl1]
+                  EnumDeclMore1(
+                    EnumDecl1(
+                     JEDAN
+                    ) [EnumDecl1]
+                    EnumDeclMore1(
+                      EnumDecl2(
+                       PET
+                       5
+                      ) [EnumDecl2]
+                      EnumDeclMore1(
+                        EnumDecl2(
+                         DESET
+                         10
+                        ) [EnumDecl2]
+                        EnumDeclMore2(
+                        ) [EnumDeclMore2]
+                      ) [EnumDeclMore1]
+                    ) [EnumDeclMore1]
+                  ) [EnumDeclMore1]
+                ) [EnumDeclList]
+              ) [ConVarEnumDeclList3]
+              ConstDeclList(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 nula
+                  Constant1(
+                   0
+                  ) [Constant1]
+                ) [ConstDecl]
+                ConstDeclMore2(
+                ) [ConstDeclMore2]
+              ) [ConstDeclList]
+            ) [ConVarEnumDeclList1]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               jedan
+                Constant1(
+                 1
+                ) [Constant1]
+              ) [ConstDecl]
+              ConstDeclMore2(
+              ) [ConstDeclMore2]
+            ) [ConstDeclList]
+          ) [ConVarEnumDeclList1]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pet
+              Constant1(
+               5
+              ) [Constant1]
+            ) [ConstDecl]
+            ConstDeclMore2(
+            ) [ConstDeclMore2]
+          ) [ConstDeclList]
+        ) [ConVarEnumDeclList1]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl2(
+           niz
+          ) [VarDecl2]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [ConVarEnumDeclList2]
+      VarDeclList1(
+        Type(
+         char
+        ) [Type]
+        VarDecl2(
+         nizch
+        ) [VarDecl2]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList1]
+    ) [ConVarEnumDeclList2]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl1(
+       a
+      ) [VarDecl1]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth1(
+          VarDeclListMeth1(
+            VarDeclListMeth1(
+              VarDeclListMeth2(
+              ) [VarDeclListMeth2]
+              VarDeclList1(
+                Type(
+                 int
+                ) [Type]
+                VarDecl1(
+                 bodovi
+                ) [VarDecl1]
+                VarDeclMore2(
+                ) [VarDeclMore2]
+              ) [VarDeclList1]
+            ) [VarDeclListMeth1]
+            VarDeclList1(
+              Type(
+               int
+              ) [Type]
+              VarDecl1(
+               temp
+              ) [VarDecl1]
+              VarDeclMore2(
+              ) [VarDeclMore2]
+            ) [VarDeclList1]
+          ) [VarDeclListMeth1]
+          VarDeclList1(
+            Type(
+             Broj
+            ) [Type]
+            VarDecl1(
+             nula
+            ) [VarDecl1]
+            VarDeclMore1(
+              VarDecl1(
+               jedan
+              ) [VarDecl1]
+              VarDeclMore2(
+              ) [VarDeclMore2]
+            ) [VarDeclMore1]
+          ) [VarDeclList1]
+        ) [VarDeclListMeth1]
+        VarDeclList1(
+          Type(
+           bool
+          ) [Type]
+          VarDecl1(
+           bt
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                StatementList2(
+                ) [StatementList2]
+                Statement_ds(
+                  DesignatorStatement1(
+                    Designator1(
+                     nula
+                    ) [Designator1]
+                    Assignop(
+                    ) [Assignop]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub1(
+                                Designator2(
+                                 Broj
+                                 NULA
+                                ) [Designator2]
+                              ) [FactorSub1]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [DesignatorStatement1]
+                ) [Statement_ds]
+              ) [StatementList1]
+              Statement_ds(
+                DesignatorStatement1(
+                  Designator1(
+                   jedan
+                  ) [Designator1]
+                  Assignop(
+                  ) [Assignop]
+                  Expr1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub1(
+                              Designator2(
+                               Broj
+                               JEDAN
+                              ) [Designator2]
+                            ) [FactorSub1]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [Expr1]
+                ) [DesignatorStatement1]
+              ) [Statement_ds]
+            ) [StatementList1]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator1(
+                 bodovi
+                ) [Designator1]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           0
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement3(
+              Designator1(
+               bodovi
+              ) [Designator1]
+            ) [DesignatorStatement3]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_ds(
+          DesignatorStatement1(
+            Designator1(
+             bodovi
+            ) [Designator1]
+            Assignop(
+            ) [Assignop]
+            Expr1(
+              AddopTermList1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub1(
+                          Designator1(
+                           bodovi
+                          ) [Designator1]
+                        ) [FactorSub1]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+                Addop_plus(
+                ) [Addop_plus]
+                Term(
+                  MoreTerm2(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub1(
+                        Designator1(
+                         jedan
+                        ) [Designator1]
+                      ) [FactorSub1]
+                    ) [Factor]
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList1]
+            ) [Expr1]
+          ) [DesignatorStatement1]
+        ) [Statement_ds]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  20:07:09,018 - ===================================
+INFO  20:07:09,023 - Pristup lokalnoj promenljivoj nula. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 23
+INFO  20:07:09,023 - Pristup simolickoj konstanti Broj. [Kind: 2 | Level: 0 | FpPos: 0 | Local symbols:[rs.etf.pp1.symboltable.concepts.Obj@56f4468b, rs.etf.pp1.symboltable.concepts.Obj@6cc4c815, rs.etf.pp1.symboltable.concepts.Obj@3a82f6ef, rs.etf.pp1.symboltable.concepts.Obj@100fc185]] na liniji 23
+INFO  20:07:09,024 - Pristup lokalnoj promenljivoj jedan. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 24
+INFO  20:07:09,024 - Pristup simolickoj konstanti Broj. [Kind: 2 | Level: 0 | FpPos: 0 | Local symbols:[rs.etf.pp1.symboltable.concepts.Obj@56f4468b, rs.etf.pp1.symboltable.concepts.Obj@6cc4c815, rs.etf.pp1.symboltable.concepts.Obj@3a82f6ef, rs.etf.pp1.symboltable.concepts.Obj@100fc185]] na liniji 24
+INFO  20:07:09,024 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 26
+INFO  20:07:09,024 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 27
+INFO  20:07:09,024 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 28
+INFO  20:07:09,024 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 28
+INFO  20:07:09,024 - Pristup lokalnoj promenljivoj jedan. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 28
+ERROR 20:07:09,024 - Operandi za sabiranje moraju biti int na liniji 9
+ERROR 20:07:09,024 - Leva i desna strana naredbe dodele nisu kompatibilne. Neadekvatna dodela u promenljivu bodovi na liniji 28
+INFO  20:07:09,024 - ===================================
+INFO  20:07:09,024 - Parsiranje NIJE uspesno zavrseno!

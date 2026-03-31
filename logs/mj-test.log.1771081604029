@@ -1,0 +1,263 @@
+INFO  16:04:45,033 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  16:04:45,081 - #2 program
+INFO  16:04:45,081 - #45 test301
+INFO  16:04:45,081 - #3 {
+INFO  16:04:45,082 - #14 void
+INFO  16:04:45,083 - #45 main
+INFO  16:04:45,083 - #12 (
+INFO  16:04:45,083 - #13 )
+INFO  16:04:45,084 - #45 int
+INFO  16:04:45,085 - #45 bodovi
+INFO  16:04:45,085 - #7 ;
+INFO  16:04:45,086 - #45 bool
+INFO  16:04:45,086 - #45 bt
+INFO  16:04:45,086 - #7 ;
+INFO  16:04:45,087 - #3 {
+INFO  16:04:45,087 - #20 read
+INFO  16:04:45,087 - #12 (
+INFO  16:04:45,087 - #45 bodovi
+INFO  16:04:45,087 - #13 )
+INFO  16:04:45,088 - #7 ;
+INFO  16:04:45,088 - #45 bt
+INFO  16:04:45,088 - #6 =
+INFO  16:04:45,089 - #47 1
+INFO  16:04:45,091 - #7 ;
+INFO  16:04:45,093 - #45 bodovi
+INFO  16:04:45,093 - #6 =
+INFO  16:04:45,093 - #46 5
+INFO  16:04:45,093 - #7 ;
+INFO  16:04:45,094 - #45 bodovi
+INFO  16:04:45,094 - #6 =
+INFO  16:04:45,094 - #45 bodovi
+INFO  16:04:45,094 - #32 >
+INFO  16:04:45,094 - #46 5
+INFO  16:04:45,095 - #43 ?
+INFO  16:04:45,096 - #46 5
+INFO  16:04:45,096 - #24 :
+INFO  16:04:45,097 - #46 10
+INFO  16:04:45,098 - #7 ;
+INFO  16:04:45,098 - #21 print
+INFO  16:04:45,098 - #12 (
+INFO  16:04:45,098 - #45 bodovi
+INFO  16:04:45,098 - #13 )
+INFO  16:04:45,098 - #7 ;
+INFO  16:04:45,099 - #4 }
+INFO  16:04:45,099 - #4 }
+INFO  16:04:45,101 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth1(
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          VarDeclList1(
+            Type(
+             int
+            ) [Type]
+            VarDecl1(
+             bodovi
+            ) [VarDecl1]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclList1]
+        ) [VarDeclListMeth1]
+        VarDeclList1(
+          Type(
+           bool
+          ) [Type]
+          VarDecl1(
+           bt
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                StatementList2(
+                ) [StatementList2]
+                Statement_read(
+                  Designator1(
+                   bodovi
+                  ) [Designator1]
+                ) [Statement_read]
+              ) [StatementList1]
+              Statement_ds(
+                DesignatorStatement1(
+                  Designator1(
+                   bt
+                  ) [Designator1]
+                  Assignop(
+                  ) [Assignop]
+                  Expr1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub5(
+                             1
+                            ) [FactorSub5]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [Expr1]
+                ) [DesignatorStatement1]
+              ) [Statement_ds]
+            ) [StatementList1]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator1(
+                 bodovi
+                ) [Designator1]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           5
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator1(
+               bodovi
+              ) [Designator1]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Condition1(
+                  CondOrExpr2(
+                    CondAndExpr2(
+                      CondRelExpr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub1(
+                                  Designator1(
+                                   bodovi
+                                  ) [Designator1]
+                                ) [FactorSub1]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                        Relop_gt(
+                        ) [Relop_gt]
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 5
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [CondRelExpr1]
+                    ) [CondAndExpr2]
+                  ) [CondOrExpr2]
+                ) [Condition1]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           5
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+                TernaryMid(
+                ) [TernaryMid]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           10
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator1(
+                       bodovi
+                      ) [Designator1]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  16:04:45,102 - ===================================
+INFO  16:04:45,113 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 11
+INFO  16:04:45,114 - Pristup lokalnoj promenljivoj bt. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 12
+INFO  16:04:45,114 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 14
+INFO  16:04:45,114 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 15
+INFO  16:04:45,114 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 15
+INFO  16:04:45,114 - Pristup lokalnoj promenljivoj bodovi. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 16
+INFO  16:04:45,114 - ===================================
+INFO  16:04:45,115 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,83 @@
+INFO  19:55:47,892 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  19:55:48,141 - #2 program
+INFO  19:55:48,141 - #45 Test
+INFO  19:55:48,142 - #3 {
+INFO  19:55:48,145 - #45 bool
+INFO  19:55:48,146 - #45 verify
+INFO  19:55:48,148 - #12 (
+INFO  19:55:48,150 - #45 int
+INFO  19:55:48,150 - #45 x
+INFO  19:55:48,150 - #8 ,
+INFO  19:55:48,151 - #45 bool
+INFO  19:55:48,151 - #45 y
+INFO  19:55:48,151 - #13 )
+INFO  19:55:48,154 - #3 {
+INFO  19:55:48,155 - #15 if
+INFO  19:55:48,158 - #12 (
+INFO  19:55:48,159 - #45 a
+INFO  19:55:48,173 - #36 &&
+INFO  19:55:48,185 - #45 b
+INFO  19:55:48,185 - #38 +
+INFO  19:55:48,185 - #13 )
+ERROR 19:55:48,185 - 
+Sintaksna greska na liniji 7
+INFO  19:55:48,187 - #3 {
+INFO  19:55:48,187 - #4 }
+INFO  19:55:48,187 - #4 }
+ERROR 19:55:48,188 - Greska unutar if uslova. Oporavak od greske u liniji 4
+INFO  19:55:48,190 - #4 }
+INFO  19:55:48,206 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         bool
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       verify
+      ) [MethodName]
+      FormParsList1(
+        FormPar1(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [FormPar1]
+        FormParMore1(
+          FormPar1(
+            Type(
+             bool
+            ) [Type]
+           y
+          ) [FormPar1]
+          FormParMore2(
+          ) [FormParMore2]
+        ) [FormParMore1]
+      ) [FormParsList1]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_error(
+          ) [Statement_error]
+        ) [StatementList1]
+        Statement_stm(
+          StatementList2(
+          ) [StatementList2]
+        ) [Statement_stm]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:55:48,206 - ===================================
+INFO  19:55:48,206 - Parsiranje NIJE uspesno zavrseno!

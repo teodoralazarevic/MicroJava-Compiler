@@ -1,0 +1,136 @@
+INFO  14:52:39,490 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  14:52:39,524 - #2 program
+INFO  14:52:39,524 - #45 test301
+INFO  14:52:39,524 - #45 char
+INFO  14:52:39,525 - #45 nizch
+INFO  14:52:39,525 - #9 [
+INFO  14:52:39,525 - #10 ]
+INFO  14:52:39,525 - #7 ;
+INFO  14:52:39,526 - #3 {
+INFO  14:52:39,526 - #14 void
+INFO  14:52:39,526 - #45 main
+INFO  14:52:39,526 - #12 (
+INFO  14:52:39,527 - #13 )
+INFO  14:52:39,527 - #3 {
+INFO  14:52:39,527 - #45 nizch
+INFO  14:52:39,528 - #6 =
+INFO  14:52:39,528 - #44 new
+INFO  14:52:39,528 - #45 char
+INFO  14:52:39,528 - #9 [
+INFO  14:52:39,529 - #46 5
+INFO  14:52:39,529 - #10 ]
+INFO  14:52:39,529 - #7 ;
+INFO  14:52:39,529 - #21 print
+INFO  14:52:39,531 - #12 (
+INFO  14:52:39,531 - #45 nizch
+INFO  14:52:39,531 - #28 .
+INFO  14:52:39,531 - #29 length
+INFO  14:52:39,531 - #13 )
+INFO  14:52:39,531 - #7 ;
+INFO  14:52:39,531 - #4 }
+INFO  14:52:39,531 - #4 }
+INFO  14:52:39,532 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList4(
+    ) [ConVarEnumDeclList4]
+    VarDeclList1(
+      Type(
+       char
+      ) [Type]
+      VarDecl2(
+       nizch
+      ) [VarDecl2]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator1(
+               nizch
+              ) [Designator1]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub6(
+                          Type(
+                           char
+                          ) [Type]
+                          Expr1(
+                            AddopTermList2(
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub3(
+                                     5
+                                    ) [FactorSub3]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList2]
+                          ) [Expr1]
+                        ) [FactorSub6]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator3(
+                        ArrayNameLenght(
+                         nizch
+                        ) [ArrayNameLenght]
+                      ) [Designator3]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:52:39,532 - ===================================
+INFO  14:52:39,537 - Pristup globalnoj promenljivoj nizch. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 11
+INFO  14:52:39,538 - Pristup globalnom nizu nizch. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols:[]] na liniji 14
+INFO  14:52:39,538 - ===================================
+INFO  14:52:39,538 - Parsiranje uspesno zavrseno!

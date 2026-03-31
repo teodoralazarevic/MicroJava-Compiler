@@ -1,0 +1,262 @@
+INFO  23:35:18,584 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  23:35:18,629 - #2 program
+INFO  23:35:18,629 - #45 NestedForIf4
+INFO  23:35:18,629 - #3 {
+INFO  23:35:18,630 - #14 void
+INFO  23:35:18,630 - #45 main
+INFO  23:35:18,630 - #12 (
+INFO  23:35:18,631 - #13 )
+INFO  23:35:18,632 - #45 int
+INFO  23:35:18,632 - #45 i
+INFO  23:35:18,633 - #8 ,
+INFO  23:35:18,633 - #45 j
+INFO  23:35:18,633 - #7 ;
+INFO  23:35:18,633 - #3 {
+INFO  23:35:18,634 - #45 int
+INFO  23:35:18,634 - #45 i
+ERROR 23:35:18,634 - 
+Sintaksna greska na liniji 4
+INFO  23:35:18,634 - #6 =
+INFO  23:35:18,635 - #46 4
+INFO  23:35:18,635 - #7 ;
+INFO  23:35:18,635 - #22 switch
+INFO  23:35:18,635 - #12 (
+INFO  23:35:18,638 - #45 i
+ERROR 23:35:18,638 - Greska u iskazu dodele. Oporavak do ; u liniji 22
+INFO  23:35:18,641 - #13 )
+INFO  23:35:18,642 - #3 {
+INFO  23:35:18,642 - #25 case
+INFO  23:35:18,642 - #46 3
+INFO  23:35:18,642 - #24 :
+INFO  23:35:18,643 - #21 print
+INFO  23:35:18,643 - #12 (
+INFO  23:35:18,643 - #48 a
+INFO  23:35:18,643 - #13 )
+INFO  23:35:18,643 - #7 ;
+INFO  23:35:18,644 - #25 case
+INFO  23:35:18,644 - #46 4
+INFO  23:35:18,644 - #24 :
+INFO  23:35:18,644 - #21 print
+INFO  23:35:18,644 - #12 (
+INFO  23:35:18,644 - #48 b
+INFO  23:35:18,644 - #13 )
+INFO  23:35:18,644 - #7 ;
+INFO  23:35:18,644 - #25 case
+INFO  23:35:18,644 - #46 5
+INFO  23:35:18,645 - #24 :
+INFO  23:35:18,645 - #21 print
+INFO  23:35:18,645 - #12 (
+INFO  23:35:18,645 - #48 c
+INFO  23:35:18,645 - #13 )
+INFO  23:35:18,645 - #7 ;
+INFO  23:35:18,645 - #17 break
+INFO  23:35:18,645 - #7 ;
+INFO  23:35:18,645 - #25 case
+INFO  23:35:18,645 - #46 8
+INFO  23:35:18,645 - #24 :
+INFO  23:35:18,645 - #21 print
+INFO  23:35:18,646 - #12 (
+INFO  23:35:18,646 - #48 d
+INFO  23:35:18,646 - #13 )
+INFO  23:35:18,646 - #7 ;
+INFO  23:35:18,646 - #4 }
+INFO  23:35:18,646 - #4 }
+INFO  23:35:18,646 - #4 }
+INFO  23:35:18,648 - Program(
+  ProgramName(
+   NestedForIf4
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           i
+          ) [VarDecl1]
+          VarDeclMore1(
+            VarDecl1(
+             j
+            ) [VarDecl1]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclMore1]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_ds(
+            DesignatorStatement_error(
+            ) [DesignatorStatement_error]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_switch(
+          Switch(
+          ) [Switch]
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator1(
+                       i
+                      ) [Designator1]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+          CaseList1(
+            Case(
+              CaseNumber(
+               3
+              ) [CaseNumber]
+              CaseBodyStart(
+              ) [CaseBodyStart]
+              StatementList1(
+                StatementList2(
+                ) [StatementList2]
+                Statement_print1(
+                  Expr1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub4(
+                             a
+                            ) [FactorSub4]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [Expr1]
+                ) [Statement_print1]
+              ) [StatementList1]
+            ) [Case]
+            CaseList1(
+              Case(
+                CaseNumber(
+                 4
+                ) [CaseNumber]
+                CaseBodyStart(
+                ) [CaseBodyStart]
+                StatementList1(
+                  StatementList2(
+                  ) [StatementList2]
+                  Statement_print1(
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub4(
+                               b
+                              ) [FactorSub4]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [Statement_print1]
+                ) [StatementList1]
+              ) [Case]
+              CaseList1(
+                Case(
+                  CaseNumber(
+                   5
+                  ) [CaseNumber]
+                  CaseBodyStart(
+                  ) [CaseBodyStart]
+                  StatementList1(
+                    StatementList1(
+                      StatementList2(
+                      ) [StatementList2]
+                      Statement_print1(
+                        Expr1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub4(
+                                   c
+                                  ) [FactorSub4]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                        ) [Expr1]
+                      ) [Statement_print1]
+                    ) [StatementList1]
+                    Statement_break(
+                    ) [Statement_break]
+                  ) [StatementList1]
+                ) [Case]
+                CaseList1(
+                  Case(
+                    CaseNumber(
+                     8
+                    ) [CaseNumber]
+                    CaseBodyStart(
+                    ) [CaseBodyStart]
+                    StatementList1(
+                      StatementList2(
+                      ) [StatementList2]
+                      Statement_print1(
+                        Expr1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub4(
+                                   d
+                                  ) [FactorSub4]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                        ) [Expr1]
+                      ) [Statement_print1]
+                    ) [StatementList1]
+                  ) [Case]
+                  CaseList2(
+                  ) [CaseList2]
+                ) [CaseList1]
+              ) [CaseList1]
+            ) [CaseList1]
+          ) [CaseList1]
+        ) [Statement_switch]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  23:35:18,648 - ===================================
+INFO  23:35:18,656 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 5
+INFO  23:35:18,657 - ===================================
+INFO  23:35:18,657 - Parsiranje NIJE uspesno zavrseno!

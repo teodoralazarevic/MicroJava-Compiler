@@ -1,0 +1,288 @@
+INFO  14:33:08,032 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  14:33:08,270 - #2 program
+INFO  14:33:08,270 - #45 Test
+INFO  14:33:08,270 - #45 int
+INFO  14:33:08,291 - #45 x
+INFO  14:33:08,292 - #40 *
+ERROR 14:33:08,292 - 
+Sintaksna greska na liniji 2
+INFO  14:33:08,293 - #8 ,
+INFO  14:33:08,293 - #45 y
+INFO  14:33:08,293 - #38 +
+INFO  14:33:08,295 - #7 ;
+INFO  14:33:08,295 - #45 int
+INFO  14:33:08,295 - #45 x
+INFO  14:33:08,295 - #9 [
+ERROR 14:33:08,296 - Greska u definiciji globalne promenljive, oporavak od greske u liniji 2
+INFO  14:33:08,302 - #46 10
+ERROR 14:33:08,302 - 
+Sintaksna greska na liniji 3
+INFO  14:33:08,303 - #10 ]
+INFO  14:33:08,303 - #7 ;
+INFO  14:33:08,305 - #45 int
+INFO  14:33:08,305 - #45 z
+INFO  14:33:08,305 - #9 [
+ERROR 14:33:08,305 - Greska u definiciji globalne promenljive, oporavak od greske u liniji 3
+INFO  14:33:08,305 - #10 ]
+INFO  14:33:08,305 - #7 ;
+INFO  14:33:08,308 - #45 int
+INFO  14:33:08,308 - #45 z1
+INFO  14:33:08,308 - #9 [
+INFO  14:33:08,309 - #46 12
+ERROR 14:33:08,309 - 
+Sintaksna greska na liniji 5
+INFO  14:33:08,309 - #10 ]
+INFO  14:33:08,309 - #8 ,
+INFO  14:33:08,309 - #45 x
+INFO  14:33:08,309 - #7 ;
+INFO  14:33:08,309 - #3 {
+ERROR 14:33:08,309 - Greska u definiciji globalne promenljive, oporavak od greske u liniji 5
+INFO  14:33:08,311 - #45 int
+INFO  14:33:08,322 - #45 main
+INFO  14:33:08,322 - #12 (
+INFO  14:33:08,324 - #13 )
+INFO  14:33:08,325 - #45 int
+INFO  14:33:08,327 - #45 bodovi
+INFO  14:33:08,327 - #7 ;
+INFO  14:33:08,327 - #3 {
+INFO  14:33:08,327 - #21 print
+INFO  14:33:08,329 - #12 (
+INFO  14:33:08,330 - #46 1
+INFO  14:33:08,332 - #13 )
+INFO  14:33:08,347 - #7 ;
+INFO  14:33:08,347 - #45 x
+INFO  14:33:08,347 - #6 =
+INFO  14:33:08,358 - #45 y
+INFO  14:33:08,361 - #38 +
+INFO  14:33:08,361 - #46 2
+INFO  14:33:08,364 - #7 ;
+INFO  14:33:08,364 - #45 bodovi
+INFO  14:33:08,364 - #6 =
+INFO  14:33:08,365 - #46 7
+INFO  14:33:08,365 - #7 ;
+INFO  14:33:08,365 - #21 print
+INFO  14:33:08,365 - #12 (
+INFO  14:33:08,365 - #46 2
+INFO  14:33:08,365 - #13 )
+INFO  14:33:08,365 - #7 ;
+INFO  14:33:08,365 - #4 }
+INFO  14:33:08,365 - #4 }
+INFO  14:33:08,381 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList2(
+        ConVarEnumDeclList2(
+          ConVarEnumDeclList4(
+          ) [ConVarEnumDeclList4]
+          VarDeclList1(
+            Type(
+             int
+            ) [Type]
+            VarDecl1(
+             x
+              VarDeclOpt_error1(
+              ) [VarDeclOpt_error1]
+            ) [VarDecl1]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclList1]
+        ) [ConVarEnumDeclList2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           x
+            VarDeclOpt_error1(
+            ) [VarDeclOpt_error1]
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [ConVarEnumDeclList2]
+      VarDeclList1(
+        Type(
+         int
+        ) [Type]
+        VarDecl1(
+         z
+          VarDeclOpt1(
+          ) [VarDeclOpt1]
+        ) [VarDecl1]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList1]
+    ) [ConVarEnumDeclList2]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl1(
+       z1
+        VarDeclOpt_error1(
+        ) [VarDeclOpt_error1]
+      ) [VarDecl1]
+      VarDeclMore1(
+        VarDecl1(
+         x
+          VarDeclOpt2(
+          ) [VarDeclOpt2]
+        ) [VarDecl1]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclMore1]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         int
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           bodovi
+            VarDeclOpt2(
+            ) [VarDeclOpt2]
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_print1(
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         1
+                        ) [FactorSub3]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Statement_print1]
+            ) [StatementList1]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator(
+                 x
+                  DesigatorMore2(
+                  ) [DesigatorMore2]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList1(
+                    AddopTermList2(
+                      Term(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator(
+                             y
+                              DesigatorMore2(
+                              ) [DesigatorMore2]
+                            ) [Designator]
+                          ) [FactorSub1]
+                        ) [Factor]
+                        MoreTerm2(
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         2
+                        ) [FactorSub3]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList1]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator(
+               bodovi
+                DesigatorMore2(
+                ) [DesigatorMore2]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       7
+                      ) [FactorSub3]
+                    ) [Factor]
+                    MoreTerm2(
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                Factor(
+                  Unary2(
+                  ) [Unary2]
+                  FactorSub3(
+                   2
+                  ) [FactorSub3]
+                ) [Factor]
+                MoreTerm2(
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:33:08,382 - ===================================
+INFO  14:33:08,382 - Parsiranje NIJE uspesno zavrseno!

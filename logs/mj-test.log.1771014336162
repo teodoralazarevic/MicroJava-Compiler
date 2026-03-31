@@ -1,0 +1,300 @@
+INFO  21:25:04,637 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  21:25:04,681 - #2 program
+INFO  21:25:04,681 - #45 ForTestNoContinue
+INFO  21:25:04,681 - #3 {
+INFO  21:25:04,682 - #14 void
+INFO  21:25:04,682 - #45 main
+INFO  21:25:04,682 - #12 (
+INFO  21:25:04,683 - #13 )
+INFO  21:25:04,684 - #45 int
+INFO  21:25:04,684 - #45 i
+INFO  21:25:04,685 - #7 ;
+INFO  21:25:04,685 - #3 {
+INFO  21:25:04,687 - #45 i
+INFO  21:25:04,687 - #6 =
+INFO  21:25:04,688 - #46 4
+INFO  21:25:04,689 - #7 ;
+INFO  21:25:04,691 - #22 switch
+INFO  21:25:04,692 - #12 (
+INFO  21:25:04,692 - #45 i
+INFO  21:25:04,693 - #13 )
+INFO  21:25:04,693 - #3 {
+INFO  21:25:04,693 - #25 case
+INFO  21:25:04,694 - #46 0
+INFO  21:25:04,694 - #24 :
+INFO  21:25:04,695 - #21 print
+INFO  21:25:04,695 - #12 (
+INFO  21:25:04,695 - #46 100
+INFO  21:25:04,695 - #13 )
+INFO  21:25:04,695 - #7 ;
+INFO  21:25:04,695 - #17 break
+INFO  21:25:04,695 - #7 ;
+INFO  21:25:04,695 - #25 case
+INFO  21:25:04,697 - #46 1
+INFO  21:25:04,697 - #24 :
+INFO  21:25:04,697 - #21 print
+INFO  21:25:04,697 - #12 (
+INFO  21:25:04,697 - #46 500
+INFO  21:25:04,698 - #13 )
+INFO  21:25:04,698 - #7 ;
+INFO  21:25:04,698 - #25 case
+INFO  21:25:04,698 - #46 7
+INFO  21:25:04,698 - #24 :
+INFO  21:25:04,698 - #21 print
+INFO  21:25:04,698 - #12 (
+INFO  21:25:04,698 - #46 300
+INFO  21:25:04,698 - #13 )
+INFO  21:25:04,699 - #7 ;
+INFO  21:25:04,699 - #25 case
+INFO  21:25:04,699 - #46 4
+INFO  21:25:04,699 - #24 :
+INFO  21:25:04,699 - #21 print
+INFO  21:25:04,699 - #12 (
+INFO  21:25:04,699 - #48 z
+INFO  21:25:04,699 - #13 )
+INFO  21:25:04,699 - #7 ;
+INFO  21:25:04,699 - #25 case
+INFO  21:25:04,699 - #46 5
+INFO  21:25:04,700 - #24 :
+INFO  21:25:04,700 - #21 print
+INFO  21:25:04,700 - #12 (
+INFO  21:25:04,700 - #48 a
+INFO  21:25:04,700 - #13 )
+INFO  21:25:04,700 - #7 ;
+INFO  21:25:04,700 - #4 }
+INFO  21:25:04,701 - #4 }
+INFO  21:25:04,701 - #4 }
+INFO  21:25:04,703 - Program(
+  ProgramName(
+   ForTestNoContinue
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           i
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator1(
+               i
+              ) [Designator1]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         4
+                        ) [FactorSub3]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_switch(
+          Switch(
+          ) [Switch]
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator1(
+                       i
+                      ) [Designator1]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+          CaseList1(
+            Case(
+              CaseNumber(
+               0
+              ) [CaseNumber]
+              StatementList1(
+                StatementList1(
+                  StatementList2(
+                  ) [StatementList2]
+                  Statement_print1(
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub3(
+                               100
+                              ) [FactorSub3]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [Statement_print1]
+                ) [StatementList1]
+                Statement_break(
+                ) [Statement_break]
+              ) [StatementList1]
+            ) [Case]
+            CaseList1(
+              Case(
+                CaseNumber(
+                 1
+                ) [CaseNumber]
+                StatementList1(
+                  StatementList2(
+                  ) [StatementList2]
+                  Statement_print1(
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub3(
+                               500
+                              ) [FactorSub3]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [Statement_print1]
+                ) [StatementList1]
+              ) [Case]
+              CaseList1(
+                Case(
+                  CaseNumber(
+                   7
+                  ) [CaseNumber]
+                  StatementList1(
+                    StatementList2(
+                    ) [StatementList2]
+                    Statement_print1(
+                      Expr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 300
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [Expr1]
+                    ) [Statement_print1]
+                  ) [StatementList1]
+                ) [Case]
+                CaseList1(
+                  Case(
+                    CaseNumber(
+                     4
+                    ) [CaseNumber]
+                    StatementList1(
+                      StatementList2(
+                      ) [StatementList2]
+                      Statement_print1(
+                        Expr1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub4(
+                                   z
+                                  ) [FactorSub4]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                        ) [Expr1]
+                      ) [Statement_print1]
+                    ) [StatementList1]
+                  ) [Case]
+                  CaseList1(
+                    Case(
+                      CaseNumber(
+                       5
+                      ) [CaseNumber]
+                      StatementList1(
+                        StatementList2(
+                        ) [StatementList2]
+                        Statement_print1(
+                          Expr1(
+                            AddopTermList2(
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub4(
+                                     a
+                                    ) [FactorSub4]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList2]
+                          ) [Expr1]
+                        ) [Statement_print1]
+                      ) [StatementList1]
+                    ) [Case]
+                    CaseList2(
+                    ) [CaseList2]
+                  ) [CaseList1]
+                ) [CaseList1]
+              ) [CaseList1]
+            ) [CaseList1]
+          ) [CaseList1]
+        ) [Statement_switch]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  21:25:04,704 - ===================================
+INFO  21:25:04,713 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 7
+INFO  21:25:04,714 - Pristup lokalnoj promenljivoj i. [Kind: 1 | Level: 1 | FpPos: 0 | Local symbols: []] na liniji 9
+INFO  21:25:04,714 - ===================================
+INFO  21:25:04,714 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,95 @@
+INFO  16:34:29,117 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  16:34:29,414 - #2 program
+INFO  16:34:29,414 - #45 test302
+INFO  16:34:29,414 - #3 {
+INFO  16:34:29,416 - #45 bool
+INFO  16:34:29,418 - #45 verify
+INFO  16:34:29,419 - #12 (
+INFO  16:34:29,420 - #45 int
+INFO  16:34:29,420 - #45 x
+INFO  16:34:29,420 - #40 *
+ERROR 16:34:29,420 - 
+Sintaksna greska na liniji 7
+INFO  16:34:29,420 - #8 ,
+INFO  16:34:29,420 - #45 int
+INFO  16:34:29,420 - #45 y
+INFO  16:34:29,421 - #13 )
+INFO  16:34:29,421 - #3 {
+INFO  16:34:29,421 - #21 print
+INFO  16:34:29,421 - #12 (
+ERROR 16:34:29,421 - Greskaaaa
+INFO  16:34:29,425 - #48 v
+INFO  16:34:29,426 - #13 )
+INFO  16:34:29,439 - #7 ;
+INFO  16:34:29,440 - #19 return
+INFO  16:34:29,440 - #47 0
+INFO  16:34:29,440 - #7 ;
+INFO  16:34:29,440 - #4 }
+INFO  16:34:29,440 - #4 }
+INFO  16:34:29,443 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         bool
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       verify
+      ) [MethodName]
+      FormParsList_error(
+      ) [FormParsList_error]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_print1(
+            Expr1(
+              AddopTermList2(
+                Term(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub4(
+                     v
+                    ) [FactorSub4]
+                  ) [Factor]
+                  MoreTerm2(
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [Statement_print1]
+        ) [StatementList1]
+        Statement_ret2(
+          Expr1(
+            AddopTermList2(
+              Term(
+                Factor(
+                  Unary2(
+                  ) [Unary2]
+                  FactorSub5(
+                   0
+                  ) [FactorSub5]
+                ) [Factor]
+                MoreTerm2(
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_ret2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  16:34:29,443 - ===================================
+INFO  16:34:29,443 - Parsiranje NIJE uspesno zavrseno!

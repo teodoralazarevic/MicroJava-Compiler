@@ -1,0 +1,199 @@
+INFO  14:02:39,176 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  14:02:39,214 - #2 program
+INFO  14:02:39,214 - #45 Test
+INFO  14:02:39,214 - #45 int
+INFO  14:02:39,215 - #7 ;
+ERROR 14:02:39,215 - 
+Sintaksna greska na liniji 2
+INFO  14:02:39,215 - #3 {
+INFO  14:02:39,215 - #45 int
+INFO  14:02:39,215 - #45 main
+ERROR 14:02:39,216 - Greska u definiciji globalne promenljive, oporavak od greske u liniji 2
+INFO  14:02:39,218 - #12 (
+INFO  14:02:39,219 - #13 )
+INFO  14:02:39,220 - #45 int
+INFO  14:02:39,220 - #45 bodovi
+INFO  14:02:39,222 - #7 ;
+INFO  14:02:39,223 - #3 {
+INFO  14:02:39,224 - #21 print
+INFO  14:02:39,224 - #12 (
+INFO  14:02:39,225 - #46 1
+INFO  14:02:39,226 - #13 )
+INFO  14:02:39,229 - #7 ;
+INFO  14:02:39,229 - #45 x
+INFO  14:02:39,229 - #6 =
+INFO  14:02:39,230 - #45 y
+INFO  14:02:39,231 - #38 +
+INFO  14:02:39,232 - #46 2
+INFO  14:02:39,233 - #7 ;
+INFO  14:02:39,233 - #45 bodovi
+INFO  14:02:39,234 - #6 =
+INFO  14:02:39,234 - #46 7
+INFO  14:02:39,234 - #7 ;
+INFO  14:02:39,234 - #21 print
+INFO  14:02:39,234 - #12 (
+INFO  14:02:39,234 - #46 2
+INFO  14:02:39,234 - #13 )
+INFO  14:02:39,234 - #7 ;
+INFO  14:02:39,234 - #4 }
+INFO  14:02:39,234 - #4 }
+INFO  14:02:39,237 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList4(
+    ) [ConVarEnumDeclList4]
+    VarDeclList_error(
+    ) [VarDeclList_error]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         int
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           bodovi
+            VarDeclOpt2(
+            ) [VarDeclOpt2]
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_print1(
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         1
+                        ) [FactorSub3]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Statement_print1]
+            ) [StatementList1]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator(
+                 x
+                  DesigatorMore2(
+                  ) [DesigatorMore2]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList1(
+                    AddopTermList2(
+                      Term(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator(
+                             y
+                              DesigatorMore2(
+                              ) [DesigatorMore2]
+                            ) [Designator]
+                          ) [FactorSub1]
+                        ) [Factor]
+                        MoreTerm2(
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         2
+                        ) [FactorSub3]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList1]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator(
+               bodovi
+                DesigatorMore2(
+                ) [DesigatorMore2]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       7
+                      ) [FactorSub3]
+                    ) [Factor]
+                    MoreTerm2(
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                Factor(
+                  Unary2(
+                  ) [Unary2]
+                  FactorSub3(
+                   2
+                  ) [FactorSub3]
+                ) [Factor]
+                MoreTerm2(
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:02:39,238 - ===================================
+INFO  14:02:39,238 - Parsiranje NIJE uspesno zavrseno!

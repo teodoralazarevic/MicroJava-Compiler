@@ -1,0 +1,91 @@
+INFO  13:58:18,136 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  13:58:18,175 - #2 program
+INFO  13:58:18,175 - #45 Teodora
+INFO  13:58:18,175 - #5 const
+INFO  13:58:18,175 - #45 int
+INFO  13:58:18,175 - #45 pi
+INFO  13:58:18,176 - #6 =
+INFO  13:58:18,176 - #46 3
+INFO  13:58:18,176 - #7 ;
+INFO  13:58:18,177 - #45 char
+INFO  13:58:18,177 - #45 charr
+INFO  13:58:18,177 - #9 [
+INFO  13:58:18,177 - #10 ]
+INFO  13:58:18,177 - #7 ;
+INFO  13:58:18,177 - #3 {
+INFO  13:58:18,179 - #14 void
+INFO  13:58:18,179 - #45 main
+INFO  13:58:18,179 - #12 (
+INFO  13:58:18,180 - #13 )
+INFO  13:58:18,180 - #3 {
+INFO  13:58:18,181 - #45 x
+INFO  13:58:18,181 - #6 =
+INFO  13:58:18,205 - #46 5
+INFO  13:58:18,231 - #38 +
+INFO  13:58:18,261 - #7 ;
+ERROR 13:58:18,261 - 
+Sintaksna greska na liniji 7
+INFO  13:58:18,261 - #4 }
+INFO  13:58:18,261 - #4 }
+ERROR 13:58:18,262 - Greska u iskazu dodele. Oporavak do ; u liniji 12
+INFO  13:58:18,276 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList1(
+      ConVarEnumDeclList4(
+      ) [ConVarEnumDeclList4]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Constant1(
+           3
+          ) [Constant1]
+        ) [ConstDecl]
+        ConstDeclMore2(
+        ) [ConstDeclMore2]
+      ) [ConstDeclList]
+    ) [ConVarEnumDeclList1]
+    VarDeclList1(
+      Type(
+       char
+      ) [Type]
+      VarDecl1(
+       charr
+        VarDeclOpt1(
+        ) [VarDeclOpt1]
+      ) [VarDecl1]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+      ) [MethodOpt2]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement_ds(
+          DesignatorStatement_error(
+          ) [DesignatorStatement_error]
+        ) [Statement_ds]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  13:58:18,276 - ===================================
+INFO  13:58:18,276 - Parsiranje NIJE uspesno zavrseno!

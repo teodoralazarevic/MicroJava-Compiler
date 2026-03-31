@@ -1,0 +1,377 @@
+INFO  19:34:03,187 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  19:34:03,241 - #2 program
+INFO  19:34:03,241 - #45 Teodora
+INFO  19:34:03,241 - #5 const
+INFO  19:34:03,243 - #45 int
+INFO  19:34:03,243 - #45 pi
+INFO  19:34:03,244 - #6 =
+INFO  19:34:03,244 - #46 20
+INFO  19:34:03,244 - #8 ,
+INFO  19:34:03,245 - #45 g
+INFO  19:34:03,245 - #6 =
+INFO  19:34:03,245 - #46 11
+INFO  19:34:03,245 - #7 ;
+INFO  19:34:03,246 - #45 int
+INFO  19:34:03,247 - #45 a
+INFO  19:34:03,247 - #8 ,
+INFO  19:34:03,247 - #45 b
+INFO  19:34:03,247 - #8 ,
+INFO  19:34:03,247 - #45 c
+INFO  19:34:03,247 - #7 ;
+INFO  19:34:03,248 - #45 char
+INFO  19:34:03,249 - #45 charr
+INFO  19:34:03,249 - #9 [
+INFO  19:34:03,250 - #10 ]
+INFO  19:34:03,250 - #7 ;
+INFO  19:34:03,250 - #5 const
+INFO  19:34:03,251 - #45 bool
+INFO  19:34:03,251 - #45 polje
+INFO  19:34:03,251 - #6 =
+INFO  19:34:03,251 - #47 1
+INFO  19:34:03,251 - #7 ;
+INFO  19:34:03,252 - #3 {
+INFO  19:34:03,252 - #14 void
+INFO  19:34:03,252 - #45 main
+INFO  19:34:03,253 - #12 (
+INFO  19:34:03,254 - #13 )
+INFO  19:34:03,254 - #45 int
+INFO  19:34:03,255 - #45 a
+INFO  19:34:03,255 - #7 ;
+INFO  19:34:03,255 - #3 {
+INFO  19:34:03,256 - #45 x
+INFO  19:34:03,256 - #6 =
+INFO  19:34:03,258 - #46 5
+INFO  19:34:03,260 - #7 ;
+INFO  19:34:03,261 - #4 }
+INFO  19:34:03,261 - #45 int
+INFO  19:34:03,263 - #45 function
+INFO  19:34:03,263 - #12 (
+INFO  19:34:03,263 - #45 int
+INFO  19:34:03,263 - #45 af
+INFO  19:34:03,263 - #8 ,
+INFO  19:34:03,263 - #45 int
+INFO  19:34:03,263 - #45 b
+INFO  19:34:03,263 - #8 ,
+INFO  19:34:03,264 - #45 int
+INFO  19:34:03,264 - #45 c
+INFO  19:34:03,264 - #8 ,
+INFO  19:34:03,264 - #45 int
+INFO  19:34:03,264 - #9 [
+ERROR 19:34:03,264 - 
+Sintaksna greska na liniji 12
+INFO  19:34:03,264 - #10 ]
+INFO  19:34:03,264 - #45 z
+INFO  19:34:03,264 - #13 )
+INFO  19:34:03,265 - #3 {
+INFO  19:34:03,265 - #4 }
+INFO  19:34:03,265 - #45 int
+ERROR 19:34:03,265 - Greska u definisanju parametra funkcije, oporavak od greske u koloni 12
+INFO  19:34:03,266 - #45 function2
+INFO  19:34:03,266 - #12 (
+INFO  19:34:03,267 - #45 char
+INFO  19:34:03,267 - #45 nizic
+INFO  19:34:03,267 - #9 [
+INFO  19:34:03,267 - #10 ]
+INFO  19:34:03,267 - #13 )
+INFO  19:34:03,267 - #45 int
+INFO  19:34:03,267 - #45 niz
+INFO  19:34:03,267 - #9 [
+INFO  19:34:03,267 - #10 ]
+INFO  19:34:03,267 - #7 ;
+INFO  19:34:03,267 - #45 char
+INFO  19:34:03,267 - #45 ca
+INFO  19:34:03,267 - #7 ;
+INFO  19:34:03,267 - #3 {
+INFO  19:34:03,267 - #4 }
+INFO  19:34:03,267 - #45 int
+INFO  19:34:03,268 - #45 function3
+INFO  19:34:03,268 - #12 (
+INFO  19:34:03,268 - #13 )
+INFO  19:34:03,268 - #45 int
+INFO  19:34:03,268 - #45 niz
+INFO  19:34:03,269 - #9 [
+INFO  19:34:03,269 - #10 ]
+INFO  19:34:03,269 - #7 ;
+INFO  19:34:03,269 - #45 char
+INFO  19:34:03,269 - #45 ca
+INFO  19:34:03,269 - #7 ;
+INFO  19:34:03,270 - #3 {
+INFO  19:34:03,270 - #4 }
+INFO  19:34:03,270 - #4 }
+INFO  19:34:03,275 - Program(
+  ProgramName(
+   Teodora
+  ) [ProgramName]
+  ConVarEnumDeclList1(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList2(
+        ConVarEnumDeclList1(
+          ConVarEnumDeclList4(
+          ) [ConVarEnumDeclList4]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pi
+              Constant1(
+               20
+              ) [Constant1]
+            ) [ConstDecl]
+            ConstDeclMore1(
+              ConstDecl(
+               g
+                Constant1(
+                 11
+                ) [Constant1]
+              ) [ConstDecl]
+              ConstDeclMore2(
+              ) [ConstDeclMore2]
+            ) [ConstDeclMore1]
+          ) [ConstDeclList]
+        ) [ConVarEnumDeclList1]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           a
+          ) [VarDecl1]
+          VarDeclMore1(
+            VarDecl1(
+             b
+            ) [VarDecl1]
+            VarDeclMore1(
+              VarDecl1(
+               c
+              ) [VarDecl1]
+              VarDeclMore2(
+              ) [VarDeclMore2]
+            ) [VarDeclMore1]
+          ) [VarDeclMore1]
+        ) [VarDeclList1]
+      ) [ConVarEnumDeclList2]
+      VarDeclList1(
+        Type(
+         char
+        ) [Type]
+        VarDecl2(
+         charr
+        ) [VarDecl2]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList1]
+    ) [ConVarEnumDeclList2]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       polje
+        Constant3(
+         1
+        ) [Constant3]
+      ) [ConstDecl]
+      ConstDeclMore2(
+      ) [ConstDeclMore2]
+    ) [ConstDeclList]
+  ) [ConVarEnumDeclList1]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList1(
+        MethodDeclList1(
+          MethodDeclList2(
+          ) [MethodDeclList2]
+          MethodDecl(
+            MethodOpt2(
+            ) [MethodOpt2]
+            MethodName(
+             main
+            ) [MethodName]
+            FormParsList2(
+            ) [FormParsList2]
+            VarDeclListMeth1(
+              VarDeclListMeth2(
+              ) [VarDeclListMeth2]
+              VarDeclList1(
+                Type(
+                 int
+                ) [Type]
+                VarDecl1(
+                 a
+                ) [VarDecl1]
+                VarDeclMore2(
+                ) [VarDeclMore2]
+              ) [VarDeclList1]
+            ) [VarDeclListMeth1]
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_ds(
+                DesignatorStatement1(
+                  Designator(
+                   x
+                    DesigatorMore2(
+                    ) [DesigatorMore2]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr1(
+                    AddopTermList2(
+                      Term(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           5
+                          ) [FactorSub3]
+                        ) [Factor]
+                        MoreTerm2(
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                  ) [Expr1]
+                ) [DesignatorStatement1]
+              ) [Statement_ds]
+            ) [StatementList1]
+          ) [MethodDecl]
+        ) [MethodDeclList1]
+        MethodDecl(
+          MethodOpt1(
+            Type(
+             int
+            ) [Type]
+          ) [MethodOpt1]
+          MethodName(
+           function
+          ) [MethodName]
+          FormParsList1(
+            FormPar1(
+              Type(
+               int
+              ) [Type]
+             af
+            ) [FormPar1]
+            FormParMore1(
+              FormPar1(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [FormPar1]
+              FormParMore1(
+                FormPar1(
+                  Type(
+                   int
+                  ) [Type]
+                 c
+                ) [FormPar1]
+                FormParMore1(
+                  FormPar_error(
+                  ) [FormPar_error]
+                  FormParMore2(
+                  ) [FormParMore2]
+                ) [FormParMore1]
+              ) [FormParMore1]
+            ) [FormParMore1]
+          ) [FormParsList1]
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          StatementList2(
+          ) [StatementList2]
+        ) [MethodDecl]
+      ) [MethodDeclList1]
+      MethodDecl(
+        MethodOpt1(
+          Type(
+           int
+          ) [Type]
+        ) [MethodOpt1]
+        MethodName(
+         function2
+        ) [MethodName]
+        FormParsList1(
+          FormPar2(
+            Type(
+             char
+            ) [Type]
+           nizic
+          ) [FormPar2]
+          FormParMore2(
+          ) [FormParMore2]
+        ) [FormParsList1]
+        VarDeclListMeth1(
+          VarDeclListMeth1(
+            VarDeclListMeth2(
+            ) [VarDeclListMeth2]
+            VarDeclList1(
+              Type(
+               int
+              ) [Type]
+              VarDecl2(
+               niz
+              ) [VarDecl2]
+              VarDeclMore2(
+              ) [VarDeclMore2]
+            ) [VarDeclList1]
+          ) [VarDeclListMeth1]
+          VarDeclList1(
+            Type(
+             char
+            ) [Type]
+            VarDecl1(
+             ca
+            ) [VarDecl1]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclList1]
+        ) [VarDeclListMeth1]
+        StatementList2(
+        ) [StatementList2]
+      ) [MethodDecl]
+    ) [MethodDeclList1]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         int
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       function3
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth1(
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          VarDeclList1(
+            Type(
+             int
+            ) [Type]
+            VarDecl2(
+             niz
+            ) [VarDecl2]
+            VarDeclMore2(
+            ) [VarDeclMore2]
+          ) [VarDeclList1]
+        ) [VarDeclListMeth1]
+        VarDeclList1(
+          Type(
+           char
+          ) [Type]
+          VarDecl1(
+           ca
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:34:03,275 - ===================================
+INFO  19:34:03,284 - ===================================
+INFO  19:34:03,285 - Parsiranje NIJE uspesno zavrseno!

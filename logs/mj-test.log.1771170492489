@@ -1,0 +1,2762 @@
+INFO  16:47:56,289 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  16:47:56,340 - #2 program
+INFO  16:47:56,340 - #45 Test5
+INFO  16:47:56,340 - #5 const
+INFO  16:47:56,342 - #45 int
+INFO  16:47:56,342 - #45 SIZE
+INFO  16:47:56,343 - #6 =
+INFO  16:47:56,344 - #46 4
+INFO  16:47:56,344 - #7 ;
+INFO  16:47:56,346 - #5 const
+INFO  16:47:56,347 - #45 char
+INFO  16:47:56,347 - #45 LETTER
+INFO  16:47:56,347 - #6 =
+INFO  16:47:56,347 - #48 A
+INFO  16:47:56,347 - #7 ;
+INFO  16:47:56,348 - #5 const
+INFO  16:47:56,348 - #45 bool
+INFO  16:47:56,348 - #45 FLAG
+INFO  16:47:56,348 - #6 =
+INFO  16:47:56,348 - #47 1
+INFO  16:47:56,348 - #7 ;
+INFO  16:47:56,348 - #11 enum
+INFO  16:47:56,350 - #45 Mode
+INFO  16:47:56,350 - #3 {
+INFO  16:47:56,350 - #45 LOW
+INFO  16:47:56,350 - #6 =
+INFO  16:47:56,350 - #46 1
+INFO  16:47:56,350 - #8 ,
+INFO  16:47:56,351 - #45 MID
+INFO  16:47:56,351 - #8 ,
+INFO  16:47:56,351 - #45 HIGH
+INFO  16:47:56,351 - #6 =
+INFO  16:47:56,351 - #46 10
+INFO  16:47:56,352 - #4 }
+INFO  16:47:56,352 - #45 int
+INFO  16:47:56,353 - #45 global
+INFO  16:47:56,353 - #7 ;
+INFO  16:47:56,354 - #45 int
+INFO  16:47:56,354 - #45 arr
+INFO  16:47:56,354 - #9 [
+INFO  16:47:56,354 - #10 ]
+INFO  16:47:56,354 - #7 ;
+INFO  16:47:56,354 - #3 {
+INFO  16:47:56,354 - #45 int
+INFO  16:47:56,354 - #45 add
+INFO  16:47:56,354 - #12 (
+INFO  16:47:56,354 - #45 int
+INFO  16:47:56,355 - #45 a
+INFO  16:47:56,355 - #8 ,
+INFO  16:47:56,355 - #45 int
+INFO  16:47:56,355 - #45 b
+INFO  16:47:56,355 - #13 )
+INFO  16:47:56,356 - #3 {
+INFO  16:47:56,356 - #19 return
+INFO  16:47:56,357 - #45 a
+INFO  16:47:56,359 - #38 +
+INFO  16:47:56,360 - #45 b
+INFO  16:47:56,360 - #7 ;
+INFO  16:47:56,362 - #4 }
+INFO  16:47:56,362 - #45 int
+INFO  16:47:56,363 - #45 mul
+INFO  16:47:56,364 - #12 (
+INFO  16:47:56,364 - #45 int
+INFO  16:47:56,364 - #45 a
+INFO  16:47:56,364 - #8 ,
+INFO  16:47:56,364 - #45 int
+INFO  16:47:56,364 - #45 b
+INFO  16:47:56,364 - #13 )
+INFO  16:47:56,364 - #3 {
+INFO  16:47:56,364 - #19 return
+INFO  16:47:56,364 - #45 a
+INFO  16:47:56,364 - #40 *
+INFO  16:47:56,364 - #45 b
+INFO  16:47:56,366 - #7 ;
+INFO  16:47:56,366 - #4 }
+INFO  16:47:56,366 - #45 int
+INFO  16:47:56,366 - #45 complicated
+INFO  16:47:56,367 - #12 (
+INFO  16:47:56,367 - #45 int
+INFO  16:47:56,367 - #45 base
+INFO  16:47:56,367 - #8 ,
+INFO  16:47:56,367 - #45 int
+INFO  16:47:56,367 - #45 nums
+INFO  16:47:56,367 - #9 [
+INFO  16:47:56,367 - #10 ]
+INFO  16:47:56,367 - #13 )
+INFO  16:47:56,367 - #45 int
+INFO  16:47:56,367 - #45 i
+INFO  16:47:56,367 - #8 ,
+INFO  16:47:56,367 - #45 j
+INFO  16:47:56,367 - #8 ,
+INFO  16:47:56,367 - #45 sum
+INFO  16:47:56,368 - #7 ;
+INFO  16:47:56,368 - #3 {
+INFO  16:47:56,368 - #45 sum
+INFO  16:47:56,368 - #6 =
+INFO  16:47:56,368 - #46 0
+INFO  16:47:56,368 - #7 ;
+INFO  16:47:56,368 - #23 for
+INFO  16:47:56,368 - #12 (
+INFO  16:47:56,370 - #45 i
+INFO  16:47:56,370 - #6 =
+INFO  16:47:56,371 - #46 0
+INFO  16:47:56,371 - #7 ;
+INFO  16:47:56,371 - #45 i
+INFO  16:47:56,372 - #34 <
+INFO  16:47:56,372 - #45 nums
+INFO  16:47:56,373 - #28 .
+INFO  16:47:56,373 - #29 length
+INFO  16:47:56,374 - #7 ;
+INFO  16:47:56,374 - #45 i
+INFO  16:47:56,375 - #6 =
+INFO  16:47:56,375 - #45 i
+INFO  16:47:56,375 - #38 +
+INFO  16:47:56,375 - #46 1
+INFO  16:47:56,375 - #13 )
+INFO  16:47:56,376 - #3 {
+INFO  16:47:56,376 - #23 for
+INFO  16:47:56,377 - #12 (
+INFO  16:47:56,377 - #45 j
+INFO  16:47:56,377 - #6 =
+INFO  16:47:56,377 - #46 0
+INFO  16:47:56,377 - #7 ;
+INFO  16:47:56,377 - #45 j
+INFO  16:47:56,377 - #34 <
+INFO  16:47:56,377 - #45 SIZE
+INFO  16:47:56,377 - #7 ;
+INFO  16:47:56,377 - #45 j
+INFO  16:47:56,378 - #6 =
+INFO  16:47:56,378 - #45 j
+INFO  16:47:56,378 - #38 +
+INFO  16:47:56,378 - #46 1
+INFO  16:47:56,378 - #13 )
+INFO  16:47:56,378 - #3 {
+INFO  16:47:56,378 - #15 if
+INFO  16:47:56,379 - #12 (
+INFO  16:47:56,379 - #45 j
+INFO  16:47:56,379 - #42 %
+INFO  16:47:56,379 - #46 2
+INFO  16:47:56,381 - #30 ==
+INFO  16:47:56,381 - #46 0
+INFO  16:47:56,382 - #13 )
+INFO  16:47:56,382 - #18 continue
+INFO  16:47:56,382 - #7 ;
+INFO  16:47:56,382 - #45 sum
+INFO  16:47:56,383 - #6 =
+INFO  16:47:56,383 - #45 sum
+INFO  16:47:56,383 - #38 +
+INFO  16:47:56,383 - #45 mul
+INFO  16:47:56,384 - #12 (
+INFO  16:47:56,384 - #45 nums
+INFO  16:47:56,384 - #9 [
+INFO  16:47:56,384 - #45 i
+INFO  16:47:56,385 - #10 ]
+INFO  16:47:56,385 - #8 ,
+INFO  16:47:56,386 - #45 j
+INFO  16:47:56,387 - #13 )
+INFO  16:47:56,388 - #7 ;
+INFO  16:47:56,388 - #15 if
+INFO  16:47:56,388 - #12 (
+INFO  16:47:56,388 - #45 sum
+INFO  16:47:56,388 - #32 >
+INFO  16:47:56,388 - #46 50
+INFO  16:47:56,389 - #13 )
+INFO  16:47:56,389 - #17 break
+INFO  16:47:56,389 - #7 ;
+INFO  16:47:56,389 - #4 }
+INFO  16:47:56,390 - #15 if
+INFO  16:47:56,391 - #12 (
+INFO  16:47:56,391 - #45 sum
+INFO  16:47:56,391 - #32 >
+INFO  16:47:56,391 - #46 50
+INFO  16:47:56,391 - #13 )
+INFO  16:47:56,391 - #17 break
+INFO  16:47:56,391 - #7 ;
+INFO  16:47:56,391 - #4 }
+INFO  16:47:56,391 - #15 if
+INFO  16:47:56,392 - #12 (
+INFO  16:47:56,392 - #45 sum
+INFO  16:47:56,392 - #32 >
+INFO  16:47:56,392 - #46 0
+INFO  16:47:56,392 - #36 &&
+INFO  16:47:56,392 - #45 base
+INFO  16:47:56,392 - #32 >
+INFO  16:47:56,392 - #46 0
+INFO  16:47:56,393 - #13 )
+INFO  16:47:56,393 - #19 return
+INFO  16:47:56,393 - #45 sum
+INFO  16:47:56,393 - #38 +
+INFO  16:47:56,393 - #45 base
+INFO  16:47:56,393 - #7 ;
+INFO  16:47:56,393 - #19 return
+INFO  16:47:56,394 - #46 0
+INFO  16:47:56,394 - #7 ;
+INFO  16:47:56,394 - #4 }
+INFO  16:47:56,394 - #14 void
+INFO  16:47:56,394 - #45 main
+INFO  16:47:56,394 - #12 (
+INFO  16:47:56,394 - #13 )
+INFO  16:47:56,395 - #45 int
+INFO  16:47:56,396 - #45 i
+INFO  16:47:56,396 - #8 ,
+INFO  16:47:56,396 - #45 j
+INFO  16:47:56,396 - #8 ,
+INFO  16:47:56,396 - #45 result
+INFO  16:47:56,396 - #7 ;
+INFO  16:47:56,396 - #3 {
+INFO  16:47:56,396 - #45 arr
+INFO  16:47:56,396 - #6 =
+INFO  16:47:56,396 - #44 new
+INFO  16:47:56,396 - #45 int
+INFO  16:47:56,396 - #9 [
+INFO  16:47:56,396 - #45 SIZE
+INFO  16:47:56,396 - #10 ]
+INFO  16:47:56,396 - #7 ;
+INFO  16:47:56,396 - #23 for
+INFO  16:47:56,396 - #12 (
+INFO  16:47:56,396 - #45 i
+INFO  16:47:56,396 - #6 =
+INFO  16:47:56,396 - #46 0
+INFO  16:47:56,396 - #7 ;
+INFO  16:47:56,396 - #45 i
+INFO  16:47:56,396 - #34 <
+INFO  16:47:56,396 - #45 SIZE
+INFO  16:47:56,396 - #7 ;
+INFO  16:47:56,396 - #45 i
+INFO  16:47:56,396 - #6 =
+INFO  16:47:56,396 - #45 i
+INFO  16:47:56,397 - #38 +
+INFO  16:47:56,397 - #46 1
+INFO  16:47:56,397 - #13 )
+INFO  16:47:56,397 - #45 arr
+INFO  16:47:56,397 - #9 [
+INFO  16:47:56,397 - #45 i
+INFO  16:47:56,397 - #10 ]
+INFO  16:47:56,397 - #6 =
+INFO  16:47:56,397 - #45 i
+INFO  16:47:56,397 - #38 +
+INFO  16:47:56,397 - #46 1
+INFO  16:47:56,397 - #7 ;
+INFO  16:47:56,397 - #45 global
+INFO  16:47:56,397 - #6 =
+INFO  16:47:56,398 - #46 0
+INFO  16:47:56,398 - #7 ;
+INFO  16:47:56,398 - #23 for
+INFO  16:47:56,398 - #12 (
+INFO  16:47:56,398 - #45 i
+INFO  16:47:56,398 - #6 =
+INFO  16:47:56,398 - #46 0
+INFO  16:47:56,398 - #7 ;
+INFO  16:47:56,398 - #45 i
+INFO  16:47:56,398 - #34 <
+INFO  16:47:56,398 - #45 SIZE
+INFO  16:47:56,398 - #7 ;
+INFO  16:47:56,398 - #45 i
+INFO  16:47:56,398 - #6 =
+INFO  16:47:56,399 - #45 i
+INFO  16:47:56,399 - #38 +
+INFO  16:47:56,399 - #46 1
+INFO  16:47:56,399 - #13 )
+INFO  16:47:56,399 - #3 {
+INFO  16:47:56,399 - #23 for
+INFO  16:47:56,400 - #12 (
+INFO  16:47:56,400 - #45 j
+INFO  16:47:56,400 - #6 =
+INFO  16:47:56,400 - #46 0
+INFO  16:47:56,400 - #7 ;
+INFO  16:47:56,400 - #45 j
+INFO  16:47:56,400 - #34 <
+INFO  16:47:56,400 - #45 SIZE
+INFO  16:47:56,400 - #7 ;
+INFO  16:47:56,400 - #45 j
+INFO  16:47:56,400 - #6 =
+INFO  16:47:56,401 - #45 j
+INFO  16:47:56,401 - #38 +
+INFO  16:47:56,401 - #46 1
+INFO  16:47:56,401 - #13 )
+INFO  16:47:56,401 - #3 {
+INFO  16:47:56,401 - #15 if
+INFO  16:47:56,401 - #12 (
+INFO  16:47:56,401 - #45 i
+INFO  16:47:56,401 - #32 >
+INFO  16:47:56,401 - #45 j
+INFO  16:47:56,401 - #37 ||
+INFO  16:47:56,401 - #45 FLAG
+INFO  16:47:56,401 - #13 )
+INFO  16:47:56,402 - #45 arr
+INFO  16:47:56,402 - #9 [
+INFO  16:47:56,402 - #45 i
+INFO  16:47:56,402 - #10 ]
+INFO  16:47:56,402 - #6 =
+INFO  16:47:56,402 - #45 arr
+INFO  16:47:56,403 - #9 [
+INFO  16:47:56,403 - #45 i
+INFO  16:47:56,403 - #10 ]
+INFO  16:47:56,403 - #38 +
+INFO  16:47:56,403 - #45 j
+INFO  16:47:56,403 - #7 ;
+INFO  16:47:56,403 - #16 else
+INFO  16:47:56,403 - #45 arr
+INFO  16:47:56,404 - #9 [
+INFO  16:47:56,404 - #45 i
+INFO  16:47:56,404 - #10 ]
+INFO  16:47:56,404 - #6 =
+INFO  16:47:56,404 - #45 arr
+INFO  16:47:56,404 - #9 [
+INFO  16:47:56,404 - #45 i
+INFO  16:47:56,404 - #10 ]
+INFO  16:47:56,404 - #39 -
+INFO  16:47:56,404 - #45 j
+INFO  16:47:56,405 - #7 ;
+INFO  16:47:56,405 - #22 switch
+INFO  16:47:56,405 - #12 (
+INFO  16:47:56,405 - #45 arr
+INFO  16:47:56,407 - #9 [
+INFO  16:47:56,407 - #45 i
+INFO  16:47:56,407 - #10 ]
+INFO  16:47:56,407 - #13 )
+INFO  16:47:56,407 - #3 {
+INFO  16:47:56,407 - #25 case
+INFO  16:47:56,407 - #46 1
+INFO  16:47:56,408 - #24 :
+INFO  16:47:56,408 - #21 print
+INFO  16:47:56,409 - #12 (
+INFO  16:47:56,409 - #46 1
+INFO  16:47:56,409 - #13 )
+INFO  16:47:56,409 - #7 ;
+INFO  16:47:56,409 - #25 case
+INFO  16:47:56,410 - #46 2
+INFO  16:47:56,410 - #24 :
+INFO  16:47:56,410 - #21 print
+INFO  16:47:56,410 - #12 (
+INFO  16:47:56,410 - #46 2
+INFO  16:47:56,410 - #13 )
+INFO  16:47:56,410 - #7 ;
+INFO  16:47:56,410 - #17 break
+INFO  16:47:56,411 - #7 ;
+INFO  16:47:56,411 - #25 case
+INFO  16:47:56,411 - #46 3
+INFO  16:47:56,411 - #24 :
+INFO  16:47:56,411 - #21 print
+INFO  16:47:56,411 - #12 (
+INFO  16:47:56,411 - #46 3
+INFO  16:47:56,411 - #13 )
+INFO  16:47:56,411 - #7 ;
+INFO  16:47:56,411 - #4 }
+INFO  16:47:56,413 - #15 if
+INFO  16:47:56,414 - #12 (
+INFO  16:47:56,414 - #45 global
+INFO  16:47:56,414 - #32 >
+INFO  16:47:56,414 - #46 5
+INFO  16:47:56,414 - #13 )
+INFO  16:47:56,414 - #17 break
+INFO  16:47:56,414 - #7 ;
+INFO  16:47:56,414 - #4 }
+INFO  16:47:56,414 - #4 }
+INFO  16:47:56,415 - #45 result
+INFO  16:47:56,415 - #6 =
+INFO  16:47:56,415 - #45 complicated
+INFO  16:47:56,415 - #12 (
+INFO  16:47:56,415 - #46 5
+INFO  16:47:56,415 - #8 ,
+INFO  16:47:56,415 - #45 arr
+INFO  16:47:56,415 - #13 )
+INFO  16:47:56,415 - #7 ;
+INFO  16:47:56,415 - #45 result
+INFO  16:47:56,415 - #6 =
+INFO  16:47:56,415 - #45 result
+INFO  16:47:56,415 - #32 >
+INFO  16:47:56,415 - #46 100
+INFO  16:47:56,415 - #43 ?
+INFO  16:47:56,415 - #45 result
+INFO  16:47:56,416 - #32 >
+INFO  16:47:56,416 - #46 200
+INFO  16:47:56,416 - #43 ?
+INFO  16:47:56,416 - #46 200
+INFO  16:47:56,416 - #24 :
+INFO  16:47:56,416 - #46 150
+INFO  16:47:56,416 - #24 :
+INFO  16:47:56,416 - #45 result
+INFO  16:47:56,416 - #31 !=
+INFO  16:47:56,416 - #46 0
+INFO  16:47:56,416 - #43 ?
+INFO  16:47:56,416 - #45 result
+INFO  16:47:56,416 - #24 :
+INFO  16:47:56,416 - #46 999
+INFO  16:47:56,416 - #7 ;
+INFO  16:47:56,416 - #21 print
+INFO  16:47:56,417 - #12 (
+INFO  16:47:56,417 - #45 result
+INFO  16:47:56,417 - #8 ,
+INFO  16:47:56,417 - #46 5
+INFO  16:47:56,417 - #13 )
+INFO  16:47:56,417 - #7 ;
+INFO  16:47:56,417 - #45 global
+INFO  16:47:56,417 - #27 --
+INFO  16:47:56,417 - #7 ;
+INFO  16:47:56,417 - #21 print
+INFO  16:47:56,417 - #12 (
+INFO  16:47:56,417 - #45 global
+INFO  16:47:56,417 - #13 )
+INFO  16:47:56,417 - #7 ;
+INFO  16:47:56,417 - #4 }
+INFO  16:47:56,417 - #4 }
+INFO  16:47:56,423 - Program(
+  ProgramName(
+   Test5
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList2(
+      ConVarEnumDeclList3(
+        ConVarEnumDeclList1(
+          ConVarEnumDeclList1(
+            ConVarEnumDeclList1(
+              ConVarEnumDeclList4(
+              ) [ConVarEnumDeclList4]
+              ConstDeclList(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 SIZE
+                  Constant1(
+                   4
+                  ) [Constant1]
+                ) [ConstDecl]
+                ConstDeclMore2(
+                ) [ConstDeclMore2]
+              ) [ConstDeclList]
+            ) [ConVarEnumDeclList1]
+            ConstDeclList(
+              Type(
+               char
+              ) [Type]
+              ConstDecl(
+               LETTER
+                Constant2(
+                 A
+                ) [Constant2]
+              ) [ConstDecl]
+              ConstDeclMore2(
+              ) [ConstDeclMore2]
+            ) [ConstDeclList]
+          ) [ConVarEnumDeclList1]
+          ConstDeclList(
+            Type(
+             bool
+            ) [Type]
+            ConstDecl(
+             FLAG
+              Constant3(
+               1
+              ) [Constant3]
+            ) [ConstDecl]
+            ConstDeclMore2(
+            ) [ConstDeclMore2]
+          ) [ConstDeclList]
+        ) [ConVarEnumDeclList1]
+        EnumDeclList(
+          EnumName(
+           Mode
+          ) [EnumName]
+          EnumDecl2(
+           LOW
+           1
+          ) [EnumDecl2]
+          EnumDeclMore1(
+            EnumDecl1(
+             MID
+            ) [EnumDecl1]
+            EnumDeclMore1(
+              EnumDecl2(
+               HIGH
+               10
+              ) [EnumDecl2]
+              EnumDeclMore2(
+              ) [EnumDeclMore2]
+            ) [EnumDeclMore1]
+          ) [EnumDeclMore1]
+        ) [EnumDeclList]
+      ) [ConVarEnumDeclList3]
+      VarDeclList1(
+        Type(
+         int
+        ) [Type]
+        VarDecl1(
+         global
+        ) [VarDecl1]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclList1]
+    ) [ConVarEnumDeclList2]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl2(
+       arr
+      ) [VarDecl2]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList1(
+        MethodDeclList1(
+          MethodDeclList2(
+          ) [MethodDeclList2]
+          MethodDecl(
+            MethodOpt1(
+              Type(
+               int
+              ) [Type]
+             add
+            ) [MethodOpt1]
+            FormParsList1(
+              FormPar1(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormPar1]
+              FormParMore1(
+                FormPar1(
+                  Type(
+                   int
+                  ) [Type]
+                 b
+                ) [FormPar1]
+                FormParMore2(
+                ) [FormParMore2]
+              ) [FormParMore1]
+            ) [FormParsList1]
+            VarDeclListMeth2(
+            ) [VarDeclListMeth2]
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_ret2(
+                Return(
+                ) [Return]
+                Expr1(
+                  AddopTermList1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub1(
+                              Designator1(
+                               a
+                              ) [Designator1]
+                            ) [FactorSub1]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator1(
+                             b
+                            ) [Designator1]
+                          ) [FactorSub1]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList1]
+                ) [Expr1]
+              ) [Statement_ret2]
+            ) [StatementList1]
+          ) [MethodDecl]
+        ) [MethodDeclList1]
+        MethodDecl(
+          MethodOpt1(
+            Type(
+             int
+            ) [Type]
+           mul
+          ) [MethodOpt1]
+          FormParsList1(
+            FormPar1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormPar1]
+            FormParMore1(
+              FormPar1(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [FormPar1]
+              FormParMore2(
+              ) [FormParMore2]
+            ) [FormParMore1]
+          ) [FormParsList1]
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_ret2(
+              Return(
+              ) [Return]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm1(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator1(
+                             a
+                            ) [Designator1]
+                          ) [FactorSub1]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                      Mulop_mul(
+                      ) [Mulop_mul]
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub1(
+                          Designator1(
+                           b
+                          ) [Designator1]
+                        ) [FactorSub1]
+                      ) [Factor]
+                    ) [MoreTerm1]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [Statement_ret2]
+          ) [StatementList1]
+        ) [MethodDecl]
+      ) [MethodDeclList1]
+      MethodDecl(
+        MethodOpt1(
+          Type(
+           int
+          ) [Type]
+         complicated
+        ) [MethodOpt1]
+        FormParsList1(
+          FormPar1(
+            Type(
+             int
+            ) [Type]
+           base
+          ) [FormPar1]
+          FormParMore1(
+            FormPar2(
+              Type(
+               int
+              ) [Type]
+             nums
+            ) [FormPar2]
+            FormParMore2(
+            ) [FormParMore2]
+          ) [FormParMore1]
+        ) [FormParsList1]
+        VarDeclListMeth1(
+          VarDeclListMeth2(
+          ) [VarDeclListMeth2]
+          VarDeclList1(
+            Type(
+             int
+            ) [Type]
+            VarDecl1(
+             i
+            ) [VarDecl1]
+            VarDeclMore1(
+              VarDecl1(
+               j
+              ) [VarDecl1]
+              VarDeclMore1(
+                VarDecl1(
+                 sum
+                ) [VarDecl1]
+                VarDeclMore2(
+                ) [VarDeclMore2]
+              ) [VarDeclMore1]
+            ) [VarDeclMore1]
+          ) [VarDeclList1]
+        ) [VarDeclListMeth1]
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                StatementList2(
+                ) [StatementList2]
+                Statement_ds(
+                  DesignatorStatement1(
+                    Designator1(
+                     sum
+                    ) [Designator1]
+                    Assignop(
+                    ) [Assignop]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub3(
+                               0
+                              ) [FactorSub3]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [DesignatorStatement1]
+                ) [Statement_ds]
+              ) [StatementList1]
+              Statement_for(
+                For(
+                ) [For]
+                DesignatorStatementOpt1(
+                  DesignatorStatement1(
+                    Designator1(
+                     i
+                    ) [Designator1]
+                    Assignop(
+                    ) [Assignop]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub3(
+                               0
+                              ) [FactorSub3]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [DesignatorStatement1]
+                ) [DesignatorStatementOpt1]
+                ForConditionStart(
+                ) [ForConditionStart]
+                ConditionOpt1(
+                  Condition1(
+                    CondOrExpr2(
+                      CondAndExpr2(
+                        CondRelExpr1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub1(
+                                    Designator1(
+                                     i
+                                    ) [Designator1]
+                                  ) [FactorSub1]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                          Relop_lt(
+                          ) [Relop_lt]
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub1(
+                                    Designator3(
+                                      ArrayNameLenght(
+                                       nums
+                                      ) [ArrayNameLenght]
+                                    ) [Designator3]
+                                  ) [FactorSub1]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                        ) [CondRelExpr1]
+                      ) [CondAndExpr2]
+                    ) [CondOrExpr2]
+                  ) [Condition1]
+                ) [ConditionOpt1]
+                ForPostExprStart(
+                ) [ForPostExprStart]
+                PostfixExpr(
+                  DesignatorStatementOpt1(
+                    DesignatorStatement1(
+                      Designator1(
+                       i
+                      ) [Designator1]
+                      Assignop(
+                      ) [Assignop]
+                      Expr1(
+                        AddopTermList1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub1(
+                                    Designator1(
+                                     i
+                                    ) [Designator1]
+                                  ) [FactorSub1]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                          Addop_plus(
+                          ) [Addop_plus]
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 1
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList1]
+                      ) [Expr1]
+                    ) [DesignatorStatement1]
+                  ) [DesignatorStatementOpt1]
+                ) [PostfixExpr]
+                ForBodyStart(
+                ) [ForBodyStart]
+                Statement_stm(
+                  StatementList1(
+                    StatementList1(
+                      StatementList2(
+                      ) [StatementList2]
+                      Statement_for(
+                        For(
+                        ) [For]
+                        DesignatorStatementOpt1(
+                          DesignatorStatement1(
+                            Designator1(
+                             j
+                            ) [Designator1]
+                            Assignop(
+                            ) [Assignop]
+                            Expr1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub3(
+                                       0
+                                      ) [FactorSub3]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                            ) [Expr1]
+                          ) [DesignatorStatement1]
+                        ) [DesignatorStatementOpt1]
+                        ForConditionStart(
+                        ) [ForConditionStart]
+                        ConditionOpt1(
+                          Condition1(
+                            CondOrExpr2(
+                              CondAndExpr2(
+                                CondRelExpr1(
+                                  AddopTermList2(
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub1(
+                                            Designator1(
+                                             j
+                                            ) [Designator1]
+                                          ) [FactorSub1]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList2]
+                                  Relop_lt(
+                                  ) [Relop_lt]
+                                  AddopTermList2(
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub1(
+                                            Designator1(
+                                             SIZE
+                                            ) [Designator1]
+                                          ) [FactorSub1]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList2]
+                                ) [CondRelExpr1]
+                              ) [CondAndExpr2]
+                            ) [CondOrExpr2]
+                          ) [Condition1]
+                        ) [ConditionOpt1]
+                        ForPostExprStart(
+                        ) [ForPostExprStart]
+                        PostfixExpr(
+                          DesignatorStatementOpt1(
+                            DesignatorStatement1(
+                              Designator1(
+                               j
+                              ) [Designator1]
+                              Assignop(
+                              ) [Assignop]
+                              Expr1(
+                                AddopTermList1(
+                                  AddopTermList2(
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub1(
+                                            Designator1(
+                                             j
+                                            ) [Designator1]
+                                          ) [FactorSub1]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList2]
+                                  Addop_plus(
+                                  ) [Addop_plus]
+                                  Term(
+                                    MoreTerm2(
+                                      Factor(
+                                        Unary2(
+                                        ) [Unary2]
+                                        FactorSub3(
+                                         1
+                                        ) [FactorSub3]
+                                      ) [Factor]
+                                    ) [MoreTerm2]
+                                  ) [Term]
+                                ) [AddopTermList1]
+                              ) [Expr1]
+                            ) [DesignatorStatement1]
+                          ) [DesignatorStatementOpt1]
+                        ) [PostfixExpr]
+                        ForBodyStart(
+                        ) [ForBodyStart]
+                        Statement_stm(
+                          StatementList1(
+                            StatementList1(
+                              StatementList1(
+                                StatementList2(
+                                ) [StatementList2]
+                                Statement_if(
+                                  If(
+                                  ) [If]
+                                  Condition1(
+                                    CondOrExpr2(
+                                      CondAndExpr2(
+                                        CondRelExpr1(
+                                          AddopTermList2(
+                                            Term(
+                                              MoreTerm1(
+                                                MoreTerm2(
+                                                  Factor(
+                                                    Unary2(
+                                                    ) [Unary2]
+                                                    FactorSub1(
+                                                      Designator1(
+                                                       j
+                                                      ) [Designator1]
+                                                    ) [FactorSub1]
+                                                  ) [Factor]
+                                                ) [MoreTerm2]
+                                                Mulop_mod(
+                                                ) [Mulop_mod]
+                                                Factor(
+                                                  Unary2(
+                                                  ) [Unary2]
+                                                  FactorSub3(
+                                                   2
+                                                  ) [FactorSub3]
+                                                ) [Factor]
+                                              ) [MoreTerm1]
+                                            ) [Term]
+                                          ) [AddopTermList2]
+                                          Relop_eq(
+                                          ) [Relop_eq]
+                                          AddopTermList2(
+                                            Term(
+                                              MoreTerm2(
+                                                Factor(
+                                                  Unary2(
+                                                  ) [Unary2]
+                                                  FactorSub3(
+                                                   0
+                                                  ) [FactorSub3]
+                                                ) [Factor]
+                                              ) [MoreTerm2]
+                                            ) [Term]
+                                          ) [AddopTermList2]
+                                        ) [CondRelExpr1]
+                                      ) [CondAndExpr2]
+                                    ) [CondOrExpr2]
+                                  ) [Condition1]
+                                  Statement_cont(
+                                  ) [Statement_cont]
+                                  ElseStmt2(
+                                  ) [ElseStmt2]
+                                ) [Statement_if]
+                              ) [StatementList1]
+                              Statement_ds(
+                                DesignatorStatement1(
+                                  Designator1(
+                                   sum
+                                  ) [Designator1]
+                                  Assignop(
+                                  ) [Assignop]
+                                  Expr1(
+                                    AddopTermList1(
+                                      AddopTermList2(
+                                        Term(
+                                          MoreTerm2(
+                                            Factor(
+                                              Unary2(
+                                              ) [Unary2]
+                                              FactorSub1(
+                                                Designator1(
+                                                 sum
+                                                ) [Designator1]
+                                              ) [FactorSub1]
+                                            ) [Factor]
+                                          ) [MoreTerm2]
+                                        ) [Term]
+                                      ) [AddopTermList2]
+                                      Addop_plus(
+                                      ) [Addop_plus]
+                                      Term(
+                                        MoreTerm2(
+                                          Factor(
+                                            Unary2(
+                                            ) [Unary2]
+                                            FactorSub2(
+                                              Designator1(
+                                               mul
+                                              ) [Designator1]
+                                              ActParList1(
+                                                ActParStart(
+                                                ) [ActParStart]
+                                                ActPar(
+                                                  Expr1(
+                                                    AddopTermList2(
+                                                      Term(
+                                                        MoreTerm2(
+                                                          Factor(
+                                                            Unary2(
+                                                            ) [Unary2]
+                                                            FactorSub1(
+                                                              Designator4(
+                                                                ArrayNameBracket(
+                                                                 nums
+                                                                ) [ArrayNameBracket]
+                                                                Expr1(
+                                                                  AddopTermList2(
+                                                                    Term(
+                                                                      MoreTerm2(
+                                                                        Factor(
+                                                                          Unary2(
+                                                                          ) [Unary2]
+                                                                          FactorSub1(
+                                                                            Designator1(
+                                                                             i
+                                                                            ) [Designator1]
+                                                                          ) [FactorSub1]
+                                                                        ) [Factor]
+                                                                      ) [MoreTerm2]
+                                                                    ) [Term]
+                                                                  ) [AddopTermList2]
+                                                                ) [Expr1]
+                                                              ) [Designator4]
+                                                            ) [FactorSub1]
+                                                          ) [Factor]
+                                                        ) [MoreTerm2]
+                                                      ) [Term]
+                                                    ) [AddopTermList2]
+                                                  ) [Expr1]
+                                                ) [ActPar]
+                                                ActParMore1(
+                                                  ActPar(
+                                                    Expr1(
+                                                      AddopTermList2(
+                                                        Term(
+                                                          MoreTerm2(
+                                                            Factor(
+                                                              Unary2(
+                                                              ) [Unary2]
+                                                              FactorSub1(
+                                                                Designator1(
+                                                                 j
+                                                                ) [Designator1]
+                                                              ) [FactorSub1]
+                                                            ) [Factor]
+                                                          ) [MoreTerm2]
+                                                        ) [Term]
+                                                      ) [AddopTermList2]
+                                                    ) [Expr1]
+                                                  ) [ActPar]
+                                                  ActParMore2(
+                                                  ) [ActParMore2]
+                                                ) [ActParMore1]
+                                              ) [ActParList1]
+                                            ) [FactorSub2]
+                                          ) [Factor]
+                                        ) [MoreTerm2]
+                                      ) [Term]
+                                    ) [AddopTermList1]
+                                  ) [Expr1]
+                                ) [DesignatorStatement1]
+                              ) [Statement_ds]
+                            ) [StatementList1]
+                            Statement_if(
+                              If(
+                              ) [If]
+                              Condition1(
+                                CondOrExpr2(
+                                  CondAndExpr2(
+                                    CondRelExpr1(
+                                      AddopTermList2(
+                                        Term(
+                                          MoreTerm2(
+                                            Factor(
+                                              Unary2(
+                                              ) [Unary2]
+                                              FactorSub1(
+                                                Designator1(
+                                                 sum
+                                                ) [Designator1]
+                                              ) [FactorSub1]
+                                            ) [Factor]
+                                          ) [MoreTerm2]
+                                        ) [Term]
+                                      ) [AddopTermList2]
+                                      Relop_gt(
+                                      ) [Relop_gt]
+                                      AddopTermList2(
+                                        Term(
+                                          MoreTerm2(
+                                            Factor(
+                                              Unary2(
+                                              ) [Unary2]
+                                              FactorSub3(
+                                               50
+                                              ) [FactorSub3]
+                                            ) [Factor]
+                                          ) [MoreTerm2]
+                                        ) [Term]
+                                      ) [AddopTermList2]
+                                    ) [CondRelExpr1]
+                                  ) [CondAndExpr2]
+                                ) [CondOrExpr2]
+                              ) [Condition1]
+                              Statement_break(
+                              ) [Statement_break]
+                              ElseStmt2(
+                              ) [ElseStmt2]
+                            ) [Statement_if]
+                          ) [StatementList1]
+                        ) [Statement_stm]
+                        PostFor(
+                        ) [PostFor]
+                      ) [Statement_for]
+                    ) [StatementList1]
+                    Statement_if(
+                      If(
+                      ) [If]
+                      Condition1(
+                        CondOrExpr2(
+                          CondAndExpr2(
+                            CondRelExpr1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub1(
+                                        Designator1(
+                                         sum
+                                        ) [Designator1]
+                                      ) [FactorSub1]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                              Relop_gt(
+                              ) [Relop_gt]
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub3(
+                                       50
+                                      ) [FactorSub3]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                            ) [CondRelExpr1]
+                          ) [CondAndExpr2]
+                        ) [CondOrExpr2]
+                      ) [Condition1]
+                      Statement_break(
+                      ) [Statement_break]
+                      ElseStmt2(
+                      ) [ElseStmt2]
+                    ) [Statement_if]
+                  ) [StatementList1]
+                ) [Statement_stm]
+                PostFor(
+                ) [PostFor]
+              ) [Statement_for]
+            ) [StatementList1]
+            Statement_if(
+              If(
+              ) [If]
+              Condition1(
+                CondOrExpr2(
+                  CondAndExpr1(
+                    CondAndExpr2(
+                      CondRelExpr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub1(
+                                  Designator1(
+                                   sum
+                                  ) [Designator1]
+                                ) [FactorSub1]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                        Relop_gt(
+                        ) [Relop_gt]
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 0
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [CondRelExpr1]
+                    ) [CondAndExpr2]
+                    CondRelExpr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub1(
+                                Designator1(
+                                 base
+                                ) [Designator1]
+                              ) [FactorSub1]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                      Relop_gt(
+                      ) [Relop_gt]
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub3(
+                               0
+                              ) [FactorSub3]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [CondRelExpr1]
+                  ) [CondAndExpr1]
+                ) [CondOrExpr2]
+              ) [Condition1]
+              Statement_ret2(
+                Return(
+                ) [Return]
+                Expr1(
+                  AddopTermList1(
+                    AddopTermList2(
+                      Term(
+                        MoreTerm2(
+                          Factor(
+                            Unary2(
+                            ) [Unary2]
+                            FactorSub1(
+                              Designator1(
+                               sum
+                              ) [Designator1]
+                            ) [FactorSub1]
+                          ) [Factor]
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator1(
+                             base
+                            ) [Designator1]
+                          ) [FactorSub1]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList1]
+                ) [Expr1]
+              ) [Statement_ret2]
+              ElseStmt2(
+              ) [ElseStmt2]
+            ) [Statement_if]
+          ) [StatementList1]
+          Statement_ret2(
+            Return(
+            ) [Return]
+            Expr1(
+              AddopTermList2(
+                Term(
+                  MoreTerm2(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       0
+                      ) [FactorSub3]
+                    ) [Factor]
+                  ) [MoreTerm2]
+                ) [Term]
+              ) [AddopTermList2]
+            ) [Expr1]
+          ) [Statement_ret2]
+        ) [StatementList1]
+      ) [MethodDecl]
+    ) [MethodDeclList1]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           i
+          ) [VarDecl1]
+          VarDeclMore1(
+            VarDecl1(
+             j
+            ) [VarDecl1]
+            VarDeclMore1(
+              VarDecl1(
+               result
+              ) [VarDecl1]
+              VarDeclMore2(
+              ) [VarDeclMore2]
+            ) [VarDeclMore1]
+          ) [VarDeclMore1]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                StatementList1(
+                  StatementList1(
+                    StatementList1(
+                      StatementList1(
+                        StatementList2(
+                        ) [StatementList2]
+                        Statement_ds(
+                          DesignatorStatement1(
+                            Designator1(
+                             arr
+                            ) [Designator1]
+                            Assignop(
+                            ) [Assignop]
+                            Expr1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub6(
+                                        Type(
+                                         int
+                                        ) [Type]
+                                        Expr1(
+                                          AddopTermList2(
+                                            Term(
+                                              MoreTerm2(
+                                                Factor(
+                                                  Unary2(
+                                                  ) [Unary2]
+                                                  FactorSub1(
+                                                    Designator1(
+                                                     SIZE
+                                                    ) [Designator1]
+                                                  ) [FactorSub1]
+                                                ) [Factor]
+                                              ) [MoreTerm2]
+                                            ) [Term]
+                                          ) [AddopTermList2]
+                                        ) [Expr1]
+                                      ) [FactorSub6]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                            ) [Expr1]
+                          ) [DesignatorStatement1]
+                        ) [Statement_ds]
+                      ) [StatementList1]
+                      Statement_for(
+                        For(
+                        ) [For]
+                        DesignatorStatementOpt1(
+                          DesignatorStatement1(
+                            Designator1(
+                             i
+                            ) [Designator1]
+                            Assignop(
+                            ) [Assignop]
+                            Expr1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub3(
+                                       0
+                                      ) [FactorSub3]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                            ) [Expr1]
+                          ) [DesignatorStatement1]
+                        ) [DesignatorStatementOpt1]
+                        ForConditionStart(
+                        ) [ForConditionStart]
+                        ConditionOpt1(
+                          Condition1(
+                            CondOrExpr2(
+                              CondAndExpr2(
+                                CondRelExpr1(
+                                  AddopTermList2(
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub1(
+                                            Designator1(
+                                             i
+                                            ) [Designator1]
+                                          ) [FactorSub1]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList2]
+                                  Relop_lt(
+                                  ) [Relop_lt]
+                                  AddopTermList2(
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub1(
+                                            Designator1(
+                                             SIZE
+                                            ) [Designator1]
+                                          ) [FactorSub1]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList2]
+                                ) [CondRelExpr1]
+                              ) [CondAndExpr2]
+                            ) [CondOrExpr2]
+                          ) [Condition1]
+                        ) [ConditionOpt1]
+                        ForPostExprStart(
+                        ) [ForPostExprStart]
+                        PostfixExpr(
+                          DesignatorStatementOpt1(
+                            DesignatorStatement1(
+                              Designator1(
+                               i
+                              ) [Designator1]
+                              Assignop(
+                              ) [Assignop]
+                              Expr1(
+                                AddopTermList1(
+                                  AddopTermList2(
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub1(
+                                            Designator1(
+                                             i
+                                            ) [Designator1]
+                                          ) [FactorSub1]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList2]
+                                  Addop_plus(
+                                  ) [Addop_plus]
+                                  Term(
+                                    MoreTerm2(
+                                      Factor(
+                                        Unary2(
+                                        ) [Unary2]
+                                        FactorSub3(
+                                         1
+                                        ) [FactorSub3]
+                                      ) [Factor]
+                                    ) [MoreTerm2]
+                                  ) [Term]
+                                ) [AddopTermList1]
+                              ) [Expr1]
+                            ) [DesignatorStatement1]
+                          ) [DesignatorStatementOpt1]
+                        ) [PostfixExpr]
+                        ForBodyStart(
+                        ) [ForBodyStart]
+                        Statement_ds(
+                          DesignatorStatement1(
+                            Designator4(
+                              ArrayNameBracket(
+                               arr
+                              ) [ArrayNameBracket]
+                              Expr1(
+                                AddopTermList2(
+                                  Term(
+                                    MoreTerm2(
+                                      Factor(
+                                        Unary2(
+                                        ) [Unary2]
+                                        FactorSub1(
+                                          Designator1(
+                                           i
+                                          ) [Designator1]
+                                        ) [FactorSub1]
+                                      ) [Factor]
+                                    ) [MoreTerm2]
+                                  ) [Term]
+                                ) [AddopTermList2]
+                              ) [Expr1]
+                            ) [Designator4]
+                            Assignop(
+                            ) [Assignop]
+                            Expr1(
+                              AddopTermList1(
+                                AddopTermList2(
+                                  Term(
+                                    MoreTerm2(
+                                      Factor(
+                                        Unary2(
+                                        ) [Unary2]
+                                        FactorSub1(
+                                          Designator1(
+                                           i
+                                          ) [Designator1]
+                                        ) [FactorSub1]
+                                      ) [Factor]
+                                    ) [MoreTerm2]
+                                  ) [Term]
+                                ) [AddopTermList2]
+                                Addop_plus(
+                                ) [Addop_plus]
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub3(
+                                       1
+                                      ) [FactorSub3]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList1]
+                            ) [Expr1]
+                          ) [DesignatorStatement1]
+                        ) [Statement_ds]
+                        PostFor(
+                        ) [PostFor]
+                      ) [Statement_for]
+                    ) [StatementList1]
+                    Statement_ds(
+                      DesignatorStatement1(
+                        Designator1(
+                         global
+                        ) [Designator1]
+                        Assignop(
+                        ) [Assignop]
+                        Expr1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub3(
+                                   0
+                                  ) [FactorSub3]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                        ) [Expr1]
+                      ) [DesignatorStatement1]
+                    ) [Statement_ds]
+                  ) [StatementList1]
+                  Statement_for(
+                    For(
+                    ) [For]
+                    DesignatorStatementOpt1(
+                      DesignatorStatement1(
+                        Designator1(
+                         i
+                        ) [Designator1]
+                        Assignop(
+                        ) [Assignop]
+                        Expr1(
+                          AddopTermList2(
+                            Term(
+                              MoreTerm2(
+                                Factor(
+                                  Unary2(
+                                  ) [Unary2]
+                                  FactorSub3(
+                                   0
+                                  ) [FactorSub3]
+                                ) [Factor]
+                              ) [MoreTerm2]
+                            ) [Term]
+                          ) [AddopTermList2]
+                        ) [Expr1]
+                      ) [DesignatorStatement1]
+                    ) [DesignatorStatementOpt1]
+                    ForConditionStart(
+                    ) [ForConditionStart]
+                    ConditionOpt1(
+                      Condition1(
+                        CondOrExpr2(
+                          CondAndExpr2(
+                            CondRelExpr1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub1(
+                                        Designator1(
+                                         i
+                                        ) [Designator1]
+                                      ) [FactorSub1]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                              Relop_lt(
+                              ) [Relop_lt]
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub1(
+                                        Designator1(
+                                         SIZE
+                                        ) [Designator1]
+                                      ) [FactorSub1]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                            ) [CondRelExpr1]
+                          ) [CondAndExpr2]
+                        ) [CondOrExpr2]
+                      ) [Condition1]
+                    ) [ConditionOpt1]
+                    ForPostExprStart(
+                    ) [ForPostExprStart]
+                    PostfixExpr(
+                      DesignatorStatementOpt1(
+                        DesignatorStatement1(
+                          Designator1(
+                           i
+                          ) [Designator1]
+                          Assignop(
+                          ) [Assignop]
+                          Expr1(
+                            AddopTermList1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub1(
+                                        Designator1(
+                                         i
+                                        ) [Designator1]
+                                      ) [FactorSub1]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                              Addop_plus(
+                              ) [Addop_plus]
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub3(
+                                     1
+                                    ) [FactorSub3]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList1]
+                          ) [Expr1]
+                        ) [DesignatorStatement1]
+                      ) [DesignatorStatementOpt1]
+                    ) [PostfixExpr]
+                    ForBodyStart(
+                    ) [ForBodyStart]
+                    Statement_stm(
+                      StatementList1(
+                        StatementList2(
+                        ) [StatementList2]
+                        Statement_for(
+                          For(
+                          ) [For]
+                          DesignatorStatementOpt1(
+                            DesignatorStatement1(
+                              Designator1(
+                               j
+                              ) [Designator1]
+                              Assignop(
+                              ) [Assignop]
+                              Expr1(
+                                AddopTermList2(
+                                  Term(
+                                    MoreTerm2(
+                                      Factor(
+                                        Unary2(
+                                        ) [Unary2]
+                                        FactorSub3(
+                                         0
+                                        ) [FactorSub3]
+                                      ) [Factor]
+                                    ) [MoreTerm2]
+                                  ) [Term]
+                                ) [AddopTermList2]
+                              ) [Expr1]
+                            ) [DesignatorStatement1]
+                          ) [DesignatorStatementOpt1]
+                          ForConditionStart(
+                          ) [ForConditionStart]
+                          ConditionOpt1(
+                            Condition1(
+                              CondOrExpr2(
+                                CondAndExpr2(
+                                  CondRelExpr1(
+                                    AddopTermList2(
+                                      Term(
+                                        MoreTerm2(
+                                          Factor(
+                                            Unary2(
+                                            ) [Unary2]
+                                            FactorSub1(
+                                              Designator1(
+                                               j
+                                              ) [Designator1]
+                                            ) [FactorSub1]
+                                          ) [Factor]
+                                        ) [MoreTerm2]
+                                      ) [Term]
+                                    ) [AddopTermList2]
+                                    Relop_lt(
+                                    ) [Relop_lt]
+                                    AddopTermList2(
+                                      Term(
+                                        MoreTerm2(
+                                          Factor(
+                                            Unary2(
+                                            ) [Unary2]
+                                            FactorSub1(
+                                              Designator1(
+                                               SIZE
+                                              ) [Designator1]
+                                            ) [FactorSub1]
+                                          ) [Factor]
+                                        ) [MoreTerm2]
+                                      ) [Term]
+                                    ) [AddopTermList2]
+                                  ) [CondRelExpr1]
+                                ) [CondAndExpr2]
+                              ) [CondOrExpr2]
+                            ) [Condition1]
+                          ) [ConditionOpt1]
+                          ForPostExprStart(
+                          ) [ForPostExprStart]
+                          PostfixExpr(
+                            DesignatorStatementOpt1(
+                              DesignatorStatement1(
+                                Designator1(
+                                 j
+                                ) [Designator1]
+                                Assignop(
+                                ) [Assignop]
+                                Expr1(
+                                  AddopTermList1(
+                                    AddopTermList2(
+                                      Term(
+                                        MoreTerm2(
+                                          Factor(
+                                            Unary2(
+                                            ) [Unary2]
+                                            FactorSub1(
+                                              Designator1(
+                                               j
+                                              ) [Designator1]
+                                            ) [FactorSub1]
+                                          ) [Factor]
+                                        ) [MoreTerm2]
+                                      ) [Term]
+                                    ) [AddopTermList2]
+                                    Addop_plus(
+                                    ) [Addop_plus]
+                                    Term(
+                                      MoreTerm2(
+                                        Factor(
+                                          Unary2(
+                                          ) [Unary2]
+                                          FactorSub3(
+                                           1
+                                          ) [FactorSub3]
+                                        ) [Factor]
+                                      ) [MoreTerm2]
+                                    ) [Term]
+                                  ) [AddopTermList1]
+                                ) [Expr1]
+                              ) [DesignatorStatement1]
+                            ) [DesignatorStatementOpt1]
+                          ) [PostfixExpr]
+                          ForBodyStart(
+                          ) [ForBodyStart]
+                          Statement_stm(
+                            StatementList1(
+                              StatementList1(
+                                StatementList1(
+                                  StatementList2(
+                                  ) [StatementList2]
+                                  Statement_if(
+                                    If(
+                                    ) [If]
+                                    Condition1(
+                                      CondOrExpr1(
+                                        CondOrExpr2(
+                                          CondAndExpr2(
+                                            CondRelExpr1(
+                                              AddopTermList2(
+                                                Term(
+                                                  MoreTerm2(
+                                                    Factor(
+                                                      Unary2(
+                                                      ) [Unary2]
+                                                      FactorSub1(
+                                                        Designator1(
+                                                         i
+                                                        ) [Designator1]
+                                                      ) [FactorSub1]
+                                                    ) [Factor]
+                                                  ) [MoreTerm2]
+                                                ) [Term]
+                                              ) [AddopTermList2]
+                                              Relop_gt(
+                                              ) [Relop_gt]
+                                              AddopTermList2(
+                                                Term(
+                                                  MoreTerm2(
+                                                    Factor(
+                                                      Unary2(
+                                                      ) [Unary2]
+                                                      FactorSub1(
+                                                        Designator1(
+                                                         j
+                                                        ) [Designator1]
+                                                      ) [FactorSub1]
+                                                    ) [Factor]
+                                                  ) [MoreTerm2]
+                                                ) [Term]
+                                              ) [AddopTermList2]
+                                            ) [CondRelExpr1]
+                                          ) [CondAndExpr2]
+                                        ) [CondOrExpr2]
+                                        CondAndExpr2(
+                                          CondRelExpr2(
+                                            AddopTermList2(
+                                              Term(
+                                                MoreTerm2(
+                                                  Factor(
+                                                    Unary2(
+                                                    ) [Unary2]
+                                                    FactorSub1(
+                                                      Designator1(
+                                                       FLAG
+                                                      ) [Designator1]
+                                                    ) [FactorSub1]
+                                                  ) [Factor]
+                                                ) [MoreTerm2]
+                                              ) [Term]
+                                            ) [AddopTermList2]
+                                          ) [CondRelExpr2]
+                                        ) [CondAndExpr2]
+                                      ) [CondOrExpr1]
+                                    ) [Condition1]
+                                    Statement_ds(
+                                      DesignatorStatement1(
+                                        Designator4(
+                                          ArrayNameBracket(
+                                           arr
+                                          ) [ArrayNameBracket]
+                                          Expr1(
+                                            AddopTermList2(
+                                              Term(
+                                                MoreTerm2(
+                                                  Factor(
+                                                    Unary2(
+                                                    ) [Unary2]
+                                                    FactorSub1(
+                                                      Designator1(
+                                                       i
+                                                      ) [Designator1]
+                                                    ) [FactorSub1]
+                                                  ) [Factor]
+                                                ) [MoreTerm2]
+                                              ) [Term]
+                                            ) [AddopTermList2]
+                                          ) [Expr1]
+                                        ) [Designator4]
+                                        Assignop(
+                                        ) [Assignop]
+                                        Expr1(
+                                          AddopTermList1(
+                                            AddopTermList2(
+                                              Term(
+                                                MoreTerm2(
+                                                  Factor(
+                                                    Unary2(
+                                                    ) [Unary2]
+                                                    FactorSub1(
+                                                      Designator4(
+                                                        ArrayNameBracket(
+                                                         arr
+                                                        ) [ArrayNameBracket]
+                                                        Expr1(
+                                                          AddopTermList2(
+                                                            Term(
+                                                              MoreTerm2(
+                                                                Factor(
+                                                                  Unary2(
+                                                                  ) [Unary2]
+                                                                  FactorSub1(
+                                                                    Designator1(
+                                                                     i
+                                                                    ) [Designator1]
+                                                                  ) [FactorSub1]
+                                                                ) [Factor]
+                                                              ) [MoreTerm2]
+                                                            ) [Term]
+                                                          ) [AddopTermList2]
+                                                        ) [Expr1]
+                                                      ) [Designator4]
+                                                    ) [FactorSub1]
+                                                  ) [Factor]
+                                                ) [MoreTerm2]
+                                              ) [Term]
+                                            ) [AddopTermList2]
+                                            Addop_plus(
+                                            ) [Addop_plus]
+                                            Term(
+                                              MoreTerm2(
+                                                Factor(
+                                                  Unary2(
+                                                  ) [Unary2]
+                                                  FactorSub1(
+                                                    Designator1(
+                                                     j
+                                                    ) [Designator1]
+                                                  ) [FactorSub1]
+                                                ) [Factor]
+                                              ) [MoreTerm2]
+                                            ) [Term]
+                                          ) [AddopTermList1]
+                                        ) [Expr1]
+                                      ) [DesignatorStatement1]
+                                    ) [Statement_ds]
+                                    ElseStmt1(
+                                      Else(
+                                      ) [Else]
+                                      Statement_ds(
+                                        DesignatorStatement1(
+                                          Designator4(
+                                            ArrayNameBracket(
+                                             arr
+                                            ) [ArrayNameBracket]
+                                            Expr1(
+                                              AddopTermList2(
+                                                Term(
+                                                  MoreTerm2(
+                                                    Factor(
+                                                      Unary2(
+                                                      ) [Unary2]
+                                                      FactorSub1(
+                                                        Designator1(
+                                                         i
+                                                        ) [Designator1]
+                                                      ) [FactorSub1]
+                                                    ) [Factor]
+                                                  ) [MoreTerm2]
+                                                ) [Term]
+                                              ) [AddopTermList2]
+                                            ) [Expr1]
+                                          ) [Designator4]
+                                          Assignop(
+                                          ) [Assignop]
+                                          Expr1(
+                                            AddopTermList1(
+                                              AddopTermList2(
+                                                Term(
+                                                  MoreTerm2(
+                                                    Factor(
+                                                      Unary2(
+                                                      ) [Unary2]
+                                                      FactorSub1(
+                                                        Designator4(
+                                                          ArrayNameBracket(
+                                                           arr
+                                                          ) [ArrayNameBracket]
+                                                          Expr1(
+                                                            AddopTermList2(
+                                                              Term(
+                                                                MoreTerm2(
+                                                                  Factor(
+                                                                    Unary2(
+                                                                    ) [Unary2]
+                                                                    FactorSub1(
+                                                                      Designator1(
+                                                                       i
+                                                                      ) [Designator1]
+                                                                    ) [FactorSub1]
+                                                                  ) [Factor]
+                                                                ) [MoreTerm2]
+                                                              ) [Term]
+                                                            ) [AddopTermList2]
+                                                          ) [Expr1]
+                                                        ) [Designator4]
+                                                      ) [FactorSub1]
+                                                    ) [Factor]
+                                                  ) [MoreTerm2]
+                                                ) [Term]
+                                              ) [AddopTermList2]
+                                              Addop_minus(
+                                              ) [Addop_minus]
+                                              Term(
+                                                MoreTerm2(
+                                                  Factor(
+                                                    Unary2(
+                                                    ) [Unary2]
+                                                    FactorSub1(
+                                                      Designator1(
+                                                       j
+                                                      ) [Designator1]
+                                                    ) [FactorSub1]
+                                                  ) [Factor]
+                                                ) [MoreTerm2]
+                                              ) [Term]
+                                            ) [AddopTermList1]
+                                          ) [Expr1]
+                                        ) [DesignatorStatement1]
+                                      ) [Statement_ds]
+                                    ) [ElseStmt1]
+                                  ) [Statement_if]
+                                ) [StatementList1]
+                                Statement_switch(
+                                  Switch(
+                                  ) [Switch]
+                                  Expr1(
+                                    AddopTermList2(
+                                      Term(
+                                        MoreTerm2(
+                                          Factor(
+                                            Unary2(
+                                            ) [Unary2]
+                                            FactorSub1(
+                                              Designator4(
+                                                ArrayNameBracket(
+                                                 arr
+                                                ) [ArrayNameBracket]
+                                                Expr1(
+                                                  AddopTermList2(
+                                                    Term(
+                                                      MoreTerm2(
+                                                        Factor(
+                                                          Unary2(
+                                                          ) [Unary2]
+                                                          FactorSub1(
+                                                            Designator1(
+                                                             i
+                                                            ) [Designator1]
+                                                          ) [FactorSub1]
+                                                        ) [Factor]
+                                                      ) [MoreTerm2]
+                                                    ) [Term]
+                                                  ) [AddopTermList2]
+                                                ) [Expr1]
+                                              ) [Designator4]
+                                            ) [FactorSub1]
+                                          ) [Factor]
+                                        ) [MoreTerm2]
+                                      ) [Term]
+                                    ) [AddopTermList2]
+                                  ) [Expr1]
+                                  SwitchBodyStart(
+                                  ) [SwitchBodyStart]
+                                  CaseList1(
+                                    Case(
+                                      CaseNumber(
+                                       1
+                                      ) [CaseNumber]
+                                      CaseBodyStart(
+                                      ) [CaseBodyStart]
+                                      StatementList1(
+                                        StatementList2(
+                                        ) [StatementList2]
+                                        Statement_print1(
+                                          Print(
+                                          ) [Print]
+                                          Expr1(
+                                            AddopTermList2(
+                                              Term(
+                                                MoreTerm2(
+                                                  Factor(
+                                                    Unary2(
+                                                    ) [Unary2]
+                                                    FactorSub3(
+                                                     1
+                                                    ) [FactorSub3]
+                                                  ) [Factor]
+                                                ) [MoreTerm2]
+                                              ) [Term]
+                                            ) [AddopTermList2]
+                                          ) [Expr1]
+                                        ) [Statement_print1]
+                                      ) [StatementList1]
+                                    ) [Case]
+                                    CaseList1(
+                                      Case(
+                                        CaseNumber(
+                                         2
+                                        ) [CaseNumber]
+                                        CaseBodyStart(
+                                        ) [CaseBodyStart]
+                                        StatementList1(
+                                          StatementList1(
+                                            StatementList2(
+                                            ) [StatementList2]
+                                            Statement_print1(
+                                              Print(
+                                              ) [Print]
+                                              Expr1(
+                                                AddopTermList2(
+                                                  Term(
+                                                    MoreTerm2(
+                                                      Factor(
+                                                        Unary2(
+                                                        ) [Unary2]
+                                                        FactorSub3(
+                                                         2
+                                                        ) [FactorSub3]
+                                                      ) [Factor]
+                                                    ) [MoreTerm2]
+                                                  ) [Term]
+                                                ) [AddopTermList2]
+                                              ) [Expr1]
+                                            ) [Statement_print1]
+                                          ) [StatementList1]
+                                          Statement_break(
+                                          ) [Statement_break]
+                                        ) [StatementList1]
+                                      ) [Case]
+                                      CaseList1(
+                                        Case(
+                                          CaseNumber(
+                                           3
+                                          ) [CaseNumber]
+                                          CaseBodyStart(
+                                          ) [CaseBodyStart]
+                                          StatementList1(
+                                            StatementList2(
+                                            ) [StatementList2]
+                                            Statement_print1(
+                                              Print(
+                                              ) [Print]
+                                              Expr1(
+                                                AddopTermList2(
+                                                  Term(
+                                                    MoreTerm2(
+                                                      Factor(
+                                                        Unary2(
+                                                        ) [Unary2]
+                                                        FactorSub3(
+                                                         3
+                                                        ) [FactorSub3]
+                                                      ) [Factor]
+                                                    ) [MoreTerm2]
+                                                  ) [Term]
+                                                ) [AddopTermList2]
+                                              ) [Expr1]
+                                            ) [Statement_print1]
+                                          ) [StatementList1]
+                                        ) [Case]
+                                        CaseList2(
+                                        ) [CaseList2]
+                                      ) [CaseList1]
+                                    ) [CaseList1]
+                                  ) [CaseList1]
+                                ) [Statement_switch]
+                              ) [StatementList1]
+                              Statement_if(
+                                If(
+                                ) [If]
+                                Condition1(
+                                  CondOrExpr2(
+                                    CondAndExpr2(
+                                      CondRelExpr1(
+                                        AddopTermList2(
+                                          Term(
+                                            MoreTerm2(
+                                              Factor(
+                                                Unary2(
+                                                ) [Unary2]
+                                                FactorSub1(
+                                                  Designator1(
+                                                   global
+                                                  ) [Designator1]
+                                                ) [FactorSub1]
+                                              ) [Factor]
+                                            ) [MoreTerm2]
+                                          ) [Term]
+                                        ) [AddopTermList2]
+                                        Relop_gt(
+                                        ) [Relop_gt]
+                                        AddopTermList2(
+                                          Term(
+                                            MoreTerm2(
+                                              Factor(
+                                                Unary2(
+                                                ) [Unary2]
+                                                FactorSub3(
+                                                 5
+                                                ) [FactorSub3]
+                                              ) [Factor]
+                                            ) [MoreTerm2]
+                                          ) [Term]
+                                        ) [AddopTermList2]
+                                      ) [CondRelExpr1]
+                                    ) [CondAndExpr2]
+                                  ) [CondOrExpr2]
+                                ) [Condition1]
+                                Statement_break(
+                                ) [Statement_break]
+                                ElseStmt2(
+                                ) [ElseStmt2]
+                              ) [Statement_if]
+                            ) [StatementList1]
+                          ) [Statement_stm]
+                          PostFor(
+                          ) [PostFor]
+                        ) [Statement_for]
+                      ) [StatementList1]
+                    ) [Statement_stm]
+                    PostFor(
+                    ) [PostFor]
+                  ) [Statement_for]
+                ) [StatementList1]
+                Statement_ds(
+                  DesignatorStatement1(
+                    Designator1(
+                     result
+                    ) [Designator1]
+                    Assignop(
+                    ) [Assignop]
+                    Expr1(
+                      AddopTermList2(
+                        Term(
+                          MoreTerm2(
+                            Factor(
+                              Unary2(
+                              ) [Unary2]
+                              FactorSub2(
+                                Designator1(
+                                 complicated
+                                ) [Designator1]
+                                ActParList1(
+                                  ActParStart(
+                                  ) [ActParStart]
+                                  ActPar(
+                                    Expr1(
+                                      AddopTermList2(
+                                        Term(
+                                          MoreTerm2(
+                                            Factor(
+                                              Unary2(
+                                              ) [Unary2]
+                                              FactorSub3(
+                                               5
+                                              ) [FactorSub3]
+                                            ) [Factor]
+                                          ) [MoreTerm2]
+                                        ) [Term]
+                                      ) [AddopTermList2]
+                                    ) [Expr1]
+                                  ) [ActPar]
+                                  ActParMore1(
+                                    ActPar(
+                                      Expr1(
+                                        AddopTermList2(
+                                          Term(
+                                            MoreTerm2(
+                                              Factor(
+                                                Unary2(
+                                                ) [Unary2]
+                                                FactorSub1(
+                                                  Designator1(
+                                                   arr
+                                                  ) [Designator1]
+                                                ) [FactorSub1]
+                                              ) [Factor]
+                                            ) [MoreTerm2]
+                                          ) [Term]
+                                        ) [AddopTermList2]
+                                      ) [Expr1]
+                                    ) [ActPar]
+                                    ActParMore2(
+                                    ) [ActParMore2]
+                                  ) [ActParMore1]
+                                ) [ActParList1]
+                              ) [FactorSub2]
+                            ) [Factor]
+                          ) [MoreTerm2]
+                        ) [Term]
+                      ) [AddopTermList2]
+                    ) [Expr1]
+                  ) [DesignatorStatement1]
+                ) [Statement_ds]
+              ) [StatementList1]
+              Statement_ds(
+                DesignatorStatement1(
+                  Designator1(
+                   result
+                  ) [Designator1]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Condition1(
+                      CondOrExpr2(
+                        CondAndExpr2(
+                          CondRelExpr1(
+                            AddopTermList2(
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub1(
+                                      Designator1(
+                                       result
+                                      ) [Designator1]
+                                    ) [FactorSub1]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList2]
+                            Relop_gt(
+                            ) [Relop_gt]
+                            AddopTermList2(
+                              Term(
+                                MoreTerm2(
+                                  Factor(
+                                    Unary2(
+                                    ) [Unary2]
+                                    FactorSub3(
+                                     100
+                                    ) [FactorSub3]
+                                  ) [Factor]
+                                ) [MoreTerm2]
+                              ) [Term]
+                            ) [AddopTermList2]
+                          ) [CondRelExpr1]
+                        ) [CondAndExpr2]
+                      ) [CondOrExpr2]
+                    ) [Condition1]
+                    Quest(
+                    ) [Quest]
+                    Expr2(
+                      Condition1(
+                        CondOrExpr2(
+                          CondAndExpr2(
+                            CondRelExpr1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub1(
+                                        Designator1(
+                                         result
+                                        ) [Designator1]
+                                      ) [FactorSub1]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                              Relop_gt(
+                              ) [Relop_gt]
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub3(
+                                       200
+                                      ) [FactorSub3]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                            ) [CondRelExpr1]
+                          ) [CondAndExpr2]
+                        ) [CondOrExpr2]
+                      ) [Condition1]
+                      Quest(
+                      ) [Quest]
+                      Expr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 200
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [Expr1]
+                      TernaryMid(
+                      ) [TernaryMid]
+                      Expr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 150
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [Expr1]
+                    ) [Expr2]
+                    TernaryMid(
+                    ) [TernaryMid]
+                    Expr2(
+                      Condition1(
+                        CondOrExpr2(
+                          CondAndExpr2(
+                            CondRelExpr1(
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub1(
+                                        Designator1(
+                                         result
+                                        ) [Designator1]
+                                      ) [FactorSub1]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                              Relop_neq(
+                              ) [Relop_neq]
+                              AddopTermList2(
+                                Term(
+                                  MoreTerm2(
+                                    Factor(
+                                      Unary2(
+                                      ) [Unary2]
+                                      FactorSub3(
+                                       0
+                                      ) [FactorSub3]
+                                    ) [Factor]
+                                  ) [MoreTerm2]
+                                ) [Term]
+                              ) [AddopTermList2]
+                            ) [CondRelExpr1]
+                          ) [CondAndExpr2]
+                        ) [CondOrExpr2]
+                      ) [Condition1]
+                      Quest(
+                      ) [Quest]
+                      Expr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub1(
+                                  Designator1(
+                                   result
+                                  ) [Designator1]
+                                ) [FactorSub1]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [Expr1]
+                      TernaryMid(
+                      ) [TernaryMid]
+                      Expr1(
+                        AddopTermList2(
+                          Term(
+                            MoreTerm2(
+                              Factor(
+                                Unary2(
+                                ) [Unary2]
+                                FactorSub3(
+                                 999
+                                ) [FactorSub3]
+                              ) [Factor]
+                            ) [MoreTerm2]
+                          ) [Term]
+                        ) [AddopTermList2]
+                      ) [Expr1]
+                    ) [Expr2]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [Statement_ds]
+            ) [StatementList1]
+            Statement_print2(
+              Print(
+              ) [Print]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub1(
+                          Designator1(
+                           result
+                          ) [Designator1]
+                        ) [FactorSub1]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+             5
+            ) [Statement_print2]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement4(
+              Designator1(
+               global
+              ) [Designator1]
+            ) [DesignatorStatement4]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Print(
+          ) [Print]
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator1(
+                       global
+                      ) [Designator1]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  16:47:56,426 - ===================================
+INFO  16:47:56,437 - Pretraga na 14 (a), nadjeno Var a: Int, 1, 1
+INFO  16:47:56,437 - Pretraga na 14 (b), nadjeno Var b: Int, 1, 1
+INFO  16:47:56,438 - Pretraga na 18 (a), nadjeno Var a: Int, 1, 1
+INFO  16:47:56,438 - Pretraga na 18 (b), nadjeno Var b: Int, 1, 1
+INFO  16:47:56,438 - Pretraga na 23 (sum), nadjeno Var sum: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 25 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 25 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 25 (nums), nadjeno Var nums: Array, 1, 1
+INFO  16:47:56,438 - Pretraga na 25 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 25 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 27 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 27 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 27 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 27 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 29 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 32 (sum), nadjeno Var sum: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 32 (sum), nadjeno Var sum: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 32 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,438 - Pretraga na 32 (nums), nadjeno Var nums: Array, 1, 1
+INFO  16:47:56,439 - Pretraga na 32 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,439 - Pretraga na 32 (mul), nadjeno Meth mul: Int, 0, 2
+INFO  16:47:56,439 - Pretraga na 34 (sum), nadjeno Var sum: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 38 (sum), nadjeno Var sum: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 42 (sum), nadjeno Var sum: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 42 (base), nadjeno Var base: Int, 1, 1
+INFO  16:47:56,440 - Pretraga na 43 (sum), nadjeno Var sum: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 43 (base), nadjeno Var base: Int, 1, 1
+INFO  16:47:56,440 - Pretraga na 49 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,440 - Pretraga na 51 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 51 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 51 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 51 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 52 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 52 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,440 - Pretraga na 52 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,440 - Pretraga na 54 (global), nadjeno Var global: Int, 0, 0
+INFO  16:47:56,440 - Pretraga na 56 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 56 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 56 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 56 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 58 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 58 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 58 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 58 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 60 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 60 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 61 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 61 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,441 - Pretraga na 61 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 61 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,441 - Pretraga na 61 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 63 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 63 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,441 - Pretraga na 63 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 63 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,441 - Pretraga na 63 (j), nadjeno Var j: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 65 (i), nadjeno Var i: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 65 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,441 - Pretraga na 75 (global), nadjeno Var global: Int, 0, 0
+INFO  16:47:56,441 - Pretraga na 80 (result), nadjeno Var result: Int, 0, 1
+INFO  16:47:56,441 - Pretraga na 80 (arr), nadjeno Var arr: Array, 0, 0
+INFO  16:47:56,442 - Pretraga na 80 (complicated), nadjeno Meth complicated: Int, 0, 2
+INFO  16:47:56,442 - Pretraga na 82 (result), nadjeno Var result: Int, 0, 1
+INFO  16:47:56,442 - Pretraga na 82 (result), nadjeno Var result: Int, 0, 1
+INFO  16:47:56,442 - Pretraga na 83 (result), nadjeno Var result: Int, 0, 1
+INFO  16:47:56,442 - Pretraga na 84 (result), nadjeno Var result: Int, 0, 1
+INFO  16:47:56,442 - Pretraga na 84 (result), nadjeno Var result: Int, 0, 1
+INFO  16:47:56,442 - Pretraga na 86 (result), nadjeno Var result: Int, 0, 1
+INFO  16:47:56,442 - Pretraga na 88 (global), nadjeno Var global: Int, 0, 0
+INFO  16:47:56,442 - Pretraga na 89 (global), nadjeno Var global: Int, 0, 0
+INFO  16:47:56,442 - ===================================
+INFO  16:47:56,443 - Parsiranje uspesno zavrseno!

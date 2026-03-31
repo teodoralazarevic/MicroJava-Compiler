@@ -1,0 +1,113 @@
+INFO  19:56:44,481 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  19:56:44,523 - #2 program
+INFO  19:56:44,524 - #45 Test
+INFO  19:56:44,524 - #3 {
+INFO  19:56:44,524 - #45 bool
+INFO  19:56:44,525 - #45 verify
+INFO  19:56:44,526 - #12 (
+INFO  19:56:44,526 - #45 int
+INFO  19:56:44,527 - #45 x
+INFO  19:56:44,527 - #8 ,
+INFO  19:56:44,527 - #45 bool
+INFO  19:56:44,527 - #45 y
+INFO  19:56:44,527 - #13 )
+INFO  19:56:44,529 - #3 {
+INFO  19:56:44,529 - #15 if
+INFO  19:56:44,530 - #12 (
+INFO  19:56:44,530 - #45 a
+INFO  19:56:44,531 - #36 &&
+INFO  19:56:44,535 - #45 b
+INFO  19:56:44,536 - #45 a||b
+ERROR 19:56:44,536 - 
+Sintaksna greska na liniji 7
+INFO  19:56:44,536 - #30 ==
+INFO  19:56:44,538 - #46 5
+INFO  19:56:44,538 - #13 )
+INFO  19:56:44,538 - #3 {
+INFO  19:56:44,538 - #21 print
+INFO  19:56:44,538 - #12 (
+ERROR 19:56:44,539 - Greska unutar if uslova. Oporavak od greske u liniji 4
+INFO  19:56:44,539 - #45 a
+INFO  19:56:44,539 - #13 )
+INFO  19:56:44,539 - #7 ;
+INFO  19:56:44,539 - #4 }
+INFO  19:56:44,540 - #4 }
+INFO  19:56:44,540 - #4 }
+INFO  19:56:44,541 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarEnumDeclList4(
+  ) [ConVarEnumDeclList4]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         bool
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       verify
+      ) [MethodName]
+      FormParsList1(
+        FormPar1(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [FormPar1]
+        FormParMore1(
+          FormPar1(
+            Type(
+             bool
+            ) [Type]
+           y
+          ) [FormPar1]
+          FormParMore2(
+          ) [FormParMore2]
+        ) [FormParMore1]
+      ) [FormParsList1]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement_error(
+          ) [Statement_error]
+        ) [StatementList1]
+        Statement_stm(
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_print1(
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub1(
+                        Designator(
+                         a
+                          DesigatorMore2(
+                          ) [DesigatorMore2]
+                        ) [Designator]
+                      ) [FactorSub1]
+                    ) [Factor]
+                    MoreTerm2(
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [Statement_print1]
+          ) [StatementList1]
+        ) [Statement_stm]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:56:44,542 - ===================================
+INFO  19:56:44,542 - Parsiranje NIJE uspesno zavrseno!

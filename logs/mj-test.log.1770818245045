@@ -1,0 +1,150 @@
+INFO  14:57:09,329 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  14:57:09,371 - #2 program
+INFO  14:57:09,371 - #45 SimpleForTest
+INFO  14:57:09,371 - #45 int
+INFO  14:57:09,372 - #45 i
+INFO  14:57:09,373 - #8 ,
+INFO  14:57:09,373 - #45 suma
+INFO  14:57:09,373 - #7 ;
+INFO  14:57:09,374 - #3 {
+INFO  14:57:09,374 - #14 void
+INFO  14:57:09,375 - #45 main
+INFO  14:57:09,375 - #12 (
+INFO  14:57:09,375 - #13 )
+INFO  14:57:09,375 - #3 {
+INFO  14:57:09,376 - #45 i
+INFO  14:57:09,376 - #6 =
+INFO  14:57:09,376 - #46 0
+INFO  14:57:09,377 - #7 ;
+INFO  14:57:09,378 - #45 suma
+INFO  14:57:09,378 - #6 =
+INFO  14:57:09,379 - #46 0
+INFO  14:57:09,379 - #7 ;
+INFO  14:57:09,379 - #21 print
+INFO  14:57:09,379 - #12 (
+INFO  14:57:09,379 - #45 suma
+INFO  14:57:09,379 - #8 ,
+INFO  14:57:09,379 - #46 1
+INFO  14:57:09,379 - #13 )
+INFO  14:57:09,380 - #7 ;
+INFO  14:57:09,380 - #4 }
+INFO  14:57:09,380 - #4 }
+INFO  14:57:09,381 - Program(
+  ProgramName(
+   SimpleForTest
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList4(
+    ) [ConVarEnumDeclList4]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl1(
+       i
+      ) [VarDecl1]
+      VarDeclMore1(
+        VarDecl1(
+         suma
+        ) [VarDecl1]
+        VarDeclMore2(
+        ) [VarDeclMore2]
+      ) [VarDeclMore1]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt2(
+       main
+      ) [MethodOpt2]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth2(
+      ) [VarDeclListMeth2]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator1(
+                 i
+                ) [Designator1]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      MoreTerm2(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub3(
+                           0
+                          ) [FactorSub3]
+                        ) [Factor]
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator1(
+               suma
+              ) [Designator1]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    MoreTerm2(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         0
+                        ) [FactorSub3]
+                      ) [Factor]
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print2(
+          Expr1(
+            AddopTermList2(
+              Term(
+                MoreTerm2(
+                  Factor(
+                    Unary2(
+                    ) [Unary2]
+                    FactorSub1(
+                      Designator1(
+                       suma
+                      ) [Designator1]
+                    ) [FactorSub1]
+                  ) [Factor]
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+         1
+        ) [Statement_print2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:57:09,381 - ===================================
+INFO  14:57:09,388 - Pristup globalnoj promenljivoj i. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 7
+INFO  14:57:09,388 - Pristup globalnoj promenljivoj suma. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 8
+INFO  14:57:09,389 - Pristup globalnoj promenljivoj suma. [Kind: 1 | Level: 0 | FpPos: 0 | Local symbols: []] na liniji 12
+INFO  14:57:09,389 - ===================================
+INFO  14:57:09,389 - Parsiranje uspesno zavrseno!

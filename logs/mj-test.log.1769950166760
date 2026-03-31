@@ -1,0 +1,208 @@
+INFO  13:49:21,163 - Compiling source file: C:\Users\Teodora\Desktop\PP1 projekat\MJCompiler\test\program.mj
+INFO  13:49:21,198 - #2 program
+INFO  13:49:21,198 - #45 Test
+INFO  13:49:21,198 - #45 int
+INFO  13:49:21,199 - #45 x
+INFO  13:49:21,199 - #38 +
+ERROR 13:49:21,201 - 
+Sintaksna greska na liniji 2
+INFO  13:49:21,201 - #7 ;
+INFO  13:49:21,201 - #3 {
+INFO  13:49:21,201 - #45 int
+INFO  13:49:21,202 - #45 main
+ERROR 13:49:21,202 - Greska u definiciji globalne promenljive, oporavak od greske u liniji 2
+INFO  13:49:21,204 - #12 (
+INFO  13:49:21,204 - #13 )
+INFO  13:49:21,205 - #45 int
+INFO  13:49:21,205 - #45 bodovi
+INFO  13:49:21,205 - #7 ;
+INFO  13:49:21,206 - #3 {
+INFO  13:49:21,206 - #21 print
+INFO  13:49:21,207 - #12 (
+INFO  13:49:21,209 - #46 1
+INFO  13:49:21,210 - #13 )
+INFO  13:49:21,211 - #7 ;
+INFO  13:49:21,211 - #45 x
+INFO  13:49:21,211 - #6 =
+INFO  13:49:21,212 - #45 y
+INFO  13:49:21,213 - #38 +
+INFO  13:49:21,213 - #46 2
+INFO  13:49:21,213 - #7 ;
+INFO  13:49:21,214 - #45 bodovi
+INFO  13:49:21,214 - #6 =
+INFO  13:49:21,214 - #46 7
+INFO  13:49:21,214 - #7 ;
+INFO  13:49:21,214 - #21 print
+INFO  13:49:21,215 - #12 (
+INFO  13:49:21,215 - #46 2
+INFO  13:49:21,215 - #13 )
+INFO  13:49:21,215 - #7 ;
+INFO  13:49:21,215 - #4 }
+INFO  13:49:21,215 - #4 }
+INFO  13:49:21,218 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarEnumDeclList2(
+    ConVarEnumDeclList4(
+    ) [ConVarEnumDeclList4]
+    VarDeclList1(
+      Type(
+       int
+      ) [Type]
+      VarDecl_error(
+      ) [VarDecl_error]
+      VarDeclMore2(
+      ) [VarDeclMore2]
+    ) [VarDeclList1]
+  ) [ConVarEnumDeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      MethodOpt1(
+        Type(
+         int
+        ) [Type]
+      ) [MethodOpt1]
+      MethodName(
+       main
+      ) [MethodName]
+      FormParsList2(
+      ) [FormParsList2]
+      VarDeclListMeth1(
+        VarDeclListMeth2(
+        ) [VarDeclListMeth2]
+        VarDeclList1(
+          Type(
+           int
+          ) [Type]
+          VarDecl1(
+           bodovi
+            VarDeclOpt2(
+            ) [VarDeclOpt2]
+          ) [VarDecl1]
+          VarDeclMore2(
+          ) [VarDeclMore2]
+        ) [VarDeclList1]
+      ) [VarDeclListMeth1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement_print1(
+                Expr1(
+                  AddopTermList2(
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         1
+                        ) [FactorSub3]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList2]
+                ) [Expr1]
+              ) [Statement_print1]
+            ) [StatementList1]
+            Statement_ds(
+              DesignatorStatement1(
+                Designator(
+                 x
+                  DesigatorMore2(
+                  ) [DesigatorMore2]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr1(
+                  AddopTermList1(
+                    AddopTermList2(
+                      Term(
+                        Factor(
+                          Unary2(
+                          ) [Unary2]
+                          FactorSub1(
+                            Designator(
+                             y
+                              DesigatorMore2(
+                              ) [DesigatorMore2]
+                            ) [Designator]
+                          ) [FactorSub1]
+                        ) [Factor]
+                        MoreTerm2(
+                        ) [MoreTerm2]
+                      ) [Term]
+                    ) [AddopTermList2]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      Factor(
+                        Unary2(
+                        ) [Unary2]
+                        FactorSub3(
+                         2
+                        ) [FactorSub3]
+                      ) [Factor]
+                      MoreTerm2(
+                      ) [MoreTerm2]
+                    ) [Term]
+                  ) [AddopTermList1]
+                ) [Expr1]
+              ) [DesignatorStatement1]
+            ) [Statement_ds]
+          ) [StatementList1]
+          Statement_ds(
+            DesignatorStatement1(
+              Designator(
+               bodovi
+                DesigatorMore2(
+                ) [DesigatorMore2]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr1(
+                AddopTermList2(
+                  Term(
+                    Factor(
+                      Unary2(
+                      ) [Unary2]
+                      FactorSub3(
+                       7
+                      ) [FactorSub3]
+                    ) [Factor]
+                    MoreTerm2(
+                    ) [MoreTerm2]
+                  ) [Term]
+                ) [AddopTermList2]
+              ) [Expr1]
+            ) [DesignatorStatement1]
+          ) [Statement_ds]
+        ) [StatementList1]
+        Statement_print1(
+          Expr1(
+            AddopTermList2(
+              Term(
+                Factor(
+                  Unary2(
+                  ) [Unary2]
+                  FactorSub3(
+                   2
+                  ) [FactorSub3]
+                ) [Factor]
+                MoreTerm2(
+                ) [MoreTerm2]
+              ) [Term]
+            ) [AddopTermList2]
+          ) [Expr1]
+        ) [Statement_print1]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  13:49:21,218 - ===================================
+INFO  13:49:21,218 - Parsiranje NIJE uspesno zavrseno!
