@@ -95,6 +95,3 @@ Depending on implementation level (A / B / C), the compiler supports:
 - MJVM runtime environment
 - Provided symbol table library (`symboltable.jar`)
 
-
-
-Typical project structure:
