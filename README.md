@@ -2,7 +2,7 @@
 
 This project is an implementation of a compiler for the **Mikrojava programming language** (part of Java programming language), developed as part of the *Programming Compilers 1* course at the Faculty of Electrical Engineering, University of Belgrade.
 
-The compiler translates Mikrojava source code into **MJVM bytecode**, which can be executed on the Mikrojava virtual machine.
+The compiler translates Mikrojava source code into **Java bytecode**, which can be executed on the Mikrojava virtual machine.
 
 ---
 
@@ -64,7 +64,7 @@ Each phase is implemented according to the official Mikrojava language specifica
 ---
 
 ### 4. Code Generation
-- Generates executable **MJVM bytecode (`.obj` file)**
+- Generates executable **Java bytecode (`.obj` file)**
 - Implemented via AST traversal (Visitor pattern)
 - Supports generation for:
   - Arithmetic and logical expressions
@@ -92,6 +92,6 @@ Depending on implementation level (A / B / C), the compiler supports:
 - Java 8 (JDK 1.8)
 - JFlex (lexer generator)
 - AST-CUP (parser generator)
-- MJVM runtime environment
+- Java runtime environment
 - Provided symbol table library (`symboltable.jar`)
 
