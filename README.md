@@ -1,6 +1,6 @@
 # Mikrojava Compiler
 
-This project is an implementation of a compiler for the **Mikrojava programming language**, developed as part of the *Programming Compilers 1* course at the Faculty of Electrical Engineering, University of Belgrade.
+This project is an implementation of a compiler for the **Mikrojava programming language** (part of Java programming language), developed as part of the *Programming Compilers 1* course at the Faculty of Electrical Engineering, University of Belgrade.
 
 The compiler translates Mikrojava source code into **MJVM bytecode**, which can be executed on the Mikrojava virtual machine.
 
